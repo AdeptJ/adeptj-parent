@@ -341,9 +341,6 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
-                                <configuration>
-                                    <keyname>757351B2</keyname>
-                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
