@@ -110,7 +110,7 @@
             <id>rakeshk15</id>
             <name>Rakesh Kumar</name>
             <email>irakeshk@outlook.com</email>
-            <url>https://www.linkedin.com/in/iamrakesh</url>
+            <url>https://www.linkedin.com/in/rakeshk15</url>
             <organization>AdeptJ</organization>
             <organizationUrl>http://www.adeptj.com</organizationUrl>
             <roles>
@@ -119,13 +119,13 @@
             </roles>
             <timezone>+5:30</timezone>
             <properties>
-                <picUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/0b5/282/397d47f.jpg</picUrl>
+                <picUrl>https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDdjMDcwZjM3LWY0OWYtNDkwYS05Njg4LWU0YWJjNWU5Mzk2Mw.jpg</picUrl>
             </properties>
         </developer>
     </developers>
     
      <issueManagement>
-        <url>https://github.com/AdeptJ/adeptj-modularweb-micro/issues</url>
+        <url>https://github.com/AdeptJ/adeptj-parent/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
@@ -141,9 +141,9 @@
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/AdeptJ/adeptj-modularweb-micro</url>
-        <connection>scm:git:git@github.com:AdeptJ/adeptj-modularweb-micro.git</connection>
-        <developerConnection>scm:git:git@github.com:AdeptJ/adeptj-modularweb-micro.git</developerConnection>
+        <url>https://github.com/AdeptJ/adeptj-parent</url>
+        <connection>scm:git:git@github.com:AdeptJ/adeptj-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:AdeptJ/adeptj-parent.git</developerConnection>
     </scm>
 
 	<build>
