@@ -33,9 +33,9 @@
 	<properties>
 		<!-- Common Dependencies -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<slf4j-api.version>1.7.24</slf4j-api.version>
-		<logback-core.version>1.2.1</logback-core.version>
-		<logback-classic.version>1.2.1</logback-classic.version>
+		<slf4j-api.version>1.7.25</slf4j-api.version>
+		<logback-core.version>1.2.2</logback-core.version>
+		<logback-classic.version>1.2.2</logback-classic.version>
 		<jdk.version>1.8</jdk.version>
 		<compiler.plugin.version>3.6.1</compiler.plugin.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -83,10 +83,11 @@
 	</properties>
 	
 	<prerequisites>
-	    <!-- This defines only the minimum version for plugins, but not for the build
+	    <!-- 
+	         This defines only the minimum version for plugins, but not for the build
              See http://maven.apache.org/ref/3.3.9/maven-model/maven.html#class_prerequisites.
-             Therefore the enforcer plugin needs to verify the maven version. See configuration
-             of the plugin further below
+             Therefore the enforcer plugin needs to verify the maven version. 
+             See configuration of the plugin further below
         -->
         <maven>3.3.9</maven>
     </prerequisites>
