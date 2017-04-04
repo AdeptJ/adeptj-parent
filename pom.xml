@@ -34,8 +34,8 @@
 		<!-- Common Dependencies -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<slf4j-api.version>1.7.25</slf4j-api.version>
-		<logback-core.version>1.2.2</logback-core.version>
-		<logback-classic.version>1.2.2</logback-classic.version>
+		<logback-core.version>1.2.3</logback-core.version>
+		<logback-classic.version>1.2.3</logback-classic.version>
 		<jdk.version>1.8</jdk.version>
 		<compiler.plugin.version>3.6.1</compiler.plugin.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -62,6 +62,7 @@
 		<ognl.version>3.2</ognl.version>
 		<javaassit.version>3.21.0-GA</javaassit.version>
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+		<junit.version>4.12</junit.version>
 		
 		<!-- Apache Felix and OSGi Dependencies Version -->
 		<org.osgi.core.version>6.0.0</org.osgi.core.version>
@@ -325,8 +326,24 @@
 				<version>${commons-lang.version}</version>
 				<scope>provided</scope>
 			</dependency>
-		
-		</dependencies>
+			
+			<!-- Test dependencies -->
+			
+			<dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>2.7.19</version>
+                <scope>test</scope>
+            </dependency>
+        
+        </dependencies>
 	
 	</dependencyManagement>
 	
