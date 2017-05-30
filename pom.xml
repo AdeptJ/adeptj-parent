@@ -44,7 +44,7 @@
 		<maven.surefire.version>2.19.1</maven.surefire.version>
 		<mvn.skipITs>true</mvn.skipITs>
 		<github.global.server>github</github.global.server>
-		<org.json.version>20160810</org.json.version>
+		<org.json.version>20170516</org.json.version>
 		<commons-fileupload.version>1.3.2</commons-fileupload.version>
 		<commons-io.version>2.5</commons-io.version>
 		<commons-lang.version>3.5</commons-lang.version>
@@ -54,7 +54,6 @@
 		<eclipselink.version>2.6.4</eclipselink.version>
 		<mongo.version>3.4.2</mongo.version>
 		<shiro.version>1.4.0</shiro.version>
-		<resteasy.version>3.1.3.Final</resteasy.version>
 		<ehcache.version>3.3.1</ehcache.version>
 		<maven.scr.version>1.24.0</maven.scr.version>
 		<maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
@@ -72,6 +71,8 @@
 		<felix.scr.version>2.0.8</felix.scr.version>
 		<felix.configadmin.version>1.8.14</felix.configadmin.version>
 		<felix.eventadmin.version>1.4.8</felix.eventadmin.version>
+		<org.osgi.cmp.annotations.version>1.3.0</org.osgi.cmp.annotations.version>
+		<org.osgi.meta.annotations.version>1.3.0</org.osgi.meta.annotations.version>
 		
 	</properties>
 	
@@ -197,6 +198,14 @@
 		
 	</build>
 	
+	<repositories>
+	   <repository>
+            <id>osgi-releases-and-snapshots</id>
+            <url>https://oss.sonatype.org/content/groups/osgi/</url>
+            <layout>default</layout>
+        </repository>
+	</repositories>
+	
 	<dependencyManagement>
 
 		<dependencies>
@@ -211,16 +220,28 @@
 			<dependency>
 				<groupId>org.osgi</groupId>
 				<artifactId>osgi.core</artifactId>
-				<version>6.0.0</version>
+				<version>${org.osgi.core.version}</version>
 				<scope>provided</scope>
 			</dependency>
 		
 			<dependency>
 				<groupId>org.osgi</groupId>
 				<artifactId>osgi.cmpn</artifactId>
-				<version>6.0.0</version>
+				<version>${org.osgi.comp.version}</version>
 				<scope>provided</scope>
 			</dependency>
+			
+			<dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.metatype.annotations</artifactId>
+                <version>${org.osgi.cmp.annotations.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.service.component.annotations</artifactId>
+                <version>${org.osgi.meta.annotations.version}</version>
+            </dependency>
 		
 			<dependency>
 				<groupId>org.slf4j</groupId>
@@ -336,7 +357,6 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
 				<version>${commons-lang.version}</version>
-				<scope>provided</scope>
 			</dependency>
 			
 			<!-- Test dependencies -->
