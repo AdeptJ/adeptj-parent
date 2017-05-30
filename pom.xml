@@ -19,69 +19,69 @@
 ###############################################################################
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.adeptj</groupId>
-	<artifactId>adeptj-parent</artifactId>
-	<version>1.0.2.Final</version>
-	<packaging>pom</packaging>
-	<name>AdeptJ Parent</name>
-	<description>The parent project for AdeptJ Core and Modules</description>
-	<url>http://www.adeptj.com</url>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.adeptj</groupId>
+    <artifactId>adeptj-parent</artifactId>
+    <version>1.0.2.Final</version>
+    <packaging>pom</packaging>
+    <name>AdeptJ Parent</name>
+    <description>The parent project for AdeptJ Core and Modules</description>
+    <url>http://www.adeptj.com</url>
     <inceptionYear>2016</inceptionYear>
 
-	<properties>
-		<!-- Common Dependencies -->
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<slf4j-api.version>1.7.25</slf4j-api.version>
-		<logback-core.version>1.2.3</logback-core.version>
-		<logback-classic.version>1.2.3</logback-classic.version>
-		<jdk.version>1.8</jdk.version>
-		<compiler.plugin.version>3.6.1</compiler.plugin.version>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.enforcer.version>1.4.1</maven.enforcer.version>
-		<maven.surefire.version>2.19.1</maven.surefire.version>
-		<mvn.skipITs>true</mvn.skipITs>
-		<github.global.server>github</github.global.server>
-		<org.json.version>20170516</org.json.version>
-		<commons-fileupload.version>1.3.2</commons-fileupload.version>
-		<commons-io.version>2.5</commons-io.version>
-		<commons-lang.version>3.5</commons-lang.version>
-		<typesafe.config.version>1.3.1</typesafe.config.version>
-		<boon-json.version>0.34</boon-json.version>
-		<jpa.version>2.1.1</jpa.version>
-		<eclipselink.version>2.6.4</eclipselink.version>
-		<mongo.version>3.4.2</mongo.version>
-		<shiro.version>1.4.0</shiro.version>
-		<ehcache.version>3.3.1</ehcache.version>
-		<maven.scr.version>1.24.0</maven.scr.version>
-		<maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
-		<thymeleaf.version>3.0.6.RELEASE</thymeleaf.version>
-		<attoparser.version>2.0.4.RELEASE</attoparser.version>
-		<unbescape.version>1.1.4.RELEASE</unbescape.version>
-		<ognl.version>3.2.1</ognl.version>
-		<javaassit.version>3.21.0-GA</javaassit.version>
-		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
-		<junit.version>4.12</junit.version>
-		
-		<!-- Apache Felix and OSGi Dependencies Version -->
-		<org.osgi.core.version>6.0.0</org.osgi.core.version>
-		<org.osgi.comp.version>6.0.0</org.osgi.comp.version>
-		<felix.scr.version>2.0.8</felix.scr.version>
-		<felix.configadmin.version>1.8.14</felix.configadmin.version>
-		<felix.eventadmin.version>1.4.8</felix.eventadmin.version>
-		<org.osgi.cmp.annotations.version>1.3.0</org.osgi.cmp.annotations.version>
-		<org.osgi.meta.annotations.version>1.3.0</org.osgi.meta.annotations.version>
-		
-	</properties>
-	
+    <properties>
+        <!-- Common Dependencies -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <logback-core.version>1.2.3</logback-core.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+        <jdk.version>1.8</jdk.version>
+        <compiler.plugin.version>3.6.1</compiler.plugin.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.enforcer.version>1.4.1</maven.enforcer.version>
+        <maven.surefire.version>2.19.1</maven.surefire.version>
+        <mvn.skipITs>true</mvn.skipITs>
+        <github.global.server>github</github.global.server>
+        <org.json.version>20170516</org.json.version>
+        <commons-fileupload.version>1.3.2</commons-fileupload.version>
+        <commons-io.version>2.5</commons-io.version>
+        <commons-lang.version>3.5</commons-lang.version>
+        <typesafe.config.version>1.3.1</typesafe.config.version>
+        <boon-json.version>0.34</boon-json.version>
+        <jpa.version>2.1.1</jpa.version>
+        <eclipselink.version>2.6.4</eclipselink.version>
+        <mongo.version>3.4.2</mongo.version>
+        <shiro.version>1.4.0</shiro.version>
+        <ehcache.version>3.3.1</ehcache.version>
+        <maven.scr.version>1.24.0</maven.scr.version>
+        <maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
+        <thymeleaf.version>3.0.6.RELEASE</thymeleaf.version>
+        <attoparser.version>2.0.4.RELEASE</attoparser.version>
+        <unbescape.version>1.1.4.RELEASE</unbescape.version>
+        <ognl.version>3.2.1</ognl.version>
+        <javaassit.version>3.21.0-GA</javaassit.version>
+        <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+        <junit.version>4.12</junit.version>
+
+        <!-- Apache Felix and OSGi Dependencies Version -->
+        <org.osgi.core.version>6.0.0</org.osgi.core.version>
+        <org.osgi.comp.version>6.0.0</org.osgi.comp.version>
+        <felix.scr.version>2.0.8</felix.scr.version>
+        <felix.configadmin.version>1.8.14</felix.configadmin.version>
+        <felix.eventadmin.version>1.4.8</felix.eventadmin.version>
+        <org.osgi.cmp.annotations.version>1.3.0</org.osgi.cmp.annotations.version>
+        <org.osgi.meta.annotations.version>1.3.0</org.osgi.meta.annotations.version>
+
+    </properties>
+
     <!-- Project Information -->
     <organization>
         <name>AdeptJ</name>
         <url>http://www.adeptj.com</url>
     </organization>
-    
+
     <licenses>
         <license>
             <name>Apache License Version 2.0</name>
@@ -89,7 +89,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    
+
     <developers>
         <developer>
             <id>rakeshk15</id>
@@ -104,12 +104,13 @@
             </roles>
             <timezone>+5:30</timezone>
             <properties>
-                <picUrl>https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDdjMDcwZjM3LWY0OWYtNDkwYS05Njg4LWU0YWJjNWU5Mzk2Mw.jpg</picUrl>
+                <picUrl>https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDdjMDcwZjM3LWY0OWYtNDkwYS05Njg4LWU0YWJjNWU5Mzk2Mw.jpg
+                </picUrl>
             </properties>
         </developer>
     </developers>
-    
-     <issueManagement>
+
+    <issueManagement>
         <url>https://github.com/AdeptJ/adeptj-parent/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
@@ -131,107 +132,107 @@
         <developerConnection>scm:git:git@github.com:AdeptJ/adeptj-parent.git</developerConnection>
     </scm>
 
-	<build>
-	   
-	    <pluginManagement>
-	    
-		    <plugins>
-		        
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>${compiler.plugin.version}</version>
-					<configuration>
-						<compilerArgument>-parameters</compilerArgument>
-						<source>${jdk.version}</source>
-						<target>${jdk.version}</target>
-					</configuration>
-				</plugin>
-				
-				<plugin>
-					<groupId>org.apache.felix</groupId>
-					<artifactId>maven-bundle-plugin</artifactId>
-					<version>${maven.bundle.plugin.version}</version>
-					<extensions>true</extensions>
-				</plugin>
-				
-				<!-- Apache Felix SCR Plugin -->
-				<plugin>
-					<groupId>org.apache.felix</groupId>
-					<artifactId>maven-scr-plugin</artifactId>
-					<version>${maven.scr.version}</version>
-				</plugin>
-				
-				<plugin>
+    <build>
+
+        <pluginManagement>
+
+            <plugins>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${compiler.plugin.version}</version>
+                    <configuration>
+                        <compilerArgument>-parameters</compilerArgument>
+                        <source>${jdk.version}</source>
+                        <target>${jdk.version}</target>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-bundle-plugin</artifactId>
+                    <version>${maven.bundle.plugin.version}</version>
+                    <extensions>true</extensions>
+                </plugin>
+
+                <!-- Apache Felix SCR Plugin -->
+                <plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-scr-plugin</artifactId>
+                    <version>${maven.scr.version}</version>
+                </plugin>
+
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven.surefire.version}</version>
                 </plugin>
-				
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-enforcer-plugin</artifactId>
-					<version>${maven.enforcer.version}</version>
-					<executions>
-						<execution>
-							<id>enforce-versions</id>
-							<goals>
-								<goal>enforce</goal>
-							</goals>
-							<configuration>
-								<rules>
-									<requireMavenVersion>
-										<version>3.5.0</version>
-									</requireMavenVersion>
-									<requireJavaVersion>
-										<version>1.8</version>
-									</requireJavaVersion>
-								</rules>
-							</configuration>
-						</execution>
-					</executions>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-enforcer-plugin</artifactId>
+                    <version>${maven.enforcer.version}</version>
+                    <executions>
+                        <execution>
+                            <id>enforce-versions</id>
+                            <goals>
+                                <goal>enforce</goal>
+                            </goals>
+                            <configuration>
+                                <rules>
+                                    <requireMavenVersion>
+                                        <version>3.5.0</version>
+                                    </requireMavenVersion>
+                                    <requireJavaVersion>
+                                        <version>1.8</version>
+                                    </requireJavaVersion>
+                                </rules>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
-	
-			</plugins>
-	    
-	    </pluginManagement>
-		
-	</build>
-	
-	<repositories>
-	   <repository>
+
+            </plugins>
+
+        </pluginManagement>
+
+    </build>
+
+    <repositories>
+        <repository>
             <id>osgi-releases-and-snapshots</id>
             <url>https://oss.sonatype.org/content/groups/osgi/</url>
             <layout>default</layout>
         </repository>
-	</repositories>
-	
-	<dependencyManagement>
+    </repositories>
 
-		<dependencies>
-		
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>javax.servlet-api</artifactId>
-				<version>${javax.servlet-api.version}</version>
-				<scope>provided</scope>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.osgi</groupId>
-				<artifactId>osgi.core</artifactId>
-				<version>${org.osgi.core.version}</version>
-				<scope>provided</scope>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.osgi</groupId>
-				<artifactId>osgi.cmpn</artifactId>
-				<version>${org.osgi.comp.version}</version>
-				<scope>provided</scope>
-			</dependency>
-			
-			<dependency>
+    <dependencyManagement>
+
+        <dependencies>
+
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>osgi.core</artifactId>
+                <version>${org.osgi.core.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>osgi.cmpn</artifactId>
+                <version>${org.osgi.comp.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.metatype.annotations</artifactId>
                 <version>${org.osgi.cmp.annotations.version}</version>
@@ -242,146 +243,146 @@
                 <artifactId>org.osgi.service.component.annotations</artifactId>
                 <version>${org.osgi.meta.annotations.version}</version>
             </dependency>
-		
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-				<version>${slf4j-api.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-core</artifactId>
-				<version>${logback-core.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-classic</artifactId>
-				<version>${logback-classic.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>com.typesafe</groupId>
-				<artifactId>config</artifactId>
-				<version>${typesafe.config.version}</version>
-			</dependency>
-		
-			<!-- Thymeleaf Dependencies -->
-		
-			<dependency>
-				<groupId>org.javassist</groupId>
-				<artifactId>javassist</artifactId>
-				<version>${javaassit.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.attoparser</groupId>
-				<artifactId>attoparser</artifactId>
-				<version>${attoparser.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.unbescape</groupId>
-				<artifactId>unbescape</artifactId>
-				<version>${unbescape.version}</version>
-			</dependency>
-		
-			<dependency>
-				<groupId>ognl</groupId>
-				<artifactId>ognl</artifactId>
-				<version>${ognl.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>javassist</groupId>
-						<artifactId>javassist</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-		
-			<dependency>
-				<groupId>org.thymeleaf</groupId>
-				<artifactId>thymeleaf</artifactId>
-				<version>${thymeleaf.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>org.slf4j</groupId>
-						<artifactId>slf4j-api</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>org.attoparser</groupId>
-						<artifactId>attoparser</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>org.unbescape</groupId>
-						<artifactId>unbescape</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>ognl</groupId>
-						<artifactId>ognl</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-		
-			<!-- OSGi Bundles Starts -->
-		
-			<dependency>
-				<groupId>org.json</groupId>
-				<artifactId>json</artifactId>
-				<version>${org.json.version}</version>
-				<scope>provided</scope>
-			</dependency>
-		
-			<dependency>
-				<groupId>io.fastjson</groupId>
-				<artifactId>boon</artifactId>
-				<version>${boon-json.version}</version>
-				<scope>provided</scope>
-			</dependency>
-		
-			<dependency>
-				<groupId>commons-fileupload</groupId>
-				<artifactId>commons-fileupload</artifactId>
-				<version>${commons-fileupload.version}</version>
-				<scope>provided</scope>
-			</dependency>
-		
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-				<version>${commons-io.version}</version>
-				<scope>provided</scope>
-			</dependency>
-			
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-lang3</artifactId>
-				<version>${commons-lang.version}</version>
-			</dependency>
-			
-			<!-- Test dependencies -->
-			
-			<dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.typesafe</groupId>
+                <artifactId>config</artifactId>
+                <version>${typesafe.config.version}</version>
+            </dependency>
+
+            <!-- Thymeleaf Dependencies -->
+
+            <dependency>
+                <groupId>org.javassist</groupId>
+                <artifactId>javassist</artifactId>
+                <version>${javaassit.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.attoparser</groupId>
+                <artifactId>attoparser</artifactId>
+                <version>${attoparser.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.unbescape</groupId>
+                <artifactId>unbescape</artifactId>
+                <version>${unbescape.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ognl</groupId>
+                <artifactId>ognl</artifactId>
+                <version>${ognl.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javassist</groupId>
+                        <artifactId>javassist</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.thymeleaf</groupId>
+                <artifactId>thymeleaf</artifactId>
+                <version>${thymeleaf.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.attoparser</groupId>
+                        <artifactId>attoparser</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.unbescape</groupId>
+                        <artifactId>unbescape</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>ognl</groupId>
+                        <artifactId>ognl</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- OSGi Bundles Starts -->
+
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org.json.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.fastjson</groupId>
+                <artifactId>boon</artifactId>
+                <version>${boon-json.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons-fileupload.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang.version}</version>
+            </dependency>
+
+            <!-- Test dependencies -->
+
+            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
                 <version>2.7.19</version>
                 <scope>test</scope>
             </dependency>
-        
+
         </dependencies>
-	
-	</dependencyManagement>
-	
-	<profiles>
-	
-	    <profile>
+
+    </dependencyManagement>
+
+    <profiles>
+
+        <profile>
             <id>Release</id>
             <build>
                 <plugins>
@@ -438,5 +439,5 @@
         </profile>
 
     </profiles>
-	
+
 </project>
