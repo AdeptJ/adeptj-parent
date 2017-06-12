@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.5.Final</version>
+    <version>1.0.6.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -71,6 +71,7 @@
         <jackson-databind.version>2.8.8</jackson-databind.version>
         <jackson-annotations.version>2.8.8</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.8.8</jackson-jaxrs-base.version>
+        <jackson-dataformat-xml.version>2.8.8</jackson-dataformat-xml.version>
         <jackson-dataformat-cbor.version>2.8.8</jackson-dataformat-cbor.version>
         <jackson-module-jaxb-annotations.version>2.8.8</jackson-module-jaxb-annotations.version>
         <jackson-jaxrs-json-provider.version>2.8.8</jackson-jaxrs-json-provider.version>
@@ -78,6 +79,7 @@
         <httpcore.version>4.4.6</httpcore.version>
         <httpclient.version>4.5.3</httpclient.version>
         <commons-codec.version>1.10</commons-codec.version>
+        <resteasy.version>3.1.3.Final</resteasy.version>
 
         <!-- Apache Felix and OSGi Dependencies Version -->
         <org.osgi.core.version>6.0.0</org.osgi.core.version>
@@ -176,7 +178,7 @@
                     <version>${bnd-maven-plugin.version}</version>
                 </plugin>
 
-                <!-- Below Maven Jar plugin is required to process MENIFEST.MF -->
+                <!-- Below Maven Jar plugin is required to process MANIFEST.MF -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
@@ -383,6 +385,12 @@
 
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-xml</artifactId>
+                <version>${jackson-dataformat-xml.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-cbor</artifactId>
                 <version>${jackson-dataformat-cbor.version}</version>
             </dependency>
@@ -418,7 +426,7 @@
             <dependency>
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
-                <version>4.0.0</version>
+                <version>3.1.4</version>
             </dependency>
 
             <dependency>
