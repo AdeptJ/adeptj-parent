@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.6.Final</version>
+    <version>1.0.7.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -87,6 +87,7 @@
         <felix.scr.version>2.0.12</felix.scr.version>
         <felix.configadmin.version>1.8.14</felix.configadmin.version>
         <felix.eventadmin.version>1.4.8</felix.eventadmin.version>
+        <felix.webconsole.version>4.3.4</felix.webconsole.version>
         <org.osgi.cmp.annotations.version>1.3.0</org.osgi.cmp.annotations.version>
         <org.osgi.meta.annotations.version>1.3.0</org.osgi.meta.annotations.version>
 
