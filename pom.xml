@@ -81,6 +81,9 @@
         <commons-codec.version>1.10</commons-codec.version>
         <resteasy.version>3.1.3.Final</resteasy.version>
         <joda-time.version>2.9.9</joda-time.version>
+        <jjwt.version>0.7.0</jjwt.version>
+        <jax-rs.api.version>2.0.1</jax-rs.api.version>
+        <javax.validation-api.version>1.1.0.Final</javax.validation-api.version>
 
         <!-- Apache Felix and OSGi Dependencies Version -->
         <org.osgi.core.version>6.0.0</org.osgi.core.version>
@@ -526,6 +529,33 @@
             </dependency>
 
             <!-- OSGi Bundles Starts -->
+
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${javax.validation-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.ws.rs</groupId>
+                <artifactId>javax.ws.rs-api</artifactId>
+                <version>${jax-rs.api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
 
             <dependency>
                 <groupId>org.json</groupId>
