@@ -83,7 +83,7 @@
         <joda-time.version>2.9.9</joda-time.version>
         <jjwt.version>0.7.0</jjwt.version>
         <jax-rs.api.version>2.0.1</jax-rs.api.version>
-        <javax.validation-api.version>1.1.0.Final</javax.validation-api.version>
+        <javax.validation-api.version>2.0.0.Final</javax.validation-api.version>
         <javax.mail.version>1.6.0</javax.mail.version>
         <commons-logging.version>1.2</commons-logging.version>
         <stax2-api.version>3.1.4</stax2-api.version>
