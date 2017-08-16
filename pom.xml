@@ -71,11 +71,11 @@
         <jackson-databind.version>2.9.0</jackson-databind.version>
         <jackson-annotations.version>2.9.0</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.9.0</jackson-jaxrs-base.version>
-        <jackson-dataformat-xml.version>2.8.9</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.8.9</jackson-dataformat-cbor.version>
-        <jackson-module-jaxb-annotations.version>2.8.9</jackson-module-jaxb-annotations.version>
-        <jackson-jaxrs-json-provider.version>2.8.9</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.8.9</jackson-jaxrs-xml-provider.version>
+        <jackson-dataformat-xml.version>2.9.0</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.9.0</jackson-dataformat-cbor.version>
+        <jackson-module-jaxb-annotations.version>2.9.0</jackson-module-jaxb-annotations.version>
+        <jackson-jaxrs-json-provider.version>2.9.0</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-xml-provider.version>2.9.0</jackson-jaxrs-xml-provider.version>
         <httpcore-osgi.version>4.4.6</httpcore-osgi.version>
         <httpclient-osgi.version>4.5.3</httpclient-osgi.version>
         <commons-codec.version>1.10</commons-codec.version>
