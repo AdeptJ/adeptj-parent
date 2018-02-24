@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.15.Final</version>
+    <version>1.0.16.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -49,7 +49,7 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.7</commons-lang.version>
         <commons-collections4.version>4.1</commons-collections4.version>
-        <typesafe.config.version>1.3.2</typesafe.config.version>
+        <typesafe.config.version>1.3.3</typesafe.config.version>
         <boon-json.version>0.34</boon-json.version>
         <jpa.version>2.2.0</jpa.version>
         <eclipselink.version>2.7.1</eclipselink.version>
@@ -79,7 +79,7 @@
         <httpcore-osgi.version>4.4.9</httpcore-osgi.version>
         <httpclient-osgi.version>4.5.5</httpclient-osgi.version>
         <commons-codec.version>1.11</commons-codec.version>
-        <resteasy.version>4.0.0.Beta1</resteasy.version>
+        <resteasy.version>3.5.0.Final</resteasy.version>
         <joda-time.version>2.9.9</joda-time.version>
         <jjwt.version>0.9.0</jjwt.version>
         <jax-rs.api.version>2.1</jax-rs.api.version>
@@ -133,7 +133,8 @@
             </roles>
             <timezone>+5:30</timezone>
             <properties>
-                <picUrl>https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDdjMDcwZjM3LWY0OWYtNDkwYS05Njg4LWU0YWJjNWU5Mzk2Mw.jpg
+                <picUrl>
+                    https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDdjMDcwZjM3LWY0OWYtNDkwYS05Njg4LWU0YWJjNWU5Mzk2Mw.jpg
                 </picUrl>
             </properties>
         </developer>
@@ -243,16 +244,6 @@
         </pluginManagement>
 
     </build>
-
-    <repositories>
-
-        <repository>
-            <id>osgi-releases-and-snapshots</id>
-            <url>https://oss.sonatype.org/content/groups/osgi/</url>
-            <layout>default</layout>
-        </repository>
-
-    </repositories>
 
     <dependencyManagement>
 
@@ -660,9 +651,6 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>${maven-javadoc-plugin.version}</version>
-                        <configuration>
-                            <additionalparam>-Xdoclint:none</additionalparam>
-                        </configuration>
                         <executions>
                             <execution>
                                 <id>attach-javadocs</id>
