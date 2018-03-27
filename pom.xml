@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.17.Final</version>
+    <version>1.0.18.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -51,37 +51,42 @@
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.7</commons-lang.version>
+        <commons-codec.version>1.11</commons-codec.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <typesafe.config.version>1.3.3</typesafe.config.version>
         <boon-json.version>0.34</boon-json.version>
         <jpa.version>2.2.0</jpa.version>
         <eclipselink.version>2.7.1</eclipselink.version>
-        <hikaricp.version>2.7.7</hikaricp.version>
+        <hikaricp.version>2.7.8</hikaricp.version>
         <mongo.version>3.6.3</mongo.version>
         <morphia.version>1.3.2</morphia.version>
         <shiro.version>1.4.0</shiro.version>
-        <ehcache.version>3.4.0</ehcache.version>
+        <ehcache.version>3.5.2</ehcache.version>
         <bnd-maven-plugin.version>3.5.0</bnd-maven-plugin.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
         <attoparser.version>2.0.4.RELEASE</attoparser.version>
         <unbescape.version>1.1.5.RELEASE</unbescape.version>
-        <ognl.version>3.2.4</ognl.version>
+        <ognl.version>3.2.6</ognl.version>
         <javaassit.version>3.22.0-GA</javaassit.version>
         <javax.servlet-api.version>4.0.0</javax.servlet-api.version>
         <junit.version>4.12</junit.version>
-        <jackson-core.version>2.9.4</jackson-core.version>
-        <jackson-databind.version>2.9.4</jackson-databind.version>
-        <jackson-annotations.version>2.9.4</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.9.4</jackson-jaxrs-base.version>
-        <jackson-dataformat-xml.version>2.9.4</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.9.4</jackson-dataformat-cbor.version>
-        <jackson-module-jaxb-annotations.version>2.9.4</jackson-module-jaxb-annotations.version>
-        <jackson-jaxrs-json-provider.version>2.9.4</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.9.4</jackson-jaxrs-xml-provider.version>
+        <jackson-core.version>2.9.5</jackson-core.version>
+        <jackson-databind.version>2.9.5</jackson-databind.version>
+        <jackson-annotations.version>2.9.5</jackson-annotations.version>
+        <jackson-jaxrs-base.version>2.9.5</jackson-jaxrs-base.version>
+        <jackson-dataformat-xml.version>2.9.5</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.9.5</jackson-dataformat-cbor.version>
+        <jackson-module-jaxb-annotations.version>2.9.5</jackson-module-jaxb-annotations.version>
+        <jackson-jaxrs-json-provider.version>2.9.5</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-xml-provider.version>2.9.5</jackson-jaxrs-xml-provider.version>
+        <jackson-module-parameter-names.version>2.9.5</jackson-module-parameter-names.version>
+        <jackson-datatype-jsr353.version>2.9.4</jackson-datatype-jsr353.version>
+        <jackson-datatype-jdk8.version>2.9.5</jackson-datatype-jdk8.version>
+        <jackson-datatype-jsr310.version>2.9.5</jackson-datatype-jsr310.version>
+        <jackson-datatype-jaxrs.version>2.9.5</jackson-datatype-jaxrs.version>
         <httpcore-osgi.version>4.4.9</httpcore-osgi.version>
         <httpclient-osgi.version>4.5.5</httpclient-osgi.version>
-        <commons-codec.version>1.11</commons-codec.version>
         <resteasy.version>3.5.0.Final</resteasy.version>
         <joda-time.version>2.9.9</joda-time.version>
         <jjwt.version>0.9.0</jjwt.version>
@@ -96,6 +101,12 @@
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
         <dependency-check-maven.version>2.1.1</dependency-check-maven.version>
+        <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
+        <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
+        <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
+        <failsafe.version>1.0.5</failsafe.version>
+        <reactive-streams.version>1.0.2</reactive-streams.version>
+        <reactor-core.version>3.1.5.RELEASE</reactor-core.version>
 
         <!-- Apache Felix and OSGi Dependencies Version -->
         <org.osgi.core.version>6.0.0</org.osgi.core.version>
@@ -278,36 +289,42 @@
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.metatype.annotations</artifactId>
                 <version>${org.osgi.cmp.annotations.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.component.annotations</artifactId>
                 <version>${org.osgi.meta.annotations.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j-api.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
                 <version>${logback-core.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>${logback-classic.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.typesafe</groupId>
                 <artifactId>config</artifactId>
                 <version>${typesafe.config.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
@@ -321,24 +338,28 @@
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>${commons-logging.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore-osgi</artifactId>
                 <version>${httpcore-osgi.version}</version>
+                <scope>provided</scope>
                 <!-- Excluding embedded artifacts -->
                 <exclusions>
                     <exclusion>
@@ -356,6 +377,7 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient-osgi</artifactId>
                 <version>${httpclient-osgi.version}</version>
+                <scope>provided</scope>
                 <!-- Excluding embedded artifacts -->
                 <exclusions>
                     <exclusion>
@@ -385,12 +407,49 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${commons-codec.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${joda-time.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>${findbugs-jsr305.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>${javax.annotation-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>net.jodah</groupId>
+                <artifactId>failsafe</artifactId>
+                <version>${failsafe.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.reactivestreams</groupId>
+                <artifactId>reactive-streams</artifactId>
+                <version>${reactive-streams.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>${reactor-core.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <!-- Jackson Dependencies Start -->
@@ -399,54 +458,63 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
                 <version>${jackson-core.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson-databind.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
                 <version>${jackson-annotations.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.jaxrs</groupId>
                 <artifactId>jackson-jaxrs-base</artifactId>
                 <version>${jackson-jaxrs-base.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-xml</artifactId>
                 <version>${jackson-dataformat-xml.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-cbor</artifactId>
                 <version>${jackson-dataformat-cbor.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-jaxb-annotations</artifactId>
                 <version>${jackson-module-jaxb-annotations.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.jaxrs</groupId>
                 <artifactId>jackson-jaxrs-json-provider</artifactId>
                 <version>${jackson-jaxrs-json-provider.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.jaxrs</groupId>
                 <artifactId>jackson-jaxrs-xml-provider</artifactId>
                 <version>${jackson-jaxrs-xml-provider.version}</version>
+                <scope>provided</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>org.codehaus.woodstox</groupId>
@@ -460,15 +528,64 @@
             </dependency>
 
             <dependency>
+                <groupId>com.fasterxml.jackson.module</groupId>
+                <artifactId>jackson-module-parameter-names</artifactId>
+                <version>${jackson-module-parameter-names.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jdk8</artifactId>
+                <version>${jackson-datatype-jdk8.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson-datatype-jsr310.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-annotations</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jaxrs</artifactId>
+                <version>${jackson-datatype-jaxrs.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr353</artifactId>
+                <version>${jackson-datatype-jsr353.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javax.json</groupId>
+                        <artifactId>javax.json-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
                 <version>${stax2-api.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.woodstox</groupId>
                 <artifactId>woodstox-core</artifactId>
                 <version>${woodstox-core.version}</version>
+                <scope>provided</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>org.codehaus.woodstox</groupId>
@@ -485,24 +602,28 @@
                 <groupId>org.javassist</groupId>
                 <artifactId>javassist</artifactId>
                 <version>${javaassit.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.attoparser</groupId>
                 <artifactId>attoparser</artifactId>
                 <version>${attoparser.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.unbescape</groupId>
                 <artifactId>unbescape</artifactId>
                 <version>${unbescape.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>ognl</groupId>
                 <artifactId>ognl</artifactId>
                 <version>${ognl.version}</version>
+                <scope>provided</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>javassist</groupId>
@@ -515,6 +636,7 @@
                 <groupId>org.thymeleaf</groupId>
                 <artifactId>thymeleaf</artifactId>
                 <version>${thymeleaf.version}</version>
+                <scope>provided</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>org.slf4j</groupId>
