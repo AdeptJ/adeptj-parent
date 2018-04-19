@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.19.Final</version>
+    <version>1.0.20.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -86,7 +86,7 @@
         <jackson-datatype-jaxrs.version>2.9.5</jackson-datatype-jaxrs.version>
         <httpcore-osgi.version>4.4.9</httpcore-osgi.version>
         <httpclient-osgi.version>4.5.5</httpclient-osgi.version>
-        <resteasy.version>3.5.0.Final</resteasy.version>
+        <resteasy.version>3.5.1.Final</resteasy.version>
         <joda-time.version>2.9.9</joda-time.version>
         <jjwt.version>0.9.0</jjwt.version>
         <jax-rs.api.version>2.1</jax-rs.api.version>
