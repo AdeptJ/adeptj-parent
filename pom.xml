@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.20.Final</version>
+    <version>1.0.21.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -31,46 +31,56 @@
     <inceptionYear>2016</inceptionYear>
 
     <properties>
-        <!-- Common Dependencies -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <jdk.version>1.8</jdk.version>
+        <mvn.skipITs>true</mvn.skipITs>
+
+        <!-- Logging dependencies start -->
         <slf4j-api.version>1.7.25</slf4j-api.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
-        <jdk.version>1.8</jdk.version>
+        <!-- Logging dependencies end -->
+
+        <!-- Maven Plugin dependencies start -->
         <compiler.plugin.version>3.7.0</compiler.plugin.version>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.enforcer.version>1.4.1</maven.enforcer.version>
-        <maven.surefire.version>2.20.1</maven.surefire.version>
-        <mvn.skipITs>true</mvn.skipITs>
-        <github.global.server>github</github.global.server>
-        <org.json.version>20180130</org.json.version>
+        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
+        <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+        <bnd-maven-plugin.version>3.5.0</bnd-maven-plugin.version>
+        <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
+        <nexus-staging-maven-plugin>1.6.8</nexus-staging-maven-plugin>
+        <dependency-check-maven.version>2.1.1</dependency-check-maven.version>
+        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+        <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
+        <adeptj-maven-plugin.version>1.0.2.Final</adeptj-maven-plugin.version>
+        <!-- Maven Plugin dependencies end -->
+
+        <!-- Javax API/RI dependencies start -->
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+        <javax.websocket-api.version>1.1</javax.websocket-api.version>
         <javax.json-api.version>1.1.2</javax.json-api.version>
         <javax.json.version>1.1.2</javax.json.version>
         <javax.json.bind-api.version>1.0</javax.json.bind-api.version>
+        <javax.validation-api.version>2.0.1.Final</javax.validation-api.version>
+        <javax.mail.version>1.6.1</javax.mail.version>
+        <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
         <yasson.version>1.0.1</yasson.version>
+        <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
+        <!-- Javax API/RI dependencies end -->
+
+        <!-- Apache Commons dependencies start -->
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.7</commons-lang.version>
         <commons-codec.version>1.11</commons-codec.version>
         <commons-collections4.version>4.1</commons-collections4.version>
-        <typesafe.config.version>1.3.3</typesafe.config.version>
-        <boon-json.version>0.34</boon-json.version>
-        <jpa.version>2.2.0</jpa.version>
-        <eclipselink.version>2.7.1</eclipselink.version>
-        <hikaricp.version>3.1.0</hikaricp.version>
-        <mongo.version>3.6.3</mongo.version>
-        <morphia.version>1.3.2</morphia.version>
-        <shiro.version>1.4.0</shiro.version>
-        <ehcache.version>3.5.2</ehcache.version>
-        <bnd-maven-plugin.version>3.5.0</bnd-maven-plugin.version>
-        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
-        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
-        <attoparser.version>2.0.5.RELEASE</attoparser.version>
-        <unbescape.version>1.1.6.RELEASE</unbescape.version>
-        <ognl.version>3.2.6</ognl.version>
-        <javaassit.version>3.22.0-GA</javaassit.version>
-        <javax.servlet-api.version>4.0.0</javax.servlet-api.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <!-- Apache Commons dependencies end -->
+
+        <!-- Jackson dependencies start -->
         <jackson-core.version>2.9.5</jackson-core.version>
         <jackson-databind.version>2.9.5</jackson-databind.version>
         <jackson-annotations.version>2.9.5</jackson-annotations.version>
@@ -85,41 +95,71 @@
         <jackson-datatype-jdk8.version>2.9.5</jackson-datatype-jdk8.version>
         <jackson-datatype-jsr310.version>2.9.5</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.9.5</jackson-datatype-jaxrs.version>
-        <httpcore-osgi.version>4.4.9</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.5</httpclient-osgi.version>
-        <resteasy.version>3.5.1.Final</resteasy.version>
-        <joda-time.version>2.9.9</joda-time.version>
-        <jjwt.version>0.9.0</jjwt.version>
-        <jax-rs.api.version>2.1</jax-rs.api.version>
-        <javax.validation-api.version>2.0.1.Final</javax.validation-api.version>
-        <javax.mail.version>1.6.1</javax.mail.version>
-        <commons-logging.version>1.2</commons-logging.version>
         <stax2-api.version>3.1.4</stax2-api.version>
         <woodstox-core.version>5.0.3</woodstox-core.version>
-        <mockito-core.version>2.18.0</mockito-core.version>
-        <junit-jupiter.version>5.1.1</junit-jupiter.version>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
-        <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
-        <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
-        <nexus-staging-maven-plugin>1.6.8</nexus-staging-maven-plugin>
-        <dependency-check-maven.version>2.1.1</dependency-check-maven.version>
-        <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
-        <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
-        <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
-        <failsafe.version>1.1.0</failsafe.version>
+        <!-- Jackson dependencies end -->
+
+        <!-- JAX-RS dependencies start -->
+        <jax-rs.api.version>2.1</jax-rs.api.version>
+        <resteasy.version>3.5.1.Final</resteasy.version>
+        <!-- JAX-RS dependencies end -->
+
+        <!-- JPA and JDBC datasource dependencies start -->
+        <jpa.version>2.2.0</jpa.version>
+        <eclipselink.version>2.7.1</eclipselink.version>
+        <hikaricp.version>3.1.0</hikaricp.version>
+        <!-- JPA and JDBC datasource dependencies end -->
+
+        <!-- Caching dependencies start -->
+        <ehcache.version>3.5.2</ehcache.version>
+        <caffeine.version>2.6.2</caffeine.version>
+        <!-- Caching dependencies end -->
+
+        <!-- Thymeleaf dependencies start -->
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+        <attoparser.version>2.0.5.RELEASE</attoparser.version>
+        <unbescape.version>1.1.6.RELEASE</unbescape.version>
+        <ognl.version>3.2.6</ognl.version>
+        <javaassit.version>3.22.0-GA</javaassit.version>
+        <!-- Thymeleaf dependencies end -->
+
+        <!-- Apache HttpClient dependencies start -->
+        <httpcore-osgi.version>4.4.9</httpcore-osgi.version>
+        <httpclient-osgi.version>4.5.5</httpclient-osgi.version>
+        <!-- Apache HttpClient dependencies end -->
+
+        <!-- Reactive Streams dependencies start -->
         <reactive-streams.version>1.0.2</reactive-streams.version>
         <reactor-core.version>3.1.6.RELEASE</reactor-core.version>
+        <!-- Reactive Streams dependencies end -->
 
-        <!-- Apache Felix and OSGi Dependencies Version -->
-        <org.osgi.core.version>6.0.0</org.osgi.core.version>
-        <org.osgi.comp.version>6.0.0</org.osgi.comp.version>
+        <!-- Misc dependencies start -->
+        <org.json.version>20180130</org.json.version>
+        <joda-time.version>2.9.9</joda-time.version>
+        <jjwt.version>0.9.0</jjwt.version>
+        <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
+        <failsafe.version>1.1.0</failsafe.version>
+        <typesafe.config.version>1.3.3</typesafe.config.version>
+        <mongo.version>3.6.3</mongo.version>
+        <morphia.version>1.3.2</morphia.version>
+        <shiro.version>1.4.0</shiro.version>
+        <scribejava.version>5.4.0</scribejava.version>
+        <!-- Misc dependencies end -->
+
+        <!-- Apache Felix and OSGi dependencies start -->
+        <org.osgi.core.version>7.0.0</org.osgi.core.version>
+        <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
+        <osgi.annotation.version>7.0.0</osgi.annotation.version>
         <felix.scr.version>2.0.14</felix.scr.version>
         <felix.configadmin.version>1.8.16</felix.configadmin.version>
         <felix.eventadmin.version>1.4.8</felix.eventadmin.version>
         <felix.webconsole.version>4.3.4</felix.webconsole.version>
-        <org.osgi.cmp.annotations.version>1.3.0</org.osgi.cmp.annotations.version>
-        <org.osgi.meta.annotations.version>1.3.0</org.osgi.meta.annotations.version>
+        <!-- Apache Felix and OSGi dependencies end -->
+
+        <!-- Testing dependencies start -->
+        <mockito-core.version>2.18.3</mockito-core.version>
+        <junit-jupiter.version>5.2.0</junit-jupiter.version>
+        <!-- Testing dependencies end -->
 
     </properties>
 
@@ -213,13 +253,13 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${maven.surefire.version}</version>
+                    <version>${maven-surefire-plugin.version}</version>
                 </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
-                    <version>${maven.enforcer.version}</version>
+                    <version>${maven-enforcer-plugin.version}</version>
                     <executions>
                         <execution>
                             <id>enforce-versions</id>
@@ -275,6 +315,13 @@
             </dependency>
 
             <dependency>
+                <groupId>javax.websocket</groupId>
+                <artifactId>javax.websocket-api</artifactId>
+                <version>${javax.websocket-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>osgi.core</artifactId>
                 <version>${org.osgi.core.version}</version>
@@ -290,15 +337,8 @@
 
             <dependency>
                 <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.metatype.annotations</artifactId>
-                <version>${org.osgi.cmp.annotations.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.component.annotations</artifactId>
-                <version>${org.osgi.meta.annotations.version}</version>
+                <artifactId>osgi.annotation</artifactId>
+                <version>${osgi.annotation.version}</version>
                 <scope>provided</scope>
             </dependency>
 
