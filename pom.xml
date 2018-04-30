@@ -36,6 +36,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <jdk.version>1.8</jdk.version>
         <mvn.skipITs>true</mvn.skipITs>
+        <skipTests>true</skipTests>
 
         <!-- Logging dependencies start -->
         <slf4j-api.version>1.7.25</slf4j-api.version>
