@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>1.0.21.Final</version>
+    <version>1.0.22.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -45,14 +45,14 @@
         <!-- Logging dependencies end -->
 
         <!-- Maven Plugin dependencies start -->
-        <compiler.plugin.version>3.7.0</compiler.plugin.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
-        <bnd-maven-plugin.version>3.5.0</bnd-maven-plugin.version>
+        <bnd-maven-plugin.version>4.0.0</bnd-maven-plugin.version>
         <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
-        <nexus-staging-maven-plugin>1.6.8</nexus-staging-maven-plugin>
+        <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>2.1.1</dependency-check-maven.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
@@ -69,7 +69,7 @@
         <javax.mail.version>1.6.1</javax.mail.version>
         <javax.annotation-api.version>1.3.2</javax.annotation-api.version>
         <yasson.version>1.0.1</yasson.version>
-        <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.10.Final</hibernate-validator.version>
         <!-- Javax API/RI dependencies end -->
 
         <!-- Apache Commons dependencies start -->
@@ -86,11 +86,12 @@
         <jackson-databind.version>2.9.5</jackson-databind.version>
         <jackson-annotations.version>2.9.5</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.9.5</jackson-jaxrs-base.version>
-        <jackson-dataformat-xml.version>2.9.5</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.9.5</jackson-dataformat-cbor.version>
-        <jackson-module-jaxb-annotations.version>2.9.5</jackson-module-jaxb-annotations.version>
         <jackson-jaxrs-json-provider.version>2.9.5</jackson-jaxrs-json-provider.version>
         <jackson-jaxrs-xml-provider.version>2.9.5</jackson-jaxrs-xml-provider.version>
+        <jackson-dataformat-xml.version>2.9.5</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.9.5</jackson-dataformat-cbor.version>
+        <jackson-dataformat-yaml.version>2.9.5</jackson-dataformat-yaml.version>
+        <jackson-module-jaxb-annotations.version>2.9.5</jackson-module-jaxb-annotations.version>
         <jackson-module-parameter-names.version>2.9.5</jackson-module-parameter-names.version>
         <jackson-datatype-jsr353.version>2.9.5</jackson-datatype-jsr353.version>
         <jackson-datatype-jdk8.version>2.9.5</jackson-datatype-jdk8.version>
@@ -110,6 +111,12 @@
         <eclipselink.version>2.7.1</eclipselink.version>
         <hikaricp.version>3.1.0</hikaricp.version>
         <!-- JPA and JDBC datasource dependencies end -->
+
+        <!-- JDBC Driver dependencies start -->
+        <mysql-connector-java.version>8.0.11</mysql-connector-java.version>
+        <protobuf-java.version>2.6.0</protobuf-java.version>
+        <postgresql.version>42.2.2</postgresql.version>
+        <!-- JDBC Driver dependencies end -->
 
         <!-- Caching dependencies start -->
         <ehcache.version>3.5.2</ehcache.version>
@@ -131,7 +138,7 @@
 
         <!-- Reactive Streams dependencies start -->
         <reactive-streams.version>1.0.2</reactive-streams.version>
-        <reactor-core.version>3.1.6.RELEASE</reactor-core.version>
+        <reactor-core.version>3.1.7.RELEASE</reactor-core.version>
         <!-- Reactive Streams dependencies end -->
 
         <!-- Misc dependencies start -->
@@ -145,16 +152,21 @@
         <morphia.version>1.3.2</morphia.version>
         <shiro.version>1.4.0</shiro.version>
         <scribejava.version>5.4.0</scribejava.version>
+        <jsoniter.version>0.9.22</jsoniter.version>
+        <snakeyaml.version>1.21</snakeyaml.version>
         <!-- Misc dependencies end -->
 
         <!-- Apache Felix and OSGi dependencies start -->
         <org.osgi.core.version>7.0.0</org.osgi.core.version>
         <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
         <osgi.annotation.version>7.0.0</osgi.annotation.version>
-        <felix.scr.version>2.0.14</felix.scr.version>
-        <felix.configadmin.version>1.8.16</felix.configadmin.version>
-        <felix.eventadmin.version>1.4.8</felix.eventadmin.version>
+        <felix.scr.version>2.1.0</felix.scr.version>
+        <felix.configadmin.version>1.9.0</felix.configadmin.version>
+        <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.3.4</felix.webconsole.version>
+        <felix.configurator.version>1.0.0</felix.configurator.version>
+        <felix.converter.version>1.0.0</felix.converter.version>
+        <felix.jaas.version>1.0.2</felix.jaas.version>
         <!-- Apache Felix and OSGi dependencies end -->
 
         <!-- Testing dependencies start -->
@@ -230,7 +242,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${compiler.plugin.version}</version>
+                    <version>${maven-compiler-plugin.version}</version>
                     <configuration>
                         <compilerArgument>-parameters</compilerArgument>
                         <source>${jdk.version}</source>
@@ -378,6 +390,29 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!-- Apache Commons -->
+
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons-fileupload.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${commons-collections4.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
             <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
@@ -448,13 +483,6 @@
             </dependency>
 
             <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>${commons-codec.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
                 <version>${joda-time.version}</version>
@@ -481,6 +509,22 @@
                 <version>${failsafe.version}</version>
                 <scope>provided</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.jsoniter</groupId>
+                <artifactId>jsoniter</artifactId>
+                <version>${jsoniter.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${snakeyaml.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Reactive Streams -->
 
             <dependency>
                 <groupId>org.reactivestreams</groupId>
@@ -538,6 +582,19 @@
                 <artifactId>jackson-dataformat-cbor</artifactId>
                 <version>${jackson-dataformat-cbor.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-yaml</artifactId>
+                <version>${jackson-dataformat-yaml.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.yaml</groupId>
+                        <artifactId>snakeyaml</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -704,6 +761,27 @@
             <!-- OSGi Bundles Starts -->
 
             <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.jaas</artifactId>
+                <version>${felix.jaas.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.converter</artifactId>
+                <version>${felix.converter.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.configurator</artifactId>
+                <version>${felix.configurator.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${javax.validation-api.version}</version>
@@ -775,17 +853,32 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!-- JDBC Drivers -->
+
             <dependency>
-                <groupId>commons-fileupload</groupId>
-                <artifactId>commons-fileupload</artifactId>
-                <version>${commons-fileupload.version}</version>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.protobuf</groupId>
+                        <artifactId>protobuf-java</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>${protobuf-java.version}</version>
                 <scope>provided</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-collections4</artifactId>
-                <version>${commons-collections4.version}</version>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -882,7 +975,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>${nexus-staging-maven-plugin}</version>
+                        <version>${nexus-staging-maven-plugin.version}</version>
                         <extensions>true</extensions>
                         <executions>
                             <execution>
