@@ -53,7 +53,7 @@
         <bnd-maven-plugin.version>4.0.0</bnd-maven-plugin.version>
         <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>2.1.1</dependency-check-maven.version>
+        <dependency-check-maven.version>3.2.0</dependency-check-maven.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
         <adeptj-maven-plugin.version>1.0.2.Final</adeptj-maven-plugin.version>
