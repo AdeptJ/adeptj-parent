@@ -94,7 +94,7 @@
         <jackson-dataformat-yaml.version>2.9.5</jackson-dataformat-yaml.version>
         <jackson-module-jaxb-annotations.version>2.9.5</jackson-module-jaxb-annotations.version>
         <jackson-module-parameter-names.version>2.9.5</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.9.5</jackson-datatype-jsr353.version>
+        <jackson-datatype-jsr353.version>2.9.6</jackson-datatype-jsr353.version>
         <jackson-datatype-jdk8.version>2.9.5</jackson-datatype-jdk8.version>
         <jackson-datatype-jsr310.version>2.9.5</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.9.5</jackson-datatype-jaxrs.version>
