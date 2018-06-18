@@ -87,7 +87,7 @@
         <jackson-databind.version>2.9.5</jackson-databind.version>
         <jackson-annotations.version>2.9.5</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.9.5</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.9.5</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-json-provider.version>2.9.6</jackson-jaxrs-json-provider.version>
         <jackson-jaxrs-xml-provider.version>2.9.5</jackson-jaxrs-xml-provider.version>
         <jackson-dataformat-xml.version>2.9.5</jackson-dataformat-xml.version>
         <jackson-dataformat-cbor.version>2.9.5</jackson-dataformat-cbor.version>
