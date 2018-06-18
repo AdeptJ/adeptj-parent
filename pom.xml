@@ -84,7 +84,7 @@
 
         <!-- Jackson dependencies start -->
         <jackson-core.version>2.9.5</jackson-core.version>
-        <jackson-databind.version>2.9.5</jackson-databind.version>
+        <jackson-databind.version>2.9.6</jackson-databind.version>
         <jackson-annotations.version>2.9.5</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.9.5</jackson-jaxrs-base.version>
         <jackson-jaxrs-json-provider.version>2.9.5</jackson-jaxrs-json-provider.version>
