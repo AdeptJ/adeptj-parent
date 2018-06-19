@@ -98,7 +98,7 @@
         <jackson-datatype-jdk8.version>2.9.6</jackson-datatype-jdk8.version>
         <jackson-datatype-jsr310.version>2.9.6</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.9.6</jackson-datatype-jaxrs.version>
-        <stax2-api.version>3.1.4</stax2-api.version>
+        <stax2-api.version>4.1</stax2-api.version>
         <woodstox-core.version>5.0.3</woodstox-core.version>
         <!-- Jackson dependencies end -->
 
