@@ -55,7 +55,7 @@
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>3.2.1</dependency-check-maven.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>2.21.0</maven-failsafe-plugin.version>
+        <maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
         <adeptj-maven-plugin.version>1.0.3.Final</adeptj-maven-plugin.version>
         <!-- Maven Plugin dependencies end -->
@@ -83,21 +83,21 @@
         <!-- Apache Commons dependencies end -->
 
         <!-- Jackson dependencies start -->
-        <jackson-core.version>2.9.5</jackson-core.version>
-        <jackson-databind.version>2.9.5</jackson-databind.version>
-        <jackson-annotations.version>2.9.5</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.9.5</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.9.5</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.9.5</jackson-jaxrs-xml-provider.version>
-        <jackson-dataformat-xml.version>2.9.5</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.9.5</jackson-dataformat-cbor.version>
-        <jackson-dataformat-yaml.version>2.9.5</jackson-dataformat-yaml.version>
-        <jackson-module-jaxb-annotations.version>2.9.5</jackson-module-jaxb-annotations.version>
-        <jackson-module-parameter-names.version>2.9.5</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.9.5</jackson-datatype-jsr353.version>
-        <jackson-datatype-jdk8.version>2.9.5</jackson-datatype-jdk8.version>
-        <jackson-datatype-jsr310.version>2.9.5</jackson-datatype-jsr310.version>
-        <jackson-datatype-jaxrs.version>2.9.5</jackson-datatype-jaxrs.version>
+        <jackson-core.version>2.9.6</jackson-core.version>
+        <jackson-databind.version>2.9.6</jackson-databind.version>
+        <jackson-annotations.version>2.9.6</jackson-annotations.version>
+        <jackson-jaxrs-base.version>2.9.6</jackson-jaxrs-base.version>
+        <jackson-jaxrs-json-provider.version>2.9.6</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-xml-provider.version>2.9.6</jackson-jaxrs-xml-provider.version>
+        <jackson-dataformat-xml.version>2.9.6</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.9.6</jackson-dataformat-cbor.version>
+        <jackson-dataformat-yaml.version>2.9.6</jackson-dataformat-yaml.version>
+        <jackson-module-jaxb-annotations.version>2.9.6</jackson-module-jaxb-annotations.version>
+        <jackson-module-parameter-names.version>2.9.6</jackson-module-parameter-names.version>
+        <jackson-datatype-jsr353.version>2.9.6</jackson-datatype-jsr353.version>
+        <jackson-datatype-jdk8.version>2.9.6</jackson-datatype-jdk8.version>
+        <jackson-datatype-jsr310.version>2.9.6</jackson-datatype-jsr310.version>
+        <jackson-datatype-jaxrs.version>2.9.6</jackson-datatype-jaxrs.version>
         <stax2-api.version>3.1.4</stax2-api.version>
         <woodstox-core.version>5.0.3</woodstox-core.version>
         <!-- Jackson dependencies end -->
@@ -144,7 +144,7 @@
 
         <!-- Misc dependencies start -->
         <org.json.version>20180130</org.json.version>
-        <joda-time.version>2.9.9</joda-time.version>
+        <joda-time.version>2.10</joda-time.version>
         <jjwt.version>0.9.0</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <failsafe.version>1.1.0</failsafe.version>
