@@ -165,7 +165,7 @@
         <felix.configadmin.version>1.9.4</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.3.6</felix.webconsole.version>
-        <felix.configurator.version>1.0.2</felix.configurator.version>
+        <felix.configurator.version>1.0.4</felix.configurator.version>
         <felix.converter.version>1.0.0</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
         <!-- Apache Felix and OSGi dependencies end -->
