@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>2.0.0.Final</version>
+    <version>2.0.1.Final</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -78,7 +78,7 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.7</commons-lang.version>
         <commons-codec.version>1.11</commons-codec.version>
-        <commons-collections4.version>4.1</commons-collections4.version>
+        <commons-collections4.version>4.2</commons-collections4.version>
         <commons-logging.version>1.2</commons-logging.version>
         <!-- Apache Commons dependencies end -->
 
@@ -129,7 +129,7 @@
         <attoparser.version>2.0.5.RELEASE</attoparser.version>
         <unbescape.version>1.1.6.RELEASE</unbescape.version>
         <ognl.version>3.2.6</ognl.version>
-        <javaassit.version>3.22.0-GA</javaassit.version>
+        <javaassit.version>3.23.1-GA</javaassit.version>
         <!-- Thymeleaf dependencies end -->
 
         <!-- Apache HttpClient dependencies start -->
@@ -160,7 +160,7 @@
         <org.osgi.core.version>7.0.0</org.osgi.core.version>
         <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
         <osgi.annotation.version>7.0.0</osgi.annotation.version>
-        <felix.scr.version>2.1.2</felix.scr.version>
+        <felix.scr.version>2.1.4</felix.scr.version>
         <felix.configadmin.version>1.9.4</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.3.6</felix.webconsole.version>
@@ -170,7 +170,7 @@
         <!-- Apache Felix and OSGi dependencies end -->
 
         <!-- Testing dependencies start -->
-        <mockito-core.version>2.19.1</mockito-core.version>
+        <mockito-core.version>2.21.0</mockito-core.version>
         <junit-jupiter.version>5.2.0</junit-jupiter.version>
         <!-- Testing dependencies end -->
 
