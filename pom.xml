@@ -160,10 +160,10 @@
         <org.osgi.core.version>7.0.0</org.osgi.core.version>
         <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
         <osgi.annotation.version>7.0.0</osgi.annotation.version>
-        <felix.scr.version>2.1.4</felix.scr.version>
+        <felix.scr.version>2.1.6</felix.scr.version>
         <felix.configadmin.version>1.9.4</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
-        <felix.webconsole.version>4.3.6</felix.webconsole.version>
+        <felix.webconsole.version>4.3.4</felix.webconsole.version>
         <felix.configurator.version>1.0.4</felix.configurator.version>
         <felix.converter.version>1.0.0</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
