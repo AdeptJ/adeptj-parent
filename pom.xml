@@ -108,7 +108,7 @@
         <!-- JAX-RS dependencies end -->
 
         <!-- JPA and JDBC datasource dependencies start -->
-        <jpa.version>2.2.0</jpa.version>
+        <jpa.version>2.2.1</jpa.version>
         <eclipselink.version>2.7.3</eclipselink.version>
         <hikaricp.version>3.2.0</hikaricp.version>
         <!-- JPA and JDBC datasource dependencies end -->
@@ -171,7 +171,7 @@
 
         <!-- Testing dependencies start -->
         <mockito-core.version>2.21.0</mockito-core.version>
-        <junit-jupiter.version>5.2.0</junit-jupiter.version>
+        <junit-jupiter.version>5.3.0</junit-jupiter.version>
         <!-- Testing dependencies end -->
 
     </properties>
