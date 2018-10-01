@@ -86,6 +86,7 @@
         <commons-codec.version>1.11</commons-codec.version>
         <commons-collections4.version>4.2</commons-collections4.version>
         <commons-logging.version>1.2</commons-logging.version>
+        <commons-email.version>1.5</commons-email.version>
         <!-- Apache Commons dependencies end -->
 
         <!-- Jackson dependencies start -->
@@ -446,6 +447,19 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-email</artifactId>
+                <version>${commons-email.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.sun.mail</groupId>
+                        <artifactId>javax.mail</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
