@@ -121,8 +121,8 @@
         <!-- JPA and JDBC datasource dependencies end -->
 
         <!-- JDBC Driver dependencies start -->
-        <mysql-connector-java.version>8.0.12</mysql-connector-java.version>
-        <protobuf-java.version>2.6.0</protobuf-java.version>
+        <mysql-connector-java.version>8.0.13</mysql-connector-java.version>
+        <protobuf-java.version>3.6.1</protobuf-java.version>
         <postgresql.version>42.2.5</postgresql.version>
         <!-- JDBC Driver dependencies end -->
 
