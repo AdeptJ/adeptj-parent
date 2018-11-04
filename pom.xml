@@ -111,7 +111,7 @@
 
         <!-- JAX-RS dependencies start -->
         <jax-rs.api.version>2.1</jax-rs.api.version>
-        <resteasy.version>4.0.0.Beta5</resteasy.version>
+        <resteasy.version>4.0.0.Beta6</resteasy.version>
         <!-- JAX-RS dependencies end -->
 
         <!-- JPA and JDBC datasource dependencies start -->
