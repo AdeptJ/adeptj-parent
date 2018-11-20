@@ -146,7 +146,7 @@
         <failsafe.version>1.1.0</failsafe.version>
         <typesafe.config.version>1.3.3</typesafe.config.version>
         <mongo.version>3.8.2</mongo.version>
-        <scribejava.version>6.0.0</scribejava.version>
+        <scribejava.version>6.1.0</scribejava.version>
         <snakeyaml.version>1.23</snakeyaml.version>
         <!-- Misc dependencies end -->
 
@@ -154,11 +154,11 @@
         <org.osgi.core.version>7.0.0</org.osgi.core.version>
         <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
         <osgi.annotation.version>7.0.0</osgi.annotation.version>
-        <felix.scr.version>2.1.12</felix.scr.version>
+        <felix.scr.version>2.1.14</felix.scr.version>
         <felix.configadmin.version>1.9.10</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.3.8</felix.webconsole.version>
-        <felix.configurator.version>1.0.6</felix.configurator.version>
+        <felix.configurator.version>1.0.8</felix.configurator.version>
         <felix.converter.version>1.0.2</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
         <!-- Apache Felix and OSGi dependencies end -->
