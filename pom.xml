@@ -40,6 +40,7 @@
 
         <!-- Logging dependencies start -->
         <slf4j-api.version>1.7.25</slf4j-api.version>
+        <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <!-- Logging dependencies end -->
@@ -165,6 +166,7 @@
 
         <!-- Testing dependencies start -->
         <junit-jupiter.version>5.3.2</junit-jupiter.version>
+        <mockito.version>2.23.4</mockito.version>
         <!-- Testing dependencies end -->
 
     </properties>
@@ -843,16 +845,7 @@
                 <scope>provided</scope>
             </dependency>
 
-            <!-- Test dependencies -->
-
-            <!-- Test dependencies -->
-
-            <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-api</artifactId>
-                <version>${junit-jupiter.version}</version>
-                <scope>test</scope>
-            </dependency>
+            <!-- Test dependencies start -->
 
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
@@ -862,11 +855,27 @@
             </dependency>
 
             <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-params</artifactId>
-                <version>${junit-jupiter.version}</version>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>${mockito.version}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-junit-jupiter</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${slf4j-simple.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- Test dependencies end -->
 
         </dependencies>
 
