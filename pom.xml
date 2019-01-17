@@ -118,7 +118,7 @@
         <!-- JPA and JDBC datasource dependencies start -->
         <jpa.version>2.2.1</jpa.version>
         <eclipselink.version>2.7.3</eclipselink.version>
-        <hikaricp.version>3.2.0</hikaricp.version>
+        <hikaricp.version>3.3.0</hikaricp.version>
         <!-- JPA and JDBC datasource dependencies end -->
 
         <!-- JDBC Driver dependencies start -->
