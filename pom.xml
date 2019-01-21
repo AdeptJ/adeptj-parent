@@ -111,13 +111,13 @@
         <!-- Jackson dependencies end -->
 
         <!-- JAX-RS dependencies start -->
-        <jax-rs.api.version>2.1</jax-rs.api.version>
+        <jakarta.ws.rs-api.version>2.1.4</jakarta.ws.rs-api.version>
         <resteasy.version>4.0.0.Beta6</resteasy.version>
         <!-- JAX-RS dependencies end -->
 
         <!-- JPA and JDBC datasource dependencies start -->
-        <jpa.version>2.2.1</jpa.version>
-        <eclipselink.version>2.7.3</eclipselink.version>
+        <jakarta.persistence.api.version>2.2.2</jakarta.persistence.api.version>
+        <eclipselink.version>2.7.4</eclipselink.version>
         <hikaricp.version>3.3.0</hikaricp.version>
         <!-- JPA and JDBC datasource dependencies end -->
 
@@ -737,9 +737,9 @@
             </dependency>
 
             <dependency>
-                <groupId>javax.ws.rs</groupId>
-                <artifactId>javax.ws.rs-api</artifactId>
-                <version>${jax-rs.api.version}</version>
+                <groupId>jakarta.ws.rs</groupId>
+                <artifactId>jakarta.ws.rs-api</artifactId>
+                <version>${jakarta.ws.rs-api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -813,6 +813,15 @@
                 <groupId>org.eclipse</groupId>
                 <artifactId>yasson</artifactId>
                 <version>${yasson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Jakarta Persistence API -->
+
+            <dependency>
+                <groupId>org.eclipse.persistence</groupId>
+                <artifactId>jakarta.persistence</artifactId>
+                <version>${jakarta.persistence.api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
