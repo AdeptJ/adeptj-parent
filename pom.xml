@@ -162,6 +162,7 @@
         <mongo.version>3.8.2</mongo.version>
         <scribejava.version>6.2.0</scribejava.version>
         <snakeyaml.version>1.23</snakeyaml.version>
+        <expiringmap.version>0.5.9</expiringmap.version>
         <!-- Misc dependencies end -->
 
         <!-- Apache Felix and OSGi dependencies start -->
@@ -934,6 +935,15 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${postgresql.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Misc dependencies start -->
+
+            <dependency>
+                <groupId>net.jodah</groupId>
+                <artifactId>expiringmap</artifactId>
+                <version>${expiringmap.version}</version>
                 <scope>provided</scope>
             </dependency>
 
