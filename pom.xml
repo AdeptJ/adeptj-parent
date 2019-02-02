@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>4</version>
+    <version>5</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -111,8 +111,8 @@
         <!-- Jackson dependencies end -->
 
         <!-- JAX-RS dependencies start -->
-        <jakarta.ws.rs-api.version>2.1.4</jakarta.ws.rs-api.version>
-        <resteasy.version>4.0.0.Beta6</resteasy.version>
+        <jakarta.ws.rs-api.version>2.1.5</jakarta.ws.rs-api.version>
+        <resteasy.version>4.0.0.Beta8</resteasy.version>
         <!-- JAX-RS dependencies end -->
 
         <!-- JPA and JDBC datasource dependencies start -->
@@ -122,7 +122,7 @@
         <!-- JPA and JDBC datasource dependencies end -->
 
         <!-- JDBC Driver dependencies start -->
-        <mysql-connector-java.version>8.0.13</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
         <protobuf-java.version>3.6.1</protobuf-java.version>
         <postgresql.version>42.2.5</postgresql.version>
         <!-- JDBC Driver dependencies end -->
@@ -132,8 +132,8 @@
         <!-- Caching dependencies end -->
 
         <!-- Apache HttpClient dependencies start -->
-        <httpcore-osgi.version>4.4.10</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.6</httpclient-osgi.version>
+        <httpcore-osgi.version>4.4.11</httpcore-osgi.version>
+        <httpclient-osgi.version>4.5.7</httpclient-osgi.version>
         <!-- Apache HttpClient dependencies end -->
 
         <!-- Reactive Streams dependencies start -->
@@ -144,7 +144,7 @@
         <org.json.version>20180813</org.json.version>
         <jjwt.version>0.10.5</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
-        <failsafe.version>1.1.1</failsafe.version>
+        <failsafe.version>2.0.0</failsafe.version>
         <typesafe.config.version>1.3.3</typesafe.config.version>
         <mongo.version>3.8.2</mongo.version>
         <scribejava.version>6.2.0</scribejava.version>
@@ -166,7 +166,7 @@
 
         <!-- Testing dependencies start -->
         <junit-jupiter.version>5.3.2</junit-jupiter.version>
-        <mockito.version>2.23.4</mockito.version>
+        <mockito.version>2.24.0</mockito.version>
         <!-- Testing dependencies end -->
 
     </properties>
