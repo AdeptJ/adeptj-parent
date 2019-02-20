@@ -39,8 +39,8 @@
         <skipTests>true</skipTests>
 
         <!-- Logging dependencies start -->
-        <slf4j-api.version>1.7.25</slf4j-api.version>
-        <slf4j-simple.version>1.7.25</slf4j-simple.version>
+        <slf4j-api.version>1.7.26</slf4j-api.version>
+        <slf4j-simple.version>1.7.26</slf4j-simple.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <!-- Logging dependencies end -->
@@ -99,7 +99,7 @@
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.8.1</commons-lang.version>
-        <commons-codec.version>1.11</commons-codec.version>
+        <commons-codec.version>1.12</commons-codec.version>
         <commons-collections4.version>4.2</commons-collections4.version>
         <commons-logging.version>1.2</commons-logging.version>
         <commons-email.version>1.5</commons-email.version>
@@ -180,7 +180,7 @@
 
         <!-- Testing libraries dependencies start -->
         <junit-jupiter.version>5.4.0</junit-jupiter.version>
-        <mockito.version>2.24.0</mockito.version>
+        <mockito.version>2.24.5</mockito.version>
         <!-- Testing libraries dependencies end -->
 
     </properties>
