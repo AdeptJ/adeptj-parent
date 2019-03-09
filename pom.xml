@@ -136,7 +136,7 @@
 
         <!-- JDBC Driver dependencies start -->
         <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
-        <protobuf-java.version>3.6.1</protobuf-java.version>
+        <protobuf-java.version>3.7.0</protobuf-java.version>
         <postgresql.version>42.2.5</postgresql.version>
         <!-- JDBC Driver dependencies end -->
 
@@ -176,7 +176,7 @@
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.3.8</felix.webconsole.version>
         <felix.configurator.version>1.0.8</felix.configurator.version>
-        <felix.converter.version>1.0.2</felix.converter.version>
+        <felix.converter.version>1.0.4</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
         <felix.healthcheck.api.version>2.0.0</felix.healthcheck.api.version>
         <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
@@ -184,7 +184,7 @@
 
         <!-- Testing libraries dependencies start -->
         <junit-jupiter.version>5.4.0</junit-jupiter.version>
-        <mockito.version>2.24.5</mockito.version>
+        <mockito.version>2.25.0</mockito.version>
         <!-- Testing libraries dependencies end -->
 
     </properties>
