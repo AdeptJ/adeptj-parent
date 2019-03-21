@@ -75,9 +75,6 @@
         <javax.inject.version>2.4.0</javax.inject.version>
         <javax.interceptor-api.version>1.2.2</javax.interceptor-api.version>
         <cdi-api.version>2.0</cdi-api.version>
-        <jcip-annotations.version>1.0</jcip-annotations.version>
-        <yasson.version>1.0.3</yasson.version>
-        <hibernate-validator.version>6.0.14.Final</hibernate-validator.version>
         <!-- Javax API/RI dependencies end -->
         
         <!-- Jakarta dependencies start -->
@@ -163,6 +160,10 @@
         <scribejava.version>6.3.0</scribejava.version>
         <snakeyaml.version>1.24</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
+        <jcip-annotations.version>1.0</jcip-annotations.version>
+        <yasson.version>1.0.3</yasson.version>
+        <hibernate-validator.version>6.0.14.Final</hibernate-validator.version>
+        
         <!-- Misc dependencies end -->
 
         <!-- Apache Felix and OSGi dependencies start -->
@@ -183,8 +184,8 @@
         <!-- Apache Felix and OSGi dependencies end -->
 
         <!-- Testing libraries dependencies start -->
-        <junit-jupiter.version>5.4.0</junit-jupiter.version>
-        <mockito.version>2.25.0</mockito.version>
+        <junit-jupiter.version>5.4.1</junit-jupiter.version>
+        <mockito.version>2.25.1</mockito.version>
         <!-- Testing libraries dependencies end -->
 
     </properties>
