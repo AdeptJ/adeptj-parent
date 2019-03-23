@@ -157,7 +157,7 @@
         <failsafe.version>2.0.1</failsafe.version>
         <typesafe.config.version>1.3.3</typesafe.config.version>
         <mongo.version>3.8.2</mongo.version>
-        <scribejava.version>6.3.0</scribejava.version>
+        <scribejava.version>6.5.0</scribejava.version>
         <snakeyaml.version>1.24</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
