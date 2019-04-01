@@ -143,7 +143,7 @@
 
         <!-- Apache HttpClient dependencies start -->
         <httpcore-osgi.version>4.4.11</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.7</httpclient-osgi.version>
+        <httpclient-osgi.version>4.5.8</httpclient-osgi.version>
         <!-- Apache HttpClient dependencies end -->
 
         <!-- Reactive Streams dependencies start -->
