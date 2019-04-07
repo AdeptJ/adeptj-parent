@@ -1,1 +1,3 @@
 *.iml
+.project
+*.prefs
