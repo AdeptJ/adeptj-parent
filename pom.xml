@@ -113,7 +113,7 @@
         <!-- Jackson dependencies end -->
 
         <!-- JAX-RS/RestEasy dependencies start -->
-        <resteasy.version>4.0.0.CR1</resteasy.version>
+        <resteasy.version>4.0.0.CR2</resteasy.version>
         <!-- JAX-RS/RestEasy dependencies end -->
 
         <!-- EclipseLink and JDBC datasource dependencies start -->
