@@ -85,7 +85,7 @@
         <!-- Apache Commons dependencies start -->
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
-        <commons-lang.version>3.8.1</commons-lang.version>
+        <commons-lang.version>3.9</commons-lang.version>
         <commons-codec.version>1.12</commons-codec.version>
         <commons-collections4.version>4.2</commons-collections4.version>
         <commons-logging.version>1.2</commons-logging.version>
@@ -123,7 +123,7 @@
 
         <!-- JDBC Driver dependencies start -->
         <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
-        <protobuf-java.version>3.7.0</protobuf-java.version>
+        <protobuf-java.version>3.7.1</protobuf-java.version>
         <postgresql.version>42.2.5</postgresql.version>
         <!-- JDBC Driver dependencies end -->
 
@@ -174,7 +174,7 @@
 
         <!-- Testing libraries dependencies start -->
         <junit-jupiter.version>5.4.1</junit-jupiter.version>
-        <mockito.version>2.26.0</mockito.version>
+        <mockito.version>2.27.0</mockito.version>
         <!-- Testing libraries dependencies end -->
 
     </properties>
