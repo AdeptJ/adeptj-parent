@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>6</version>
+    <version>7</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
