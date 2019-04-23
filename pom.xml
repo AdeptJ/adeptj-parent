@@ -63,7 +63,7 @@
         <!-- Maven Plugin dependencies end -->
 
         <!-- Javax API/RI dependencies start -->
-        <javax.inject.version>2.4.0</javax.inject.version>
+        <javax.inject.version>1</javax.inject.version>
         <cdi-api.version>2.0</cdi-api.version>
         <!-- Javax API/RI dependencies end -->
 
@@ -80,6 +80,7 @@
         <jakarta.activation-api.version>1.2.1</jakarta.activation-api.version>
         <jakarta.interceptor-api.version>1.2.4</jakarta.interceptor-api.version>
         <jakarta.mail-api.version>1.6.3</jakarta.mail-api.version>
+        <jakarta.inject.version>2.5.0</jakarta.inject.version>
         <!-- Jakarta dependencies end -->
 
         <!-- Apache Commons dependencies start -->
@@ -756,6 +757,13 @@
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
                 <version>${org.json.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>${javax.inject.version}</version>
                 <scope>provided</scope>
             </dependency>
 
