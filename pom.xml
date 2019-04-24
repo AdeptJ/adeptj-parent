@@ -64,7 +64,7 @@
 
         <!-- Javax API/RI dependencies start -->
         <javax.inject.version>1</javax.inject.version>
-        <cdi-api.version>2.0</cdi-api.version>
+        <cdi-api.version>2.0.SP1</cdi-api.version>
         <!-- Javax API/RI dependencies end -->
 
         <!-- Jakarta dependencies start -->
