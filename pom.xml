@@ -101,9 +101,9 @@
         <jackson-jaxrs-base.version>2.9.8</jackson-jaxrs-base.version>
         <jackson-jaxrs-json-provider.version>2.9.8</jackson-jaxrs-json-provider.version>
         <jackson-jaxrs-xml-provider.version>2.9.8</jackson-jaxrs-xml-provider.version>
-        <jackson-dataformat-xml.version>2.9.8</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.9.8</jackson-dataformat-cbor.version>
-        <jackson-dataformat-yaml.version>2.9.8</jackson-dataformat-yaml.version>
+        <jackson-dataformat-xml.version>2.9.9</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.9.9</jackson-dataformat-cbor.version>
+        <jackson-dataformat-yaml.version>2.9.9</jackson-dataformat-yaml.version>
         <jackson-module-jaxb-annotations.version>2.9.9</jackson-module-jaxb-annotations.version>
         <jackson-module-parameter-names.version>2.9.9</jackson-module-parameter-names.version>
         <jackson-datatype-jsr353.version>2.9.8</jackson-datatype-jsr353.version>
