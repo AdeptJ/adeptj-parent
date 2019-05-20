@@ -166,11 +166,11 @@
         <felix.scr.version>2.1.16</felix.scr.version>
         <felix.configadmin.version>1.9.14</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
-        <felix.webconsole.version>4.3.8</felix.webconsole.version>
+        <felix.webconsole.version>4.3.10</felix.webconsole.version>
         <felix.configurator.version>1.0.8</felix.configurator.version>
         <felix.converter.version>1.0.8</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
-        <felix.healthcheck.api.version>2.0.0</felix.healthcheck.api.version>
+        <felix.healthcheck.api.version>2.0.2</felix.healthcheck.api.version>
         <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
         <!-- Apache Felix and OSGi dependencies end -->
 
