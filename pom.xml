@@ -121,6 +121,7 @@
         <!-- EclipseLink and JDBC datasource dependencies start -->
         <eclipselink.version>2.7.4</eclipselink.version>
         <hikaricp.version>3.3.1</hikaricp.version>
+        <sql2o.version>1.6.0</sql2o.version>
         <!-- EclipseLink and JDBC datasource dependencies end -->
 
         <!-- JDBC Driver dependencies start -->
@@ -130,7 +131,7 @@
         <!-- JDBC Driver dependencies end -->
 
         <!-- Caching dependencies start -->
-        <caffeine.version>2.7.0</caffeine.version>
+        <caffeine.version>2.8.0</caffeine.version>
         <!-- Caching dependencies end -->
 
         <!-- Apache HttpClient dependencies start -->
@@ -143,13 +144,13 @@
         <!-- Reactive Streams dependencies end -->
 
         <!-- Misc dependencies start -->
-        <org.json.version>20180813</org.json.version>
+        <org.json.version>20190722</org.json.version>
         <jjwt.version>0.10.7</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <failsafe.version>2.1.1</failsafe.version>
         <typesafe.config.version>1.3.4</typesafe.config.version>
         <mongo.version>3.8.2</mongo.version>
-        <scribejava.version>6.6.3</scribejava.version>
+        <scribejava.version>6.7.0</scribejava.version>
         <snakeyaml.version>1.24</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
@@ -175,8 +176,8 @@
         <!-- Apache Felix and OSGi dependencies end -->
 
         <!-- Testing libraries dependencies start -->
-        <junit-jupiter.version>5.4.1</junit-jupiter.version>
-        <mockito.version>2.27.0</mockito.version>
+        <junit-jupiter.version>5.5.1</junit-jupiter.version>
+        <mockito.version>3.0.0</mockito.version>
         <!-- Testing libraries dependencies end -->
 
     </properties>
@@ -519,6 +520,13 @@
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
                 <version>${snakeyaml.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.sql2o</groupId>
+                <artifactId>sql2o</artifactId>
+                <version>${sql2o.version}</version>
                 <scope>provided</scope>
             </dependency>
 
