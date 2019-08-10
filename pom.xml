@@ -522,7 +522,7 @@
                 <version>${snakeyaml.version}</version>
                 <scope>provided</scope>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.sql2o</groupId>
                 <artifactId>sql2o</artifactId>
