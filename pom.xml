@@ -111,7 +111,6 @@
         <jackson-datatype-jsr310.version>2.10.0.pr1</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.10.0.pr1</jackson-datatype-jaxrs.version>
         <stax2-api.version>4.2</stax2-api.version>
-        <woodstox-core.version>6.0.0.pr2</woodstox-core.version>
         <!-- Jackson dependencies end -->
 
         <!-- JAX-RS/RestEasy dependencies start -->
@@ -588,12 +587,6 @@
                 <artifactId>jackson-dataformat-yaml</artifactId>
                 <version>${jackson-dataformat-yaml.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.yaml</groupId>
-                        <artifactId>snakeyaml</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -636,12 +629,6 @@
                 <artifactId>jackson-datatype-jsr310</artifactId>
                 <version>${jackson-datatype-jsr310.version}</version>
                 <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.fasterxml.jackson.core</groupId>
-                        <artifactId>jackson-annotations</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
@@ -668,13 +655,6 @@
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
                 <version>${stax2-api.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.woodstox</groupId>
-                <artifactId>woodstox-core</artifactId>
-                <version>${woodstox-core.version}</version>
                 <scope>provided</scope>
             </dependency>
 
