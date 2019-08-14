@@ -150,7 +150,7 @@
         <typesafe.config.version>1.3.4</typesafe.config.version>
         <mongo.version>3.8.2</mongo.version>
         <scribejava.version>6.7.0</scribejava.version>
-        <snakeyaml.version>1.24</snakeyaml.version>
+        <snakeyaml.version>1.25</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
         <hibernate-validator.version>6.0.16.Final</hibernate-validator.version>
