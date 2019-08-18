@@ -39,8 +39,8 @@
         <skipTests>true</skipTests>
 
         <!-- Logging dependencies start -->
-        <slf4j-api.version>1.7.26</slf4j-api.version>
-        <slf4j-simple.version>1.7.26</slf4j-simple.version>
+        <slf4j-api.version>1.7.28</slf4j-api.version>
+        <slf4j-simple.version>1.7.28</slf4j-simple.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <!-- Logging dependencies end -->
@@ -148,7 +148,7 @@
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <failsafe.version>2.3.0</failsafe.version>
         <typesafe.config.version>1.3.4</typesafe.config.version>
-        <mongo.version>3.8.2</mongo.version>
+        <mongo.version>3.11.0</mongo.version>
         <scribejava.version>6.8.0</scribejava.version>
         <snakeyaml.version>1.25</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
