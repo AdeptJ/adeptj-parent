@@ -139,14 +139,14 @@
         <!-- Apache HttpClient dependencies end -->
 
         <!-- Reactive Streams dependencies start -->
-        <reactive-streams.version>1.0.2</reactive-streams.version>
+        <reactive-streams.version>1.0.3</reactive-streams.version>
         <!-- Reactive Streams dependencies end -->
 
         <!-- Misc dependencies start -->
         <org.json.version>20190722</org.json.version>
         <jjwt.version>0.10.7</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
-        <failsafe.version>2.3.0</failsafe.version>
+        <failsafe.version>2.3.1</failsafe.version>
         <typesafe.config.version>1.3.4</typesafe.config.version>
         <mongo.version>3.11.0</mongo.version>
         <scribejava.version>6.8.0</scribejava.version>
@@ -166,7 +166,7 @@
         <felix.scr.version>2.1.16</felix.scr.version>
         <felix.configadmin.version>1.9.16</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
-        <felix.webconsole.version>4.3.14</felix.webconsole.version>
+        <felix.webconsole.version>4.3.16</felix.webconsole.version>
         <felix.configurator.version>1.0.10</felix.configurator.version>
         <felix.converter.version>1.0.8</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
