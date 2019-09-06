@@ -69,7 +69,7 @@
 
         <!-- Jakarta dependencies start -->
         <jakarta.servlet-api.version>4.0.2</jakarta.servlet-api.version>
-        <jakarta.ws.rs-api.version>2.1.5</jakarta.ws.rs-api.version>
+        <jakarta.ws.rs-api.version>2.1.6</jakarta.ws.rs-api.version>
         <jakarta.persistence.api.version>2.2.3</jakarta.persistence.api.version>
         <jakarta.websocket-api.version>1.1.2</jakarta.websocket-api.version>
         <jakarta.validation-api.version>2.0.1</jakarta.validation-api.version>
