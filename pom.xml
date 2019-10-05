@@ -51,7 +51,7 @@
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-        <bnd-maven-plugin.version>4.2.0</bnd-maven-plugin.version>
+        <bnd-maven-plugin.version>4.3.0</bnd-maven-plugin.version>
         <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>5.2.2</dependency-check-maven.version>
@@ -95,21 +95,21 @@
         <!-- Apache Commons dependencies end -->
 
         <!-- Jackson dependencies start -->
-        <jackson-core.version>2.10.0.pr3</jackson-core.version>
-        <jackson-databind.version>2.10.0.pr3</jackson-databind.version>
-        <jackson-annotations.version>2.10.0.pr3</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.10.0.pr3</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.10.0.pr3</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.10.0.pr3</jackson-jaxrs-xml-provider.version>
-        <jackson-dataformat-xml.version>2.10.0.pr3</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.10.0.pr3</jackson-dataformat-cbor.version>
-        <jackson-dataformat-yaml.version>2.10.0.pr3</jackson-dataformat-yaml.version>
-        <jackson-module-jaxb-annotations.version>2.10.0.pr3</jackson-module-jaxb-annotations.version>
-        <jackson-module-parameter-names.version>2.10.0.pr3</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.10.0.pr3</jackson-datatype-jsr353.version>
-        <jackson-datatype-jdk8.version>2.10.0.pr3</jackson-datatype-jdk8.version>
-        <jackson-datatype-jsr310.version>2.10.0.pr3</jackson-datatype-jsr310.version>
-        <jackson-datatype-jaxrs.version>2.10.0.pr3</jackson-datatype-jaxrs.version>
+        <jackson-core.version>2.10.0</jackson-core.version>
+        <jackson-databind.version>2.10.0</jackson-databind.version>
+        <jackson-annotations.version>2.10.0</jackson-annotations.version>
+        <jackson-jaxrs-base.version>2.10.0</jackson-jaxrs-base.version>
+        <jackson-jaxrs-json-provider.version>2.10.0</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-xml-provider.version>2.10.0</jackson-jaxrs-xml-provider.version>
+        <jackson-dataformat-xml.version>2.10.0</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.10.0</jackson-dataformat-cbor.version>
+        <jackson-dataformat-yaml.version>2.10.0</jackson-dataformat-yaml.version>
+        <jackson-module-jaxb-annotations.version>2.10.0</jackson-module-jaxb-annotations.version>
+        <jackson-module-parameter-names.version>2.10.0</jackson-module-parameter-names.version>
+        <jackson-datatype-jsr353.version>2.10.0</jackson-datatype-jsr353.version>
+        <jackson-datatype-jdk8.version>2.10.0</jackson-datatype-jdk8.version>
+        <jackson-datatype-jsr310.version>2.10.0</jackson-datatype-jsr310.version>
+        <jackson-datatype-jaxrs.version>2.10.0</jackson-datatype-jaxrs.version>
         <stax2-api.version>4.2</stax2-api.version>
         <!-- Jackson dependencies end -->
 
