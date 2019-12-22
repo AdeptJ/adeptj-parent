@@ -39,8 +39,8 @@
         <skipTests>true</skipTests>
 
         <!-- Logging dependencies start -->
-        <slf4j-api.version>1.7.28</slf4j-api.version>
-        <slf4j-simple.version>1.7.28</slf4j-simple.version>
+        <slf4j-api.version>1.7.30</slf4j-api.version>
+        <slf4j-simple.version>1.7.30</slf4j-simple.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <!-- Logging dependencies end -->
