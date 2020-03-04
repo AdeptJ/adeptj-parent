@@ -95,21 +95,21 @@
         <!-- Apache Commons dependencies end -->
 
         <!-- Jackson dependencies start -->
-        <jackson-core.version>2.10.2</jackson-core.version>
-        <jackson-databind.version>2.10.2</jackson-databind.version>
-        <jackson-annotations.version>2.10.2</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.10.2</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.10.2</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.10.2</jackson-jaxrs-xml-provider.version>
-        <jackson-dataformat-xml.version>2.10.2</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.10.2</jackson-dataformat-cbor.version>
-        <jackson-dataformat-yaml.version>2.10.2</jackson-dataformat-yaml.version>
-        <jackson-module-jaxb-annotations.version>2.10.2</jackson-module-jaxb-annotations.version>
-        <jackson-module-parameter-names.version>2.10.2</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.10.2</jackson-datatype-jsr353.version>
-        <jackson-datatype-jdk8.version>2.10.2</jackson-datatype-jdk8.version>
-        <jackson-datatype-jsr310.version>2.10.2</jackson-datatype-jsr310.version>
-        <jackson-datatype-jaxrs.version>2.10.2</jackson-datatype-jaxrs.version>
+        <jackson-core.version>2.10.3</jackson-core.version>
+        <jackson-databind.version>2.10.3</jackson-databind.version>
+        <jackson-annotations.version>2.10.3</jackson-annotations.version>
+        <jackson-jaxrs-base.version>2.10.3</jackson-jaxrs-base.version>
+        <jackson-jaxrs-json-provider.version>2.10.3</jackson-jaxrs-json-provider.version>
+        <jackson-jaxrs-xml-provider.version>2.10.3</jackson-jaxrs-xml-provider.version>
+        <jackson-dataformat-xml.version>2.10.3</jackson-dataformat-xml.version>
+        <jackson-dataformat-cbor.version>2.10.3</jackson-dataformat-cbor.version>
+        <jackson-dataformat-yaml.version>2.10.3</jackson-dataformat-yaml.version>
+        <jackson-module-jaxb-annotations.version>2.10.3</jackson-module-jaxb-annotations.version>
+        <jackson-module-parameter-names.version>2.10.3</jackson-module-parameter-names.version>
+        <jackson-datatype-jsr353.version>2.10.3</jackson-datatype-jsr353.version>
+        <jackson-datatype-jdk8.version>2.10.3</jackson-datatype-jdk8.version>
+        <jackson-datatype-jsr310.version>2.10.3</jackson-datatype-jsr310.version>
+        <jackson-datatype-jaxrs.version>2.10.3</jackson-datatype-jaxrs.version>
         <stax2-api.version>4.2</stax2-api.version>
         <!-- Jackson dependencies end -->
 
@@ -124,8 +124,8 @@
         <!-- EclipseLink and JDBC datasource dependencies end -->
 
         <!-- JDBC Driver dependencies start -->
-        <mysql-connector-java.version>8.0.18</mysql-connector-java.version>
-        <protobuf-java.version>3.11.0</protobuf-java.version>
+        <mysql-connector-java.version>8.0.19</mysql-connector-java.version>
+        <protobuf-java.version>3.11.4</protobuf-java.version>
         <postgresql.version>42.2.8</postgresql.version>
         <!-- JDBC Driver dependencies end -->
 
@@ -134,8 +134,8 @@
         <!-- Caching dependencies end -->
 
         <!-- Apache HttpClient dependencies start -->
-        <httpcore-osgi.version>4.4.12</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.10</httpclient-osgi.version>
+        <httpcore-osgi.version>4.4.13</httpcore-osgi.version>
+        <httpclient-osgi.version>4.5.11</httpclient-osgi.version>
         <!-- Apache HttpClient dependencies end -->
 
         <!-- Reactive Streams dependencies start -->
@@ -144,13 +144,13 @@
 
         <!-- Misc dependencies start -->
         <org.json.version>20190722</org.json.version>
-        <jjwt.version>0.10.7</jjwt.version>
+        <jjwt.version>0.11.0</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
-        <failsafe.version>2.3.1</failsafe.version>
+        <failsafe.version>2.3.3</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
         <mongo.version>3.11.1</mongo.version>
         <scribejava.version>6.9.0</scribejava.version>
-        <snakeyaml.version>1.25</snakeyaml.version>
+        <snakeyaml.version>1.26</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
         <hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
