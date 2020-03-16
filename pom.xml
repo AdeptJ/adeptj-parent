@@ -135,7 +135,7 @@
 
         <!-- Apache HttpClient dependencies start -->
         <httpcore-osgi.version>4.4.13</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.11</httpclient-osgi.version>
+        <httpclient-osgi.version>4.5.12</httpclient-osgi.version>
         <!-- Apache HttpClient dependencies end -->
 
         <!-- Reactive Streams dependencies start -->
@@ -144,7 +144,7 @@
 
         <!-- Misc dependencies start -->
         <org.json.version>20190722</org.json.version>
-        <jjwt.version>0.11.0</jjwt.version>
+        <jjwt.version>0.11.1</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <failsafe.version>2.3.3</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
