@@ -146,7 +146,7 @@
         <org.json.version>20190722</org.json.version>
         <jjwt.version>0.11.1</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
-        <failsafe.version>2.3.3</failsafe.version>
+        <failsafe.version>2.3.4</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
         <mongo.version>3.11.1</mongo.version>
         <scribejava.version>6.9.0</scribejava.version>
