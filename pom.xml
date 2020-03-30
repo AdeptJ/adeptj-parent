@@ -32,9 +32,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <jdk.version>1.8</jdk.version>
+        <maven.compiler.release>11</maven.compiler.release>
         <mvn.skipITs>true</mvn.skipITs>
         <skipTests>true</skipTests>
 
@@ -49,45 +47,44 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-        <bnd-maven-plugin.version>4.3.1</bnd-maven-plugin.version>
-        <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
+        <bnd-maven-plugin.version>5.0.1</bnd-maven-plugin.version>
+        <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>5.2.2</dependency-check-maven.version>
-        <maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.0.0-M3</maven-failsafe-plugin.version>
-        <maven-enforcer-plugin.version>3.0.0-M2</maven-enforcer-plugin.version>
+        <dependency-check-maven.version>5.3.2</dependency-check-maven.version>
+        <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.0.0-M4</maven-failsafe-plugin.version>
+        <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         <adeptj-maven-plugin.version>1.0.3.Final</adeptj-maven-plugin.version>
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <!-- Maven Plugin dependencies end -->
 
         <!-- Javax API/RI dependencies start -->
-        <javax.inject.version>1</javax.inject.version>
         <cdi-api.version>2.0.SP1</cdi-api.version>
         <!-- Javax API/RI dependencies end -->
 
         <!-- Jakarta dependencies start -->
         <jakarta.servlet-api.version>4.0.3</jakarta.servlet-api.version>
         <jakarta.ws.rs-api.version>2.1.6</jakarta.ws.rs-api.version>
-        <jakarta.persistence.api.version>2.2.3</jakarta.persistence.api.version>
+        <jakarta.persistence-api.version>2.2.3</jakarta.persistence-api.version>
         <jakarta.websocket-api.version>1.1.2</jakarta.websocket-api.version>
         <jakarta.validation-api.version>2.0.2</jakarta.validation-api.version>
         <jakarta.annotation-api.version>1.3.5</jakarta.annotation-api.version>
         <jakarta.el-api.version>3.0.3</jakarta.el-api.version>
         <jakarta.json-api.version>1.1.6</jakarta.json-api.version>
         <jakarta.json.bind-api.version>1.0.2</jakarta.json.bind-api.version>
-        <jakarta.activation-api.version>1.2.1</jakarta.activation-api.version>
+        <jakarta.activation-api.version>1.2.2</jakarta.activation-api.version>
         <jakarta.interceptor-api.version>1.2.5</jakarta.interceptor-api.version>
-        <jakarta.mail-api.version>1.6.4</jakarta.mail-api.version>
-        <jakarta.inject.version>2.6.0</jakarta.inject.version>
+        <jakarta.mail-api.version>1.6.5</jakarta.mail-api.version>
+        <jakarta.inject-api.version>1.0</jakarta.inject-api.version>
         <jakarta.enterprise.concurrent-api.version>1.1.2</jakarta.enterprise.concurrent-api.version>
         <!-- Jakarta dependencies end -->
 
         <!-- Apache Commons dependencies start -->
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
-        <commons-lang.version>3.9</commons-lang.version>
+        <commons-lang.version>3.10</commons-lang.version>
         <commons-codec.version>1.14</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-logging.version>1.2</commons-logging.version>
@@ -148,7 +145,7 @@
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <failsafe.version>2.3.4</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
-        <mongo.version>3.11.1</mongo.version>
+        <mongo.version>4.0.1</mongo.version>
         <scribejava.version>6.9.0</scribejava.version>
         <snakeyaml.version>1.26</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
@@ -249,9 +246,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
-                        <compilerArgument>-parameters</compilerArgument>
-                        <source>${jdk.version}</source>
-                        <target>${jdk.version}</target>
+                        <release>11</release>
                     </configuration>
                 </plugin>
 
@@ -272,12 +267,22 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.version}</version>
+                    <configuration>
+                        <argLine>
+                            --illegal-access=permit
+                        </argLine>
+                    </configuration>
                 </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <version>${maven-failsafe-plugin.version}</version>
+                    <configuration>
+                        <argLine>
+                            --illegal-access=permit
+                        </argLine>
+                    </configuration>
                 </plugin>
 
                 <plugin>
@@ -293,10 +298,10 @@
                             <configuration>
                                 <rules>
                                     <requireMavenVersion>
-                                        <version>[3.2.5,4.0.0]</version>
+                                        <version>[3.6.0,4.0.0]</version>
                                     </requireMavenVersion>
                                     <requireJavaVersion>
-                                        <version>[1.8,12)</version>
+                                        <version>[11,20)</version>
                                     </requireJavaVersion>
                                 </rules>
                             </configuration>
@@ -733,13 +738,6 @@
                 <scope>provided</scope>
             </dependency>
 
-            <dependency>
-                <groupId>javax.inject</groupId>
-                <artifactId>javax.inject</artifactId>
-                <version>${javax.inject.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
             <!-- Jakarta APIs -->
 
             <dependency>
@@ -759,7 +757,7 @@
             <dependency>
                 <groupId>org.eclipse.persistence</groupId>
                 <artifactId>jakarta.persistence</artifactId>
-                <version>${jakarta.persistence.api.version}</version>
+                <version>${jakarta.persistence-api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -827,6 +825,13 @@
                 <groupId>jakarta.mail</groupId>
                 <artifactId>jakarta.mail-api</artifactId>
                 <version>${jakarta.mail-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.inject</groupId>
+                <artifactId>jakarta.inject-api</artifactId>
+                <version>${jakarta.inject-api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
