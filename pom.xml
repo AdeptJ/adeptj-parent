@@ -127,11 +127,6 @@
         <caffeine.version>2.8.1</caffeine.version>
         <!-- Caching dependencies end -->
 
-        <!-- Apache HttpClient dependencies start -->
-        <httpcore-osgi.version>4.4.13</httpcore-osgi.version>
-        <httpclient-osgi.version>4.5.12</httpclient-osgi.version>
-        <!-- Apache HttpClient dependencies end -->
-
         <!-- Reactive Streams dependencies start -->
         <reactive-streams.version>1.0.3</reactive-streams.version>
         <!-- Reactive Streams dependencies end -->
@@ -451,54 +446,6 @@
                     <exclusion>
                         <groupId>com.sun.mail</groupId>
                         <artifactId>javax.mail</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpcore-osgi</artifactId>
-                <version>${httpcore-osgi.version}</version>
-                <scope>provided</scope>
-                <!-- Excluding embedded artifacts -->
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>httpcore</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>httpcore-nio</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.httpcomponents</groupId>
-                <artifactId>httpclient-osgi</artifactId>
-                <version>${httpclient-osgi.version}</version>
-                <scope>provided</scope>
-                <!-- Excluding embedded artifacts -->
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-codec</groupId>
-                        <artifactId>commons-codec</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>httpclient</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>httpmime</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>httpclient-cache</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.apache.httpcomponents</groupId>
-                        <artifactId>fluent-hc</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
