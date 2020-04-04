@@ -135,6 +135,8 @@
         <org.json.version>20190722</org.json.version>
         <jjwt.version>0.11.1</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
+        <error_prone_annotations.version>2.3.4</error_prone_annotations.version>
+        <checker-qual.version>3.3.0</checker-qual.version>
         <failsafe.version>2.3.4</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
         <mongo.version>4.0.1</mongo.version>
@@ -454,6 +456,27 @@
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>jsr305</artifactId>
                 <version>${findbugs-jsr305.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.errorprone</groupId>
+                <artifactId>error_prone_annotations</artifactId>
+                <version>${error_prone_annotations.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.checkerframework</groupId>
+                <artifactId>checker-qual</artifactId>
+                <version>${checker-qual.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
                 <scope>provided</scope>
             </dependency>
 
