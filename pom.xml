@@ -145,6 +145,7 @@
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
         <hibernate-validator.version>6.1.2.Final</hibernate-validator.version>
+        <microprofile-config-api.version>1.4</microprofile-config-api.version>
 
         <!-- Misc dependencies end -->
 
@@ -157,7 +158,7 @@
         <felix.scr.version>2.1.16</felix.scr.version>
         <felix.configadmin.version>1.9.16</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
-        <felix.webconsole.version>4.3.16</felix.webconsole.version>
+        <felix.webconsole.version>4.4.0</felix.webconsole.version>
         <felix.configurator.version>1.0.10</felix.configurator.version>
         <felix.converter.version>1.0.12</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
@@ -863,6 +864,24 @@
                 <version>${expiringmap.version}</version>
                 <scope>provided</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.microprofile.config</groupId>
+                <artifactId>microprofile-config-api</artifactId>
+                <version>${microprofile-config-api.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.osgi</groupId>
+                        <artifactId>org.osgi.annotation.versioning</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.enterprise</groupId>
+                        <artifactId>cdi-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
 
             <!-- Test dependencies start -->
 
