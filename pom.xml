@@ -105,6 +105,7 @@
         <jackson-datatype-jsr310.version>2.10.3</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.10.3</jackson-datatype-jaxrs.version>
         <stax2-api.version>4.2</stax2-api.version>
+        <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Jackson dependencies end -->
 
         <!-- JAX-RS/RestEasy dependencies start -->
@@ -638,6 +639,13 @@
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
                 <version>${stax2-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.uuid</groupId>
+                <artifactId>java-uuid-generator</artifactId>
+                <version>${java-uuid-generator.version}</version>
                 <scope>provided</scope>
             </dependency>
 
