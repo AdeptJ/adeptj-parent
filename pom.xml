@@ -58,6 +58,7 @@
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         <adeptj-maven-plugin.version>1.1.2.Final</adeptj-maven-plugin.version>
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
+        <spotbugs-maven-plugin.version>4.0.0</spotbugs-maven-plugin.version>
         <!-- Maven Plugin dependencies end -->
 
         <!-- Jakarta dependencies start -->
@@ -121,7 +122,7 @@
         <!-- JDBC Driver dependencies start -->
         <mysql-connector-java.version>8.0.19</mysql-connector-java.version>
         <protobuf-java.version>3.11.4</protobuf-java.version>
-        <postgresql.version>42.2.11</postgresql.version>
+        <postgresql.version>42.2.12</postgresql.version>
         <!-- JDBC Driver dependencies end -->
 
         <!-- Caching dependencies start -->
@@ -145,8 +146,9 @@
         <snakeyaml.version>1.26</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <jcip-annotations.version>1.0</jcip-annotations.version>
-        <hibernate-validator.version>6.1.2.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
+        <spotbugs.version>4.0.2</spotbugs.version>
 
         <!-- Misc dependencies end -->
 
@@ -329,6 +331,19 @@
                     <configuration>
                         <generateBackupPoms>false</generateBackupPoms>
                     </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <version>${spotbugs-maven-plugin.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.github.spotbugs</groupId>
+                            <artifactId>spotbugs</artifactId>
+                            <version>${spotbugs.version}</version>
+                        </dependency>
+                    </dependencies>
                 </plugin>
 
             </plugins>
