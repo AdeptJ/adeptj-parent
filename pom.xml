@@ -95,17 +95,12 @@
         <jackson-annotations.version>2.10.3</jackson-annotations.version>
         <jackson-jaxrs-base.version>2.10.3</jackson-jaxrs-base.version>
         <jackson-jaxrs-json-provider.version>2.10.3</jackson-jaxrs-json-provider.version>
-        <jackson-jaxrs-xml-provider.version>2.10.3</jackson-jaxrs-xml-provider.version>
-        <jackson-dataformat-xml.version>2.10.3</jackson-dataformat-xml.version>
-        <jackson-dataformat-cbor.version>2.10.3</jackson-dataformat-cbor.version>
-        <jackson-dataformat-yaml.version>2.10.3</jackson-dataformat-yaml.version>
         <jackson-module-jaxb-annotations.version>2.10.3</jackson-module-jaxb-annotations.version>
         <jackson-module-parameter-names.version>2.10.3</jackson-module-parameter-names.version>
         <jackson-datatype-jsr353.version>2.10.3</jackson-datatype-jsr353.version>
         <jackson-datatype-jdk8.version>2.10.3</jackson-datatype-jdk8.version>
         <jackson-datatype-jsr310.version>2.10.3</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.10.3</jackson-datatype-jaxrs.version>
-        <stax2-api.version>4.2</stax2-api.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Jackson dependencies end -->
 
@@ -144,7 +139,6 @@
         <scribejava.version>6.9.0</scribejava.version>
         <snakeyaml.version>1.26</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
-        <jcip-annotations.version>1.0</jcip-annotations.version>
         <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
         <spotbugs.version>4.0.2</spotbugs.version>
