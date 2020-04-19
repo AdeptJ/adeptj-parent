@@ -134,7 +134,6 @@
         <!-- Reactive Streams dependencies end -->
 
         <!-- Misc dependencies start -->
-        <org.json.version>20190722</org.json.version>
         <jjwt.version>0.11.1</jjwt.version>
         <findbugs-jsr305.version>3.0.2</findbugs-jsr305.version>
         <error_prone_annotations.version>2.3.4</error_prone_annotations.version>
@@ -730,13 +729,6 @@
                 <artifactId>jjwt-api</artifactId>
                 <scope>provided</scope>
                 <version>${jjwt.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.json</groupId>
-                <artifactId>json</artifactId>
-                <version>${org.json.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <!-- Jakarta APIs -->
