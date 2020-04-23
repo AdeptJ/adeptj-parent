@@ -118,6 +118,7 @@
         <mysql-connector-java.version>8.0.19</mysql-connector-java.version>
         <protobuf-java.version>3.11.4</protobuf-java.version>
         <postgresql.version>42.2.12</postgresql.version>
+        <mariadb-java-client.version>2.6.0</mariadb-java-client.version>
         <!-- JDBC Driver dependencies end -->
 
         <!-- Caching dependencies start -->
@@ -135,7 +136,7 @@
         <checker-qual.version>3.3.0</checker-qual.version>
         <failsafe.version>2.3.4</failsafe.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
-        <mongo.version>4.0.1</mongo.version>
+        <mongo.version>4.0.2</mongo.version>
         <scribejava.version>6.9.0</scribejava.version>
         <snakeyaml.version>1.26</snakeyaml.version>
         <expiringmap.version>0.5.9</expiringmap.version>
@@ -829,6 +830,13 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${postgresql.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mariadb.jdbc</groupId>
+                <artifactId>mariadb-java-client</artifactId>
+                <version>${mariadb-java-client.version}</version>
                 <scope>provided</scope>
             </dependency>
 
