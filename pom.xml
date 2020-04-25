@@ -144,6 +144,7 @@
         <hibernate-validator.version>6.1.4.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
         <spotbugs.version>4.0.2</spotbugs.version>
+        <jetbrains.annotations.version>19.0.0</jetbrains.annotations.version>
 
         <!-- Misc dependencies end -->
 
@@ -871,6 +872,13 @@
                         <artifactId>cdi-api</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetbrains</groupId>
+                <artifactId>annotations</artifactId>
+                <version>${jetbrains.annotations.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <!-- Test dependencies start -->
