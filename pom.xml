@@ -145,6 +145,8 @@
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
         <spotbugs.version>4.0.2</spotbugs.version>
         <jetbrains.annotations.version>19.0.0</jetbrains.annotations.version>
+        <favre.bytes.version>1.3.0</favre.bytes.version>
+        <bcrypt.version>0.9.0</bcrypt.version>
 
         <!-- Misc dependencies end -->
 
@@ -878,6 +880,20 @@
                 <groupId>org.jetbrains</groupId>
                 <artifactId>annotations</artifactId>
                 <version>${jetbrains.annotations.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>at.favre.lib</groupId>
+                <artifactId>bytes</artifactId>
+                <version>${favre.bytes.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>at.favre.lib</groupId>
+                <artifactId>bcrypt</artifactId>
+                <version>${bcrypt.version}</version>
                 <scope>provided</scope>
             </dependency>
 
