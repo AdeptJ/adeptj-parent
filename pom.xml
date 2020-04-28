@@ -59,6 +59,7 @@
         <adeptj-maven-plugin.version>1.1.2.Final</adeptj-maven-plugin.version>
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.0.0</spotbugs-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.2.0.Final</adeptj-maven-plugin.version>
         <!-- Maven Plugin dependencies end -->
 
         <!-- Jakarta dependencies start -->
@@ -218,7 +219,7 @@
             <timezone>+5:30</timezone>
             <properties>
                 <picUrl>
-                    https://pbs.twimg.com/profile_images/1040111465582276608/DorLUu-__200x200.jpg
+                    https://secure.gravatar.com/avatar/be26830472769171a96543880c651dcd
                 </picUrl>
             </properties>
         </developer>
