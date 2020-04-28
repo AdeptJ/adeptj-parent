@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>9</version>
+    <version>10</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The Parent project for AdeptJ Runtime and Modules</description>
@@ -111,7 +111,7 @@
 
         <!-- EclipseLink and JDBC datasource dependencies start -->
         <eclipselink.version>2.7.6</eclipselink.version>
-        <hikaricp.version>3.4.2</hikaricp.version>
+        <hikaricp.version>3.4.3</hikaricp.version>
         <sql2o.version>1.6.0</sql2o.version>
         <!-- EclipseLink and JDBC datasource dependencies end -->
 
