@@ -37,8 +37,7 @@
         <skipTests>true</skipTests>
 
         <!-- Logging dependencies start -->
-        <slf4j-api.version>1.7.30</slf4j-api.version>
-        <slf4j-simple.version>1.7.30</slf4j-simple.version>
+        <slf4j.version>1.7.30</slf4j.version>
         <logback-core.version>1.2.3</logback-core.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <!-- Logging dependencies end -->
@@ -406,7 +405,7 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>${slf4j-api.version}</version>
+                <version>${slf4j.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -915,7 +914,7 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-simple</artifactId>
-                <version>${slf4j-simple.version}</version>
+                <version>${slf4j.version}</version>
                 <scope>test</scope>
             </dependency>
 
