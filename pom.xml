@@ -105,7 +105,7 @@
         <!-- JAX-RS/RestEasy dependencies end -->
 
         <!-- EclipseLink and JDBC datasource dependencies start -->
-        <eclipselink.version>2.7.6</eclipselink.version>
+        <eclipselink.version>2.7.7</eclipselink.version>
         <hikaricp.version>3.4.3</hikaricp.version>
         <sql2o.version>1.6.0</sql2o.version>
         <!-- EclipseLink and JDBC datasource dependencies end -->
