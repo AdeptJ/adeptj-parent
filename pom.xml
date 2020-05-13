@@ -179,19 +179,18 @@
         <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
         <!-- Apache Felix and OSGi dependencies end -->
 
-        <adeptj-modules-webconsole-branding.version>1.0.0.Final</adeptj-modules-webconsole-branding.version>
-        <adeptj-modules-webconsole-security.version>1.0.4.Final</adeptj-modules-webconsole-security.version>
         <adeptj-modules-commons-utils.version>1.1.0.Final</adeptj-modules-commons-utils.version>
         <adeptj-modules-commons-logging.version>1.0.3.Final</adeptj-modules-commons-logging.version>
         <adeptj-modules-commons-crypto.version>1.0.0.Final</adeptj-modules-commons-crypto.version>
+        <adeptj-modules-commons-jdbc.version>1.0.0.Final</adeptj-modules-commons-jdbc.version>
+        <adeptj-modules-commons-cache.version>1.0.0.Final</adeptj-modules-commons-cache.version>
+        <adeptj-modules-commons-validator.version>1.0.3.Final</adeptj-modules-commons-validator.version>
         <adeptj-modules-jaxrs-core.version>2.0.0.Final</adeptj-modules-jaxrs-core.version>
         <adeptj-modules-jaxrs-resteasy.version>2.0.0.Final</adeptj-modules-jaxrs-resteasy.version>
         <adeptj-modules-data-jpa.version>1.1.0.Final</adeptj-modules-data-jpa.version>
-        <adeptj-modules-commons-jdbc.version>1.0.0.Final</adeptj-modules-commons-jdbc.version>
-        <adeptj-modules-cache-caffeine.version>1.0.0.Final</adeptj-modules-cache-caffeine.version>
-        <adeptj-modules-commons-validator.version>1.0.3.Final</adeptj-modules-commons-validator.version>
         <adeptj-modules-websecurity-jwt.version>1.1.0.Final</adeptj-modules-websecurity-jwt.version>
-        <adeptj-runtime-extensions.version>1.0.0.Final</adeptj-runtime-extensions.version>
+        <adeptj-modules-webconsole-branding.version>1.0.0.Final</adeptj-modules-webconsole-branding.version>
+        <adeptj-modules-webconsole-security.version>1.0.4.Final</adeptj-modules-webconsole-security.version>
 
         <!-- Testing libraries dependencies start -->
         <junit-jupiter.version>5.6.2</junit-jupiter.version>
