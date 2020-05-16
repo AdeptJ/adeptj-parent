@@ -56,7 +56,7 @@
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.0.0</spotbugs-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.3.0.Final</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.4.0</adeptj-maven-plugin.version>
         <!-- Maven Plugin dependencies end -->
 
         <!-- Jakarta dependencies start -->
@@ -179,18 +179,18 @@
         <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
         <!-- Apache Felix and OSGi dependencies end -->
 
-        <adeptj-modules-commons-utils.version>1.1.0.Final</adeptj-modules-commons-utils.version>
-        <adeptj-modules-commons-logging.version>1.0.3.Final</adeptj-modules-commons-logging.version>
-        <adeptj-modules-commons-crypto.version>1.0.0.Final</adeptj-modules-commons-crypto.version>
-        <adeptj-modules-commons-jdbc.version>1.0.0.Final</adeptj-modules-commons-jdbc.version>
-        <adeptj-modules-commons-cache.version>1.0.0.Final</adeptj-modules-commons-cache.version>
-        <adeptj-modules-commons-validator.version>1.0.3.Final</adeptj-modules-commons-validator.version>
-        <adeptj-modules-jaxrs-core.version>2.0.0.Final</adeptj-modules-jaxrs-core.version>
-        <adeptj-modules-jaxrs-resteasy.version>2.0.0.Final</adeptj-modules-jaxrs-resteasy.version>
-        <adeptj-modules-data-jpa.version>1.1.0.Final</adeptj-modules-data-jpa.version>
-        <adeptj-modules-websecurity-jwt.version>1.1.0.Final</adeptj-modules-websecurity-jwt.version>
-        <adeptj-modules-webconsole-branding.version>1.0.0.Final</adeptj-modules-webconsole-branding.version>
-        <adeptj-modules-webconsole-security.version>1.0.4.Final</adeptj-modules-webconsole-security.version>
+        <adeptj-modules-commons-utils.version>1.1.0</adeptj-modules-commons-utils.version>
+        <adeptj-modules-commons-logging.version>1.0.3</adeptj-modules-commons-logging.version>
+        <adeptj-modules-commons-crypto.version>1.0.0</adeptj-modules-commons-crypto.version>
+        <adeptj-modules-commons-jdbc.version>1.0.0</adeptj-modules-commons-jdbc.version>
+        <adeptj-modules-commons-cache.version>1.0.0</adeptj-modules-commons-cache.version>
+        <adeptj-modules-commons-validator.version>1.0.3</adeptj-modules-commons-validator.version>
+        <adeptj-modules-jaxrs-core.version>2.0.0</adeptj-modules-jaxrs-core.version>
+        <adeptj-modules-jaxrs-resteasy.version>2.0.0</adeptj-modules-jaxrs-resteasy.version>
+        <adeptj-modules-data-jpa.version>1.1.0</adeptj-modules-data-jpa.version>
+        <adeptj-modules-websecurity-jwt.version>1.1.0</adeptj-modules-websecurity-jwt.version>
+        <adeptj-modules-webconsole-branding.version>1.0.0</adeptj-modules-webconsole-branding.version>
+        <adeptj-modules-webconsole-security.version>1.0.4</adeptj-modules-webconsole-security.version>
 
         <!-- Testing libraries dependencies start -->
         <junit-jupiter.version>5.6.2</junit-jupiter.version>
