@@ -33,8 +33,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <mvn.skipITs>true</mvn.skipITs>
-        <skipTests>true</skipTests>
 
         <!-- Maven Plugin Dependencies Start -->
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
@@ -134,7 +132,7 @@
         <mongojack.version>4.0.0</mongojack.version>
         <scribejava.version>6.9.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
-        <hibernate-validator.version>6.1.4.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
         <spotbugs.version>4.0.3</spotbugs.version>
         <jetbrains.annotations.version>19.0.0</jetbrains.annotations.version>
@@ -190,6 +188,7 @@
         <adeptj-modules-jaxrs-core.version>2.0.0</adeptj-modules-jaxrs-core.version>
         <adeptj-modules-jaxrs-resteasy.version>2.0.0</adeptj-modules-jaxrs-resteasy.version>
         <adeptj-modules-data-jpa.version>1.1.0</adeptj-modules-data-jpa.version>
+        <adeptj-modules-data-mongodb.version>1.0.0</adeptj-modules-data-mongodb.version>
         <adeptj-modules-websecurity-jwt.version>1.1.0</adeptj-modules-websecurity-jwt.version>
         <adeptj-modules-webconsole-branding.version>1.0.0</adeptj-modules-webconsole-branding.version>
         <adeptj-modules-webconsole-security.version>1.0.4</adeptj-modules-webconsole-security.version>
@@ -272,12 +271,6 @@
                     <configuration>
                         <release>11</release>
                     </configuration>
-                </plugin>
-
-                <plugin>
-                    <groupId>biz.aQute.bnd</groupId>
-                    <artifactId>bnd-maven-plugin</artifactId>
-                    <version>${bnd-maven-plugin.version}</version>
                 </plugin>
 
                 <plugin>
@@ -897,10 +890,6 @@
                     <exclusion>
                         <groupId>com.fasterxml</groupId>
                         <artifactId>classmate</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>javax.validation</groupId>
-                        <artifactId>validation-api</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>org.jboss.logging</groupId>
