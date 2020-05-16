@@ -36,12 +36,7 @@
         <mvn.skipITs>true</mvn.skipITs>
         <skipTests>true</skipTests>
 
-        <!-- Logging dependencies start -->
-        <slf4j.version>1.7.30</slf4j.version>
-        <logback.version>1.2.3</logback.version>
-        <!-- Logging dependencies end -->
-
-        <!-- Maven Plugin dependencies start -->
+        <!-- Maven Plugin Dependencies Start -->
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
@@ -57,9 +52,14 @@
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.0.0</spotbugs-maven-plugin.version>
         <adeptj-maven-plugin.version>1.4.0</adeptj-maven-plugin.version>
-        <!-- Maven Plugin dependencies end -->
+        <!-- Maven Plugin Dependencies End -->
 
-        <!-- Jakarta dependencies start -->
+        <!-- Logging Dependencies Start -->
+        <slf4j.version>1.7.30</slf4j.version>
+        <logback.version>1.2.3</logback.version>
+        <!-- Logging Dependencies End -->
+
+        <!-- Jakarta Dependencies Start -->
         <jakarta.servlet-api.version>4.0.3</jakarta.servlet-api.version>
         <jakarta.ws.rs-api.version>2.1.6</jakarta.ws.rs-api.version>
         <jakarta.persistence-api.version>2.2.3</jakarta.persistence-api.version>
@@ -75,17 +75,17 @@
         <jakarta.inject-api.version>1.0.1</jakarta.inject-api.version>
         <jakarta.enterprise.concurrent-api.version>1.1.2</jakarta.enterprise.concurrent-api.version>
         <jakarta.enterprise.cdi-api.version>2.0.2</jakarta.enterprise.cdi-api.version>
-        <!-- Jakarta dependencies end -->
+        <!-- Jakarta Dependencies End -->
 
-        <!-- Apache Commons dependencies start -->
+        <!-- Apache Commons Dependencies Start -->
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-lang.version>3.10</commons-lang.version>
         <commons-codec.version>1.14</commons-codec.version>
         <commons-email.version>1.5</commons-email.version>
-        <!-- Apache Commons dependencies end -->
+        <!-- Apache Commons Dependencies End -->
 
-        <!-- Jackson dependencies start -->
+        <!-- Jackson Dependencies Start -->
         <jackson-core.version>2.11.0</jackson-core.version>
         <jackson-databind.version>2.11.0</jackson-databind.version>
         <jackson-annotations.version>2.11.0</jackson-annotations.version>
@@ -98,34 +98,34 @@
         <jackson-datatype-jsr310.version>2.11.0</jackson-datatype-jsr310.version>
         <jackson-datatype-jaxrs.version>2.11.0</jackson-datatype-jaxrs.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
-        <!-- Jackson dependencies end -->
+        <!-- Jackson Dependencies End -->
 
-        <!-- JAX-RS/RestEasy dependencies start -->
+        <!-- JAX-RS/RestEasy Dependencies Start -->
         <resteasy.version>4.5.3.Final</resteasy.version>
-        <!-- JAX-RS/RestEasy dependencies end -->
+        <!-- JAX-RS/RestEasy Dependencies End -->
 
-        <!-- EclipseLink and JDBC datasource dependencies start -->
+        <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.7</eclipselink.version>
         <hikaricp.version>3.4.3</hikaricp.version>
         <sql2o.version>1.6.0</sql2o.version>
-        <!-- EclipseLink and JDBC datasource dependencies end -->
+        <!-- EclipseLink and JDBC datasource Dependencies End -->
 
-        <!-- JDBC Driver dependencies start -->
+        <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
         <protobuf-java.version>3.12.0</protobuf-java.version>
         <postgresql.version>42.2.12</postgresql.version>
         <mariadb-java-client.version>2.6.0</mariadb-java-client.version>
-        <!-- JDBC Driver dependencies end -->
+        <!-- JDBC Driver Dependencies End -->
 
-        <!-- Caching dependencies start -->
+        <!-- Caching Dependencies Start -->
         <caffeine.version>2.8.2</caffeine.version>
-        <!-- Caching dependencies end -->
+        <!-- Caching Dependencies End -->
 
-        <!-- Reactive Streams dependencies start -->
+        <!-- Reactive Streams Dependencies Start -->
         <reactive-streams.version>1.0.3</reactive-streams.version>
-        <!-- Reactive Streams dependencies end -->
+        <!-- Reactive Streams Dependencies End -->
 
-        <!-- Misc dependencies start -->
+        <!-- Misc Dependencies Start -->
         <jjwt.version>0.11.1</jjwt.version>
         <failsafe.version>2.3.5</failsafe.version>
         <expiringmap.version>0.5.9</expiringmap.version>
@@ -140,10 +140,9 @@
         <jetbrains.annotations.version>19.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.3.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
+        <!-- Misc Dependencies End -->
 
-        <!-- Misc dependencies end -->
-
-        <!-- Apache Felix and OSGi dependencies start -->
+        <!-- OSGi Dependencies Start -->
         <osgi.framework.version>1.9.0</osgi.framework.version>
         <org.osgi.core.version>7.0.0</org.osgi.core.version>
         <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
@@ -166,7 +165,9 @@
         <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
         <osgi.promise.version>7.0.1</osgi.promise.version>
         <osgi.service.packageadmin.version>1.2.0</osgi.service.packageadmin.version>
+        <!-- OSGi Dependencies End -->
 
+        <!-- Apache Felix Dependencies Start -->
         <felix.scr.version>2.1.20</felix.scr.version>
         <felix.configadmin.version>1.9.16</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
@@ -177,8 +178,9 @@
         <felix.jaas.version>1.0.2</felix.jaas.version>
         <felix.healthcheck.api.version>2.0.2</felix.healthcheck.api.version>
         <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
-        <!-- Apache Felix and OSGi dependencies end -->
+        <!-- Apache Felix Dependencies End -->
 
+        <!-- AdeptJ Modules Dependencies Start -->
         <adeptj-modules-commons-utils.version>1.1.0</adeptj-modules-commons-utils.version>
         <adeptj-modules-commons-logging.version>1.0.3</adeptj-modules-commons-logging.version>
         <adeptj-modules-commons-crypto.version>1.0.0</adeptj-modules-commons-crypto.version>
@@ -191,11 +193,12 @@
         <adeptj-modules-websecurity-jwt.version>1.1.0</adeptj-modules-websecurity-jwt.version>
         <adeptj-modules-webconsole-branding.version>1.0.0</adeptj-modules-webconsole-branding.version>
         <adeptj-modules-webconsole-security.version>1.0.4</adeptj-modules-webconsole-security.version>
+        <!-- AdeptJ Modules Dependencies End -->
 
-        <!-- Testing libraries dependencies start -->
+        <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.6.2</junit-jupiter.version>
         <mockito.version>3.3.3</mockito.version>
-        <!-- Testing libraries dependencies end -->
+        <!-- Testing libraries Dependencies End -->
 
     </properties>
 
@@ -277,7 +280,6 @@
                     <version>${bnd-maven-plugin.version}</version>
                 </plugin>
 
-                <!-- Maven Jar plugin is required to process MANIFEST.MF created by bnd-maven-plugin -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
@@ -378,6 +380,8 @@
     <dependencyManagement>
 
         <dependencies>
+
+            <!-- OSGi Dependencies Start -->
 
             <dependency>
                 <groupId>org.osgi</groupId>
@@ -519,6 +523,56 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!-- OSGi Dependencies End -->
+
+            <!-- Apache Felix Dependencies Start -->
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.jaas</artifactId>
+                <version>${felix.jaas.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.converter</artifactId>
+                <version>${felix.converter.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.cm.json</artifactId>
+                <version>${felix.cm.json.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.configurator</artifactId>
+                <version>${felix.configurator.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.healthcheck.api</artifactId>
+                <version>${felix.healthcheck.api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.healthcheck.annotation</artifactId>
+                <version>${felix.healthcheck.annotation.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Apache Felix Dependencies End -->
+
+            <!-- Logback/SLF4J Dependencies Start -->
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
@@ -540,14 +594,9 @@
                 <scope>provided</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.typesafe</groupId>
-                <artifactId>config</artifactId>
-                <version>${typesafe.config.version}</version>
-                <scope>provided</scope>
-            </dependency>
+            <!-- Logback/SLF4J Dependencies End -->
 
-            <!-- Apache Commons -->
+            <!-- Apache Commons Dependencies Start -->
 
             <dependency>
                 <groupId>commons-codec</groupId>
@@ -590,45 +639,7 @@
                 </exclusions>
             </dependency>
 
-            <dependency>
-                <groupId>com.github.ben-manes.caffeine</groupId>
-                <artifactId>caffeine</artifactId>
-                <version>${caffeine.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.google.errorprone</groupId>
-                        <artifactId>error_prone_annotations</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.checkerframework</groupId>
-                        <artifactId>checker-qual</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>net.jodah</groupId>
-                <artifactId>failsafe</artifactId>
-                <version>${failsafe.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.sql2o</groupId>
-                <artifactId>sql2o</artifactId>
-                <version>${sql2o.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <!-- Reactive Streams -->
-
-            <dependency>
-                <groupId>org.reactivestreams</groupId>
-                <artifactId>reactive-streams</artifactId>
-                <version>${reactive-streams.version}</version>
-                <scope>provided</scope>
-            </dependency>
+            <!-- Apache Commons Dependencies End -->
 
             <!-- Jackson Dependencies Start -->
 
@@ -724,80 +735,7 @@
 
             <!-- Jackson Dependencies End -->
 
-            <!-- OSGi Bundles Starts -->
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.jaas</artifactId>
-                <version>${felix.jaas.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.converter</artifactId>
-                <version>${felix.converter.version}</version>
-                <scope>provided</scope>
-            </dependency>
-            
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.cm.json</artifactId>
-                <version>${felix.cm.json.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.configurator</artifactId>
-                <version>${felix.configurator.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.api</artifactId>
-                <version>${felix.healthcheck.api.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.annotation</artifactId>
-                <version>${felix.healthcheck.annotation.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.hibernate.validator</groupId>
-                <artifactId>hibernate-validator</artifactId>
-                <version>${hibernate-validator.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.fasterxml</groupId>
-                        <artifactId>classmate</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>javax.validation</groupId>
-                        <artifactId>validation-api</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.logging</groupId>
-                        <artifactId>jboss-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <!-- JJWT Dependencies -->
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-api</artifactId>
-                <scope>provided</scope>
-                <version>${jjwt.version}</version>
-            </dependency>
-
-            <!-- Jakarta APIs -->
+            <!-- Jakarta APIs Dependencies Start -->
 
             <dependency>
                 <groupId>jakarta.servlet</groupId>
@@ -908,7 +846,9 @@
                 <scope>provided</scope>
             </dependency>
 
-            <!-- JDBC Drivers -->
+            <!-- Jakarta APIs Dependencies End -->
+
+            <!-- JDBC Drivers Dependencies Start -->
 
             <dependency>
                 <groupId>mysql</groupId>
@@ -944,7 +884,82 @@
                 <scope>provided</scope>
             </dependency>
 
-            <!-- Misc dependencies start -->
+            <!-- JDBC Drivers Dependencies End -->
+
+            <!-- Misc Dependencies Start -->
+
+            <dependency>
+                <groupId>org.hibernate.validator</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate-validator.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml</groupId>
+                        <artifactId>classmate</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.validation</groupId>
+                        <artifactId>validation-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.jboss.logging</groupId>
+                        <artifactId>jboss-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <scope>provided</scope>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.typesafe</groupId>
+                <artifactId>config</artifactId>
+                <version>${typesafe.config.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.errorprone</groupId>
+                        <artifactId>error_prone_annotations</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.checkerframework</groupId>
+                        <artifactId>checker-qual</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.sql2o</groupId>
+                <artifactId>sql2o</artifactId>
+                <version>${sql2o.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.reactivestreams</groupId>
+                <artifactId>reactive-streams</artifactId>
+                <version>${reactive-streams.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>net.jodah</groupId>
+                <artifactId>failsafe</artifactId>
+                <version>${failsafe.version}</version>
+                <scope>provided</scope>
+            </dependency>
 
             <dependency>
                 <groupId>net.jodah</groupId>
@@ -998,8 +1013,6 @@
                 <scope>provided</scope>
             </dependency>
 
-            <!-- MongoDB/MongoJack dependencies start -->
-
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>bson</artifactId>
@@ -1042,9 +1055,9 @@
                 </exclusions>
             </dependency>
 
-            <!-- MongoDB/MongoJack dependencies end -->
+            <!-- Misc Dependencies End -->
 
-            <!-- Test dependencies start -->
+            <!-- Test Dependencies Start -->
 
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
@@ -1074,7 +1087,7 @@
                 <scope>test</scope>
             </dependency>
 
-            <!-- Test dependencies end -->
+            <!-- Test Dependencies End -->
 
         </dependencies>
 
