@@ -162,6 +162,8 @@
         <osgi.util.converter.version>1.0.1</osgi.util.converter.version>
         <osgi.util.pushstream.version>1.0.1</osgi.util.pushstream.version>
         <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
+        <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
+        <osgi.util.function.version>1.1.0</osgi.util.function.version>
         <osgi.promise.version>7.0.1</osgi.promise.version>
         <osgi.service.packageadmin.version>1.2.0</osgi.service.packageadmin.version>
         <!-- OSGi Dependencies End -->
@@ -386,27 +388,6 @@
 
             <dependency>
                 <groupId>org.osgi</groupId>
-                <artifactId>osgi.core</artifactId>
-                <version>${org.osgi.core.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>osgi.cmpn</artifactId>
-                <version>${org.osgi.comp.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>osgi.annotation</artifactId>
-                <version>${osgi.annotation.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.service.component.annotations</artifactId>
                 <version>${osgi.service.component.annotations.version}</version>
                 <scope>provided</scope>
@@ -512,15 +493,15 @@
 
             <dependency>
                 <groupId>org.osgi</groupId>
-                <artifactId>osgi.promise</artifactId>
-                <version>${osgi.promise.version}</version>
+                <artifactId>org.osgi.util.function</artifactId>
+                <version>${osgi.util.function.version}</version>
                 <scope>provided</scope>
             </dependency>
 
             <dependency>
                 <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.packageadmin</artifactId>
-                <version>${osgi.service.packageadmin.version}</version>
+                <artifactId>org.osgi.util.promise</artifactId>
+                <version>${osgi.util.promise.version}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -568,6 +549,23 @@
                 <artifactId>org.apache.felix.healthcheck.annotation</artifactId>
                 <version>${felix.healthcheck.annotation.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>org.apache.felix.webconsole</artifactId>
+                <version>${felix.webconsole.version}</version>
+                <scope>provided</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.osgi</groupId>
+                        <artifactId>org.osgi.core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.osgi</groupId>
+                        <artifactId>org.osgi.compendium</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <!-- Apache Felix Dependencies End -->
