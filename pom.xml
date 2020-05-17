@@ -142,9 +142,6 @@
 
         <!-- OSGi Dependencies Start -->
         <osgi.framework.version>1.9.0</osgi.framework.version>
-        <org.osgi.core.version>7.0.0</org.osgi.core.version>
-        <org.osgi.comp.version>7.0.0</org.osgi.comp.version>
-        <osgi.annotation.version>7.0.0</osgi.annotation.version>
         <org.osgi.util.function.version>1.1.0</org.osgi.util.function.version>
         <org.osgi.util.promise.version>1.1.1</org.osgi.util.promise.version>
         <osgi.service.component.annotations.version>1.4.0</osgi.service.component.annotations.version>
@@ -165,7 +162,6 @@
         <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
         <osgi.util.function.version>1.1.0</osgi.util.function.version>
         <osgi.promise.version>7.0.1</osgi.promise.version>
-        <osgi.service.packageadmin.version>1.2.0</osgi.service.packageadmin.version>
         <!-- OSGi Dependencies End -->
 
         <!-- Apache Felix Dependencies Start -->
