@@ -104,7 +104,7 @@
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.7</eclipselink.version>
-        <hikaricp.version>3.4.3</hikaricp.version>
+        <hikaricp.version>3.4.5</hikaricp.version>
         <sql2o.version>1.6.0</sql2o.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
