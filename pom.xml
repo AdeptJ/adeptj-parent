@@ -227,9 +227,7 @@
             </roles>
             <timezone>+5:30</timezone>
             <properties>
-                <picUrl>
-                    https://secure.gravatar.com/avatar/be26830472769171a96543880c651dcd
-                </picUrl>
+                <picUrl>https://secure.gravatar.com/avatar/be26830472769171a96543880c651dcd</picUrl>
             </properties>
         </developer>
     </developers>
