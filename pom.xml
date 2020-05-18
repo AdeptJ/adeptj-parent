@@ -161,7 +161,6 @@
         <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
         <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
         <osgi.util.function.version>1.1.0</osgi.util.function.version>
-        <osgi.promise.version>7.0.1</osgi.promise.version>
         <!-- OSGi Dependencies End -->
 
         <!-- Apache Felix Dependencies Start -->
