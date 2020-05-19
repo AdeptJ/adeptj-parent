@@ -81,6 +81,7 @@
         <commons-lang.version>3.10</commons-lang.version>
         <commons-codec.version>1.14</commons-codec.version>
         <commons-email.version>1.5</commons-email.version>
+        <commons-dbutils.version>1.7</commons-dbutils.version>
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
@@ -635,6 +636,13 @@
                         <artifactId>javax.mail</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-dbutils</groupId>
+                <artifactId>commons-dbutils</artifactId>
+                <version>${commons-dbutils.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <!-- Apache Commons Dependencies End -->
