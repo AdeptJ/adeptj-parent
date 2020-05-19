@@ -116,7 +116,7 @@
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
-        <caffeine.version>2.8.2</caffeine.version>
+        <caffeine.version>2.8.3</caffeine.version>
         <!-- Caching Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
@@ -125,7 +125,7 @@
 
         <!-- Misc Dependencies Start -->
         <jjwt.version>0.11.1</jjwt.version>
-        <failsafe.version>2.3.5</failsafe.version>
+        <failsafe.version>2.4.0</failsafe.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
         <mongo.version>4.0.2</mongo.version>
