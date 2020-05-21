@@ -106,7 +106,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.7</eclipselink.version>
         <hikaricp.version>3.4.5</hikaricp.version>
-        <sql2o.version>1.6.0</sql2o.version>
+        <mybatis.version>3.5.4</mybatis.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
@@ -943,9 +943,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.sql2o</groupId>
-                <artifactId>sql2o</artifactId>
-                <version>${sql2o.version}</version>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
                 <scope>provided</scope>
             </dependency>
 
