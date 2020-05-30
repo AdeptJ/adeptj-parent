@@ -130,7 +130,7 @@
         <expiringmap.version>0.5.9</expiringmap.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
         <mongo.version>4.0.3</mongo.version>
-        <mongojack.version>4.0.0</mongojack.version>
+        <mongojack.version>4.0.1</mongojack.version>
         <scribejava.version>6.9.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
