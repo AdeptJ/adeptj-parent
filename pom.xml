@@ -50,6 +50,7 @@
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.0.0</spotbugs-maven-plugin.version>
         <adeptj-maven-plugin.version>1.4.0</adeptj-maven-plugin.version>
+        <sonar-maven-plugin.version>3.7.0.1746</sonar-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
@@ -363,6 +364,12 @@
                             <version>${spotbugs.version}</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>${sonar-maven-plugin.version}</version>
                 </plugin>
 
             </plugins>
