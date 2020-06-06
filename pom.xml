@@ -108,7 +108,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.7</eclipselink.version>
         <hikaricp.version>3.4.5</hikaricp.version>
-        <mybatis.version>3.5.4</mybatis.version>
+        <mybatis.version>3.5.5</mybatis.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
@@ -1075,7 +1075,7 @@
 
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-engine</artifactId>
+                <artifactId>junit-jupiter</artifactId>
                 <version>${junit-jupiter.version}</version>
                 <scope>test</scope>
             </dependency>
