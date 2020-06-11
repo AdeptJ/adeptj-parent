@@ -131,7 +131,7 @@
         <failsafe.version>2.4.0</failsafe.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <typesafe.config.version>1.4.0</typesafe.config.version>
-        <mongo.version>4.0.3</mongo.version>
+        <mongo.version>4.0.4</mongo.version>
         <mongojack.version>4.0.1</mongojack.version>
         <scribejava.version>6.9.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
