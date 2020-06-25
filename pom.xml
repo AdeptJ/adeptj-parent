@@ -90,17 +90,17 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson-core.version>2.11.0</jackson-core.version>
-        <jackson-databind.version>2.11.0</jackson-databind.version>
-        <jackson-annotations.version>2.11.0</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.11.0</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.11.0</jackson-jaxrs-json-provider.version>
-        <jackson-module-jaxb-annotations.version>2.11.0</jackson-module-jaxb-annotations.version>
-        <jackson-module-parameter-names.version>2.11.0</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.11.0</jackson-datatype-jsr353.version>
-        <jackson-datatype-jdk8.version>2.11.0</jackson-datatype-jdk8.version>
-        <jackson-datatype-jsr310.version>2.11.0</jackson-datatype-jsr310.version>
-        <jackson-datatype-jaxrs.version>2.11.0</jackson-datatype-jaxrs.version>
+        <jackson-core.version>2.11.1</jackson-core.version>
+        <jackson-databind.version>2.11.1</jackson-databind.version>
+        <jackson-annotations.version>2.11.1</jackson-annotations.version>
+        <jackson-jaxrs-base.version>2.11.1</jackson-jaxrs-base.version>
+        <jackson-jaxrs-json-provider.version>2.11.1</jackson-jaxrs-json-provider.version>
+        <jackson-module-jaxb-annotations.version>2.11.1</jackson-module-jaxb-annotations.version>
+        <jackson-module-parameter-names.version>2.11.1</jackson-module-parameter-names.version>
+        <jackson-datatype-jsr353.version>2.11.1</jackson-datatype-jsr353.version>
+        <jackson-datatype-jdk8.version>2.11.1</jackson-datatype-jdk8.version>
+        <jackson-datatype-jsr310.version>2.11.1</jackson-datatype-jsr310.version>
+        <jackson-datatype-jaxrs.version>2.11.1</jackson-datatype-jaxrs.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Jackson Dependencies End -->
 
