@@ -117,7 +117,7 @@
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.21</mysql-connector-java.version>
         <protobuf-java.version>3.12.2</protobuf-java.version>
-        <postgresql.version>42.2.14</postgresql.version>
+        <postgresql.version>42.2.16</postgresql.version>
         <mariadb-java-client.version>2.6.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
@@ -200,7 +200,7 @@
         <!-- AdeptJ Modules Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.6.2</junit-jupiter.version>
+        <junit-jupiter.version>5.7.0</junit-jupiter.version>
         <mockito.version>3.5.10</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
