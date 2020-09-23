@@ -170,7 +170,7 @@
         <!-- OSGi Dependencies End -->
 
         <!-- Apache Felix Dependencies Start -->
-        <felix.scr.version>2.1.22</felix.scr.version>
+        <felix.scr.version>2.1.24</felix.scr.version>
         <felix.configadmin.version>1.9.18</felix.configadmin.version>
         <felix.eventadmin.version>1.5.0</felix.eventadmin.version>
         <felix.webconsole.version>4.5.4</felix.webconsole.version>
@@ -201,7 +201,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
-        <mockito.version>3.5.10</mockito.version>
+        <mockito.version>3.5.11</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
