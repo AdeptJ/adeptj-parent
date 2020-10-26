@@ -133,12 +133,12 @@
         <jjwt.version>0.11.2</jjwt.version>
         <failsafe.version>2.4.0</failsafe.version>
         <expiringmap.version>0.5.9</expiringmap.version>
-        <typesafe.config.version>1.4.0</typesafe.config.version>
+        <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.1.1</mongo.version>
         <mongojack.version>4.0.2</mongojack.version>
         <scribejava.version>7.1.1</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
-        <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.6.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
         <spotbugs.version>4.1.4</spotbugs.version>
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
