@@ -136,7 +136,7 @@
         <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.1.1</mongo.version>
         <mongojack.version>4.0.2</mongojack.version>
-        <scribejava.version>7.1.1</scribejava.version>
+        <scribejava.version>8.0.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.1.6.Final</hibernate-validator.version>
         <microprofile-config-api.version>1.4</microprofile-config-api.version>
