@@ -139,7 +139,7 @@
         <scribejava.version>8.0.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.1.6.Final</hibernate-validator.version>
-        <microprofile-config-api.version>1.4</microprofile-config-api.version>
+        <microprofile-config-api.version>2.0</microprofile-config-api.version>
         <spotbugs.version>4.2.0</spotbugs.version>
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.4.0</favre.bytes.version>
@@ -147,20 +147,20 @@
         <!-- Misc Dependencies End -->
 
         <!-- OSGi Dependencies Start -->
-        <osgi.framework.version>1.9.0</osgi.framework.version>
+        <osgi.framework.version>1.10.0</osgi.framework.version>
         <org.osgi.util.function.version>1.1.0</org.osgi.util.function.version>
         <org.osgi.util.promise.version>1.1.1</org.osgi.util.promise.version>
         <osgi.service.component.annotations.version>1.4.0</osgi.service.component.annotations.version>
         <osgi.service.metatype.annotations.version>1.4.0</osgi.service.metatype.annotations.version>
-        <osgi.annotation.versioning.version>1.1.0</osgi.annotation.versioning.version>
-        <osgi.annotation.bundle.version>1.0.0</osgi.annotation.bundle.version>
+        <osgi.annotation.versioning.version>1.1.1</osgi.annotation.versioning.version>
+        <osgi.annotation.bundle.version>1.1.0</osgi.annotation.bundle.version>
         <osgi.service.component.version>1.4.0</osgi.service.component.version>
         <osgi.service.cm.version>1.6.0</osgi.service.cm.version>
-        <osgi.service.log.version>1.4.0</osgi.service.log.version>
+        <osgi.service.log.version>1.5.0</osgi.service.log.version>
         <osgi.service.http.whiteboard.version>1.1.0</osgi.service.http.whiteboard.version>
         <osgi.service.jdbc.version>1.0.0</osgi.service.jdbc.version>
         <osgi.service.event.version>1.4.0</osgi.service.event.version>
-        <osgi.util.tracker.version>1.5.2</osgi.util.tracker.version>
+        <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
         <osgi.service.metatype.version>1.4.0</osgi.service.metatype.version>
         <osgi.util.converter.version>1.0.1</osgi.util.converter.version>
         <osgi.util.pushstream.version>1.0.1</osgi.util.pushstream.version>
