@@ -201,7 +201,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
-        <mockito.version>3.6.28</mockito.version>
+        <mockito.version>3.7.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
