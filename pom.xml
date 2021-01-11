@@ -172,7 +172,7 @@
         <!-- Apache Felix Dependencies Start -->
         <felix.scr.version>2.1.24</felix.scr.version>
         <felix.configadmin.version>1.9.20</felix.configadmin.version>
-        <felix.eventadmin.version>1.6.0</felix.eventadmin.version>
+        <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
         <felix.webconsole.version>4.6.0</felix.webconsole.version>
         <felix.cm.json.version>1.0.2</felix.cm.json.version>
         <felix.configurator.version>1.0.12</felix.configurator.version>
