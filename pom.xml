@@ -110,7 +110,7 @@
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.8</eclipselink.version>
-        <hikaricp.version>4.0.0</hikaricp.version>
+        <hikaricp.version>4.0.1</hikaricp.version>
         <mybatis.version>3.5.6</mybatis.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
@@ -174,7 +174,7 @@
         <felix.configadmin.version>1.9.20</felix.configadmin.version>
         <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
         <felix.webconsole.version>4.6.0</felix.webconsole.version>
-        <felix.cm.json.version>1.0.2</felix.cm.json.version>
+        <felix.cm.json.version>1.0.4</felix.cm.json.version>
         <felix.configurator.version>1.0.12</felix.configurator.version>
         <felix.converter.version>1.0.14</felix.converter.version>
         <felix.jaas.version>1.0.2</felix.jaas.version>
