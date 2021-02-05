@@ -141,7 +141,7 @@
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
         <microprofile-rest-client-api.version>2.0</microprofile-rest-client-api.version>
-        <spotbugs.version>4.2.0</spotbugs.version>
+        <spotbugs.version>4.2.1</spotbugs.version>
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.4.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
@@ -201,7 +201,7 @@
         <!-- AdeptJ Modules Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.7.0</junit-jupiter.version>
+        <junit-jupiter.version>5.7.1</junit-jupiter.version>
         <mockito.version>3.7.7</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
