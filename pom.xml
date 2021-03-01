@@ -117,7 +117,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.22</mysql-connector-java.version>
-        <protobuf-java.version>3.15.2</protobuf-java.version>
+        <protobuf-java.version>3.15.3</protobuf-java.version>
         <postgresql.version>42.2.19</postgresql.version>
         <mariadb-java-client.version>2.7.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -144,7 +144,7 @@
         <microprofile-rest-client-api.version>2.0</microprofile-rest-client-api.version>
         <spotbugs.version>4.2.1</spotbugs.version>
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
-        <favre.bytes.version>1.4.0</favre.bytes.version>
+        <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
         <unirest-java.version>4.0.0-RC1</unirest-java.version>
         <unirest-objectmapper-jackson.version>4.0.0-RC1</unirest-objectmapper-jackson.version>
