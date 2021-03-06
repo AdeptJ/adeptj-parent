@@ -111,7 +111,7 @@
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.8</eclipselink.version>
-        <hikaricp.version>4.0.2</hikaricp.version>
+        <hikaricp.version>4.0.3</hikaricp.version>
         <mybatis.version>3.5.6</mybatis.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
