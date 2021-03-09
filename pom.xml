@@ -94,15 +94,10 @@
         <jackson-core.version>2.12.2</jackson-core.version>
         <jackson-databind.version>2.12.2</jackson-databind.version>
         <jackson-annotations.version>2.12.2</jackson-annotations.version>
-        <jackson-jaxrs-base.version>2.12.2</jackson-jaxrs-base.version>
-        <jackson-jaxrs-json-provider.version>2.12.2</jackson-jaxrs-json-provider.version>
-        <jackson-module-jaxb-annotations.version>2.12.2</jackson-module-jaxb-annotations.version>
-        <jackson-module-parameter-names.version>2.12.2</jackson-module-parameter-names.version>
-        <jackson-datatype-jsr353.version>2.12.2</jackson-datatype-jsr353.version>
+        <!-- Needed for JDK8 Optional etc.-->
         <jackson-datatype-jdk8.version>2.12.2</jackson-datatype-jdk8.version>
+        <!-- Needed for Java 8 Date & Time API data types.-->
         <jackson-datatype-jsr310.version>2.12.2</jackson-datatype-jsr310.version>
-        <jackson-datatype-jaxrs.version>2.12.2</jackson-datatype-jaxrs.version>
-        <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
@@ -148,6 +143,7 @@
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
         <unirest-java.version>4.0.0-RC1</unirest-java.version>
         <unirest-objectmapper-jackson.version>4.0.0-RC1</unirest-objectmapper-jackson.version>
+        <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Misc Dependencies End -->
 
         <!-- OSGi Dependencies Start -->
@@ -716,41 +712,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.fasterxml.jackson.module</groupId>
-                <artifactId>jackson-module-jaxb-annotations</artifactId>
-                <version>${jackson-module-jaxb-annotations.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.jaxrs</groupId>
-                <artifactId>jackson-jaxrs-base</artifactId>
-                <version>${jackson-jaxrs-base.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.jaxrs</groupId>
-                <artifactId>jackson-jaxrs-json-provider</artifactId>
-                <version>${jackson-jaxrs-json-provider.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jaxrs</artifactId>
-                <version>${jackson-datatype-jaxrs.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.module</groupId>
-                <artifactId>jackson-module-parameter-names</artifactId>
-                <version>${jackson-module-parameter-names.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>com.fasterxml.jackson.datatype</groupId>
                 <artifactId>jackson-datatype-jdk8</artifactId>
                 <version>${jackson-datatype-jdk8.version}</version>
@@ -762,19 +723,6 @@
                 <artifactId>jackson-datatype-jsr310</artifactId>
                 <version>${jackson-datatype-jsr310.version}</version>
                 <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jsr353</artifactId>
-                <version>${jackson-datatype-jsr353.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>javax.json</groupId>
-                        <artifactId>javax.json-api</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
             <dependency>
