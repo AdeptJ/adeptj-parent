@@ -146,60 +146,6 @@
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <!-- Misc Dependencies End -->
 
-        <!-- OSGi Dependencies Start -->
-        <osgi.framework.version>1.10.0</osgi.framework.version>
-        <org.osgi.util.function.version>1.1.0</org.osgi.util.function.version>
-        <org.osgi.util.promise.version>1.1.1</org.osgi.util.promise.version>
-        <osgi.service.component.annotations.version>1.4.0</osgi.service.component.annotations.version>
-        <osgi.service.metatype.annotations.version>1.4.0</osgi.service.metatype.annotations.version>
-        <osgi.annotation.versioning.version>1.1.1</osgi.annotation.versioning.version>
-        <osgi.annotation.bundle.version>1.1.0</osgi.annotation.bundle.version>
-        <osgi.service.component.version>1.4.0</osgi.service.component.version>
-        <osgi.service.cm.version>1.6.0</osgi.service.cm.version>
-        <osgi.service.log.version>1.5.0</osgi.service.log.version>
-        <osgi.service.http.whiteboard.version>1.1.0</osgi.service.http.whiteboard.version>
-        <osgi.service.jdbc.version>1.0.0</osgi.service.jdbc.version>
-        <osgi.service.event.version>1.4.0</osgi.service.event.version>
-        <osgi.util.tracker.version>1.5.3</osgi.util.tracker.version>
-        <osgi.service.metatype.version>1.4.0</osgi.service.metatype.version>
-        <osgi.util.converter.version>1.0.1</osgi.util.converter.version>
-        <osgi.util.pushstream.version>1.0.1</osgi.util.pushstream.version>
-        <osgi.service.configurator.version>1.0.0</osgi.service.configurator.version>
-        <osgi.util.promise.version>1.1.1</osgi.util.promise.version>
-        <osgi.util.function.version>1.1.0</osgi.util.function.version>
-        <!-- OSGi Dependencies End -->
-
-        <!-- Apache Felix Dependencies Start -->
-        <felix.scr.version>2.1.26</felix.scr.version>
-        <felix.configadmin.version>1.9.20</felix.configadmin.version>
-        <felix.eventadmin.version>1.6.2</felix.eventadmin.version>
-        <felix.webconsole.version>4.6.0</felix.webconsole.version>
-        <felix.cm.json.version>1.0.6</felix.cm.json.version>
-        <felix.configurator.version>1.0.14</felix.configurator.version>
-        <felix.converter.version>1.0.14</felix.converter.version>
-        <felix.jaas.version>1.0.2</felix.jaas.version>
-        <felix.healthcheck.api.version>2.0.4</felix.healthcheck.api.version>
-        <felix.healthcheck.annotation.version>2.0.0</felix.healthcheck.annotation.version>
-        <!-- Apache Felix Dependencies End -->
-
-        <!-- AdeptJ Modules Dependencies Start -->
-        <adeptj-modules-commons-utils.version>1.1.0</adeptj-modules-commons-utils.version>
-        <adeptj-modules-commons-logging.version>1.0.3</adeptj-modules-commons-logging.version>
-        <adeptj-modules-commons-crypto.version>1.0.0</adeptj-modules-commons-crypto.version>
-        <adeptj-modules-commons-jdbc.version>1.0.0</adeptj-modules-commons-jdbc.version>
-        <adeptj-modules-commons-cache.version>1.0.0</adeptj-modules-commons-cache.version>
-        <adeptj-modules-commons-validator.version>1.0.3</adeptj-modules-commons-validator.version>
-        <adeptj-modules-jaxrs-api.version>1.0.0</adeptj-modules-jaxrs-api.version>
-        <adeptj-modules-jaxrs-core.version>2.0.0</adeptj-modules-jaxrs-core.version>
-        <adeptj-modules-jaxrs-resteasy.version>2.0.0</adeptj-modules-jaxrs-resteasy.version>
-        <adeptj-modules-data-jpa.version>1.1.0</adeptj-modules-data-jpa.version>
-        <adeptj-modules-data-mybatis.version>1.0.0</adeptj-modules-data-mybatis.version>
-        <adeptj-modules-data-mongodb.version>1.0.0</adeptj-modules-data-mongodb.version>
-        <adeptj-modules-websecurity-jwt.version>1.1.0</adeptj-modules-websecurity-jwt.version>
-        <adeptj-modules-webconsole-branding.version>1.0.0</adeptj-modules-webconsole-branding.version>
-        <adeptj-modules-webconsole-security.version>1.0.4</adeptj-modules-webconsole-security.version>
-        <!-- AdeptJ Modules Dependencies End -->
-
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
         <mockito.version>3.8.0</mockito.version>
@@ -405,204 +351,21 @@
 
         <dependencies>
 
-            <!-- OSGi Dependencies Start -->
-
             <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.framework</artifactId>
-                <version>${osgi.framework.version}</version>
-                <scope>provided</scope>
+                <groupId>com.adeptj</groupId>
+                <artifactId>adeptj-osgi-bom</artifactId>
+                <version>1</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.component.annotations</artifactId>
-                <version>${osgi.service.component.annotations.version}</version>
-                <scope>provided</scope>
+                <groupId>com.adeptj</groupId>
+                <artifactId>adeptj-modules-bom</artifactId>
+                <version>1</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.metatype.annotations</artifactId>
-                <version>${osgi.service.metatype.annotations.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.annotation.versioning</artifactId>
-                <version>${osgi.annotation.versioning.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.annotation.bundle</artifactId>
-                <version>${osgi.annotation.bundle.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.component</artifactId>
-                <version>${osgi.service.component.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.cm</artifactId>
-                <version>${osgi.service.cm.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.log</artifactId>
-                <version>${osgi.service.log.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.http.whiteboard</artifactId>
-                <version>${osgi.service.http.whiteboard.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.jdbc</artifactId>
-                <version>${osgi.service.jdbc.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.event</artifactId>
-                <version>${osgi.service.event.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.util.tracker</artifactId>
-                <version>${osgi.util.tracker.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.metatype</artifactId>
-                <version>${osgi.service.metatype.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.util.converter</artifactId>
-                <version>${osgi.util.converter.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.util.pushstream</artifactId>
-                <version>${osgi.util.pushstream.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.service.configurator</artifactId>
-                <version>${osgi.service.configurator.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.util.function</artifactId>
-                <version>${osgi.util.function.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.osgi</groupId>
-                <artifactId>org.osgi.util.promise</artifactId>
-                <version>${osgi.util.promise.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <!-- OSGi Dependencies End -->
-
-            <!-- Apache Felix Dependencies Start -->
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.jaas</artifactId>
-                <version>${felix.jaas.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.converter</artifactId>
-                <version>${felix.converter.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.cm.json</artifactId>
-                <version>${felix.cm.json.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.configurator</artifactId>
-                <version>${felix.configurator.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.api</artifactId>
-                <version>${felix.healthcheck.api.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>osgi.core</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.healthcheck.annotation</artifactId>
-                <version>${felix.healthcheck.annotation.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.webconsole</artifactId>
-                <version>${felix.webconsole.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.core</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.osgi</groupId>
-                        <artifactId>org.osgi.compendium</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <!-- Apache Felix Dependencies End -->
 
             <!-- Logback/SLF4J Dependencies Start -->
 
