@@ -55,7 +55,7 @@
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         <versions-maven-plugin.version>2.8.1</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.2.0</spotbugs-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.4.2</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.4.3</adeptj-maven-plugin.version>
         <sonar-maven-plugin.version>3.8.0.2131</sonar-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
@@ -109,7 +109,6 @@
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.8</eclipselink.version>
         <hikaricp.version>4.0.3</hikaricp.version>
-        <mybatis.version>3.5.6</mybatis.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
@@ -146,6 +145,8 @@
         <unirest-java.version>4.0.0-RC1</unirest-java.version>
         <unirest-objectmapper-jackson.version>4.0.0-RC1</unirest-objectmapper-jackson.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
+        <cayenne.version>4.1</cayenne.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
