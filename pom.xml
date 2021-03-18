@@ -119,7 +119,7 @@
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
-        <caffeine.version>3.0.0</caffeine.version>
+        <caffeine.version>3.0.1</caffeine.version>
         <!-- Caching Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
