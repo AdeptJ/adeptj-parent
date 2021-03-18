@@ -147,6 +147,7 @@
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.6</mybatis.version>
+        <jcommander.version>1.81</jcommander.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
@@ -837,6 +838,13 @@
                         <artifactId>jackson-databind</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.beust</groupId>
+                <artifactId>jcommander</artifactId>
+                <version>${jcommander.version}</version>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Misc Dependencies End -->
