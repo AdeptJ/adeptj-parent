@@ -131,13 +131,12 @@
         <failsafe.version>2.4.0</failsafe.version>
         <expiringmap.version>0.5.9</expiringmap.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
-        <mongo.version>4.2.2</mongo.version>
-        <mongojack.version>4.0.2</mongojack.version>
+        <mongo.version>4.2.3</mongo.version>
+        <mongojack.version>4.2.0</mongojack.version>
         <scribejava.version>8.1.0</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <microprofile-rest-client-api.version>2.0</microprofile-rest-client-api.version>
         <spotbugs.version>4.2.2</spotbugs.version>
         <jetbrains.annotations.version>20.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
@@ -152,7 +151,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
-        <mockito.version>3.8.0</mockito.version>
+        <mockito.version>3.9.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
@@ -741,13 +740,6 @@
                 <groupId>org.eclipse.microprofile.config</groupId>
                 <artifactId>microprofile-config-api</artifactId>
                 <version>${microprofile-config-api.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.eclipse.microprofile.rest.client</groupId>
-                <artifactId>microprofile-rest-client-api</artifactId>
-                <version>${microprofile-rest-client-api.version}</version>
                 <scope>provided</scope>
             </dependency>
 
