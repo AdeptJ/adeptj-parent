@@ -41,7 +41,7 @@
         <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
@@ -49,14 +49,14 @@
         <bnd-baseline-maven-plugin.version>5.3.0</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>6.1.5</dependency-check-maven.version>
+        <dependency-check-maven.version>6.1.6</dependency-check-maven.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
         <versions-maven-plugin.version>2.8.1</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.2.3</spotbugs-maven-plugin.version>
         <adeptj-maven-plugin.version>1.4.3</adeptj-maven-plugin.version>
-        <sonar-maven-plugin.version>3.8.0.2131</sonar-maven-plugin.version>
+        <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
@@ -76,7 +76,7 @@
         <jakarta.json.bind-api.version>1.0.2</jakarta.json.bind-api.version>
         <jakarta.activation-api.version>1.2.2</jakarta.activation-api.version>
         <jakarta.interceptor-api.version>1.2.5</jakarta.interceptor-api.version>
-        <jakarta.mail-api.version>1.6.6</jakarta.mail-api.version>
+        <jakarta.mail-api.version>1.6.7</jakarta.mail-api.version>
         <jakarta.inject-api.version>1.0.3</jakarta.inject-api.version>
         <jakarta.enterprise.concurrent-api.version>1.1.2</jakarta.enterprise.concurrent-api.version>
         <jakarta.enterprise.cdi-api.version>2.0.2</jakarta.enterprise.cdi-api.version>
@@ -113,7 +113,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.22</mysql-connector-java.version>
-        <protobuf-java.version>3.15.3</protobuf-java.version>
+        <protobuf-java.version>3.17.0</protobuf-java.version>
         <postgresql.version>42.2.20</postgresql.version>
         <mariadb-java-client.version>2.7.3</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -133,7 +133,7 @@
         <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.2.3</mongo.version>
         <mongojack.version>4.2.0</mongojack.version>
-        <scribejava.version>8.3.0</scribejava.version>
+        <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
