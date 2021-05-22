@@ -78,7 +78,6 @@
         <jakarta.interceptor-api.version>1.2.5</jakarta.interceptor-api.version>
         <jakarta.mail-api.version>1.6.7</jakarta.mail-api.version>
         <jakarta.inject-api.version>1.0.3</jakarta.inject-api.version>
-        <jakarta.enterprise.concurrent-api.version>1.1.2</jakarta.enterprise.concurrent-api.version>
         <jakarta.enterprise.cdi-api.version>2.0.2</jakarta.enterprise.cdi-api.version>
         <!-- Jakarta Dependencies End -->
 
@@ -141,8 +140,6 @@
         <jetbrains.annotations.version>21.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
-        <unirest-java.version>4.0.0-RC1</unirest-java.version>
-        <unirest-objectmapper-jackson.version>4.0.0-RC1</unirest-objectmapper-jackson.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.7</mybatis.version>
@@ -598,13 +595,6 @@
             </dependency>
 
             <dependency>
-                <groupId>jakarta.enterprise.concurrent</groupId>
-                <artifactId>jakarta.enterprise.concurrent-api</artifactId>
-                <version>${jakarta.enterprise.concurrent-api.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>jakarta.enterprise</groupId>
                 <artifactId>jakarta.enterprise.cdi-api</artifactId>
                 <version>${jakarta.enterprise.cdi-api.version}</version>
@@ -802,32 +792,6 @@
                     <exclusion>
                         <groupId>javax.persistence</groupId>
                         <artifactId>javax.persistence-api</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>com.konghq</groupId>
-                <artifactId>unirest-java</artifactId>
-                <version>${unirest-java.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.google.code.gson</groupId>
-                        <artifactId>gson</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>com.konghq</groupId>
-                <artifactId>unirest-objectmapper-jackson</artifactId>
-                <version>${unirest-objectmapper-jackson.version}</version>
-                <scope>provided</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.fasterxml.jackson.core </groupId>
-                        <artifactId>jackson-databind</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
