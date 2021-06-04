@@ -101,7 +101,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>4.6.0.Final</resteasy.version>
+        <resteasy.version>4.6.1.Beta2</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -147,7 +147,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
-        <mockito.version>3.10.0</mockito.version>
+        <mockito.version>3.11.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
