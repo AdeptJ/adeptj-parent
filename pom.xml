@@ -112,7 +112,7 @@
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.22</mysql-connector-java.version>
         <protobuf-java.version>3.17.0</protobuf-java.version>
-        <postgresql.version>42.2.20</postgresql.version>
+        <postgresql.version>42.2.21</postgresql.version>
         <mariadb-java-client.version>2.7.3</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
@@ -143,11 +143,12 @@
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.7</mybatis.version>
         <jcommander.version>1.81</jcommander.version>
+        <jetty-client.version>11.0.5</jetty-client.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
-        <mockito.version>3.11.0</mockito.version>
+        <mockito.version>3.11.1</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
