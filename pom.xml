@@ -43,13 +43,13 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
         <bnd-maven-plugin.version>5.3.0</bnd-maven-plugin.version>
         <bnd-baseline-maven-plugin.version>5.3.0</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>6.1.6</dependency-check-maven.version>
+        <dependency-check-maven.version>6.2.2</dependency-check-maven.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
@@ -101,7 +101,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>4.7.0.Beta1</resteasy.version>
+        <resteasy.version>4.7.0.Beta2</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -112,7 +112,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.22</mysql-connector-java.version>
-        <protobuf-java.version>3.17.0</protobuf-java.version>
+        <protobuf-java.version>3.17.3</protobuf-java.version>
         <postgresql.version>42.2.22</postgresql.version>
         <mariadb-java-client.version>2.7.3</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
