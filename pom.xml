@@ -118,7 +118,7 @@
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
-        <caffeine.version>3.0.2</caffeine.version>
+        <caffeine.version>3.0.3</caffeine.version>
         <!-- Caching Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
@@ -136,7 +136,7 @@
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <spotbugs.version>4.2.3</spotbugs.version>
+        <spotbugs.version>4.3.0</spotbugs.version>
         <jetbrains.annotations.version>21.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
