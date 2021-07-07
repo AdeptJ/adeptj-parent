@@ -144,7 +144,7 @@
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.7</mybatis.version>
         <jcommander.version>1.81</jcommander.version>
-        <jetty-client.version>11.0.5</jetty-client.version>
+        <jetty-client.version>11.0.6</jetty-client.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
