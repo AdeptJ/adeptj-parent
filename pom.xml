@@ -61,7 +61,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>1.7.31</slf4j.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.4</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -127,8 +127,8 @@
 
         <!-- Misc Dependencies Start -->
         <jjwt.version>0.11.2</jjwt.version>
-        <failsafe.version>2.4.0</failsafe.version>
-        <expiringmap.version>0.5.9</expiringmap.version>
+        <failsafe.version>2.4.1</failsafe.version>
+        <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.3.0</mongo.version>
         <mongojack.version>4.2.0</mongojack.version>
