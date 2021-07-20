@@ -60,7 +60,7 @@
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
-        <slf4j.version>1.7.31</slf4j.version>
+        <slf4j.version>1.7.32</slf4j.version>
         <logback.version>1.2.4</logback.version>
         <!-- Logging Dependencies End -->
 
@@ -111,7 +111,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.22</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.26</mysql-connector-java.version>
         <protobuf-java.version>3.17.3</protobuf-java.version>
         <postgresql.version>42.2.23</postgresql.version>
         <mariadb-java-client.version>2.7.3</mariadb-java-client.version>
