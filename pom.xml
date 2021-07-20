@@ -107,7 +107,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>2.7.9</eclipselink.version>
         <eclipselink.asm.version>9.1.0</eclipselink.asm.version>
-        <hikaricp.version>4.0.3</hikaricp.version>
+        <hikaricp.version>5.0.0</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
