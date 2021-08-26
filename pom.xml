@@ -127,7 +127,7 @@
 
         <!-- Misc Dependencies Start -->
         <jjwt.version>0.11.2</jjwt.version>
-        <failsafe.version>2.4.2</failsafe.version>
+        <failsafe.version>2.4.3</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.3.1</mongo.version>
@@ -149,7 +149,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
-        <mockito.version>3.11.2</mockito.version>
+        <mockito.version>3.12.3</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
