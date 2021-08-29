@@ -91,13 +91,13 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson-core.version>2.12.4</jackson-core.version>
-        <jackson-databind.version>2.12.4</jackson-databind.version>
-        <jackson-annotations.version>2.12.4</jackson-annotations.version>
+        <jackson-core.version>2.12.5</jackson-core.version>
+        <jackson-databind.version>2.12.5</jackson-databind.version>
+        <jackson-annotations.version>2.12.5</jackson-annotations.version>
         <!-- Needed for JDK8 Optional etc.-->
-        <jackson-datatype-jdk8.version>2.12.4</jackson-datatype-jdk8.version>
+        <jackson-datatype-jdk8.version>2.12.5</jackson-datatype-jdk8.version>
         <!-- Needed for Java 8 Date & Time API data types.-->
-        <jackson-datatype-jsr310.version>2.12.4</jackson-datatype-jsr310.version>
+        <jackson-datatype-jsr310.version>2.12.5</jackson-datatype-jsr310.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
@@ -136,7 +136,7 @@
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <spotbugs.version>4.3.0</spotbugs.version>
+        <spotbugs.version>4.4.0</spotbugs.version>
         <jetbrains.annotations.version>22.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
@@ -149,7 +149,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
-        <mockito.version>3.12.3</mockito.version>
+        <mockito.version>3.12.4</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
