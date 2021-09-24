@@ -101,7 +101,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>4.7.0.Final</resteasy.version>
+        <resteasy.version>4.7.2.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -136,7 +136,7 @@
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <spotbugs.version>4.4.0</spotbugs.version>
+        <spotbugs.version>4.4.1</spotbugs.version>
         <jetbrains.annotations.version>22.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
