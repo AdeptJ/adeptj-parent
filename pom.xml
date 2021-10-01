@@ -91,13 +91,13 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson-core.version>2.12.5</jackson-core.version>
-        <jackson-databind.version>2.12.5</jackson-databind.version>
-        <jackson-annotations.version>2.12.5</jackson-annotations.version>
+        <jackson-core.version>2.13.0</jackson-core.version>
+        <jackson-databind.version>2.13.0</jackson-databind.version>
+        <jackson-annotations.version>2.13.0</jackson-annotations.version>
         <!-- Needed for JDK8 Optional etc.-->
-        <jackson-datatype-jdk8.version>2.12.5</jackson-datatype-jdk8.version>
+        <jackson-datatype-jdk8.version>2.13.0</jackson-datatype-jdk8.version>
         <!-- Needed for Java 8 Date & Time API data types.-->
-        <jackson-datatype-jsr310.version>2.12.5</jackson-datatype-jsr310.version>
+        <jackson-datatype-jsr310.version>2.13.0</jackson-datatype-jsr310.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
