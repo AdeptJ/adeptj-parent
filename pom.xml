@@ -136,7 +136,7 @@
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <spotbugs.version>4.4.1</spotbugs.version>
+        <spotbugs.version>4.4.2</spotbugs.version>
         <jetbrains.annotations.version>22.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
@@ -144,7 +144,7 @@
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.7</mybatis.version>
         <jcommander.version>1.81</jcommander.version>
-        <jetty-client.version>11.0.6</jetty-client.version>
+        <jetty-client.version>11.0.7</jetty-client.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
