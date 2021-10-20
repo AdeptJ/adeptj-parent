@@ -111,9 +111,9 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.26</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
         <protobuf-java.version>3.18.0</protobuf-java.version>
-        <postgresql.version>42.2.24</postgresql.version>
+        <postgresql.version>42.3.0</postgresql.version>
         <mariadb-java-client.version>2.7.4</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
