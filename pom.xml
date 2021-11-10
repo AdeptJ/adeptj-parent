@@ -101,7 +101,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>4.7.3.Final</resteasy.version>
+        <resteasy.version>5.0.0.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -131,7 +131,7 @@
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
         <mongo.version>4.3.1</mongo.version>
-        <mongojack.version>4.2.1</mongojack.version>
+        <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>1.4.200</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
