@@ -45,8 +45,8 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
-        <bnd-maven-plugin.version>6.0.0</bnd-maven-plugin.version>
-        <bnd-baseline-maven-plugin.version>6.0.0</bnd-baseline-maven-plugin.version>
+        <bnd-maven-plugin.version>6.1.0</bnd-maven-plugin.version>
+        <bnd-baseline-maven-plugin.version>6.1.0</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>6.3.1</dependency-check-maven.version>
@@ -149,7 +149,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.8.1</junit-jupiter.version>
-        <mockito.version>4.0.0</mockito.version>
+        <mockito.version>4.1.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
