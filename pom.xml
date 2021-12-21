@@ -105,8 +105,8 @@
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
-        <eclipselink.version>2.7.9</eclipselink.version>
-        <eclipselink.asm.version>9.1.1</eclipselink.asm.version>
+        <eclipselink.version>2.7.10</eclipselink.version>
+        <eclipselink.asm.version>9.2.0</eclipselink.asm.version>
         <hikaricp.version>5.0.0</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
