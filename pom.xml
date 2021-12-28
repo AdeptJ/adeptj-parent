@@ -142,7 +142,7 @@
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <cayenne.version>4.1</cayenne.version>
-        <mybatis.version>3.5.8</mybatis.version>
+        <mybatis.version>3.5.9</mybatis.version>
         <jcommander.version>1.81</jcommander.version>
         <jetty-client.version>11.0.7</jetty-client.version>
         <!-- Misc Dependencies End -->
