@@ -133,10 +133,10 @@
         <mongo.version>4.4.0</mongo.version>
         <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
-        <h2-mvstore.version>2.0.204</h2-mvstore.version>
+        <h2-mvstore.version>2.0.206</h2-mvstore.version>
         <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
-        <spotbugs.version>4.5.0</spotbugs.version>
+        <spotbugs.version>4.5.3</spotbugs.version>
         <jetbrains.annotations.version>23.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
