@@ -112,7 +112,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
-        <protobuf-java.version>3.19.1</protobuf-java.version>
+        <protobuf-java.version>3.19.2</protobuf-java.version>
         <postgresql.version>42.3.1</postgresql.version>
         <mariadb-java-client.version>2.7.4</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -130,7 +130,7 @@
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.1</typesafe.config.version>
-        <mongo.version>4.4.0</mongo.version>
+        <mongo.version>4.4.1</mongo.version>
         <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>2.0.206</h2-mvstore.version>
