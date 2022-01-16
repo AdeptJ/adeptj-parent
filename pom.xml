@@ -101,7 +101,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>5.0.1.Final</resteasy.version>
+        <resteasy.version>5.0.2.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -112,7 +112,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
-        <protobuf-java.version>3.19.2</protobuf-java.version>
+        <protobuf-java.version>3.19.3</protobuf-java.version>
         <postgresql.version>42.3.1</postgresql.version>
         <mariadb-java-client.version>2.7.4</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -134,7 +134,7 @@
         <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>2.0.206</h2-mvstore.version>
-        <hibernate-validator.version>6.2.0.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.2.1.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
         <spotbugs.version>4.5.3</spotbugs.version>
         <jetbrains.annotations.version>23.0.0</jetbrains.annotations.version>
@@ -143,7 +143,7 @@
         <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.9</mybatis.version>
-        <jcommander.version>1.81</jcommander.version>
+        <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.7</jetty-client.version>
         <!-- Misc Dependencies End -->
 
