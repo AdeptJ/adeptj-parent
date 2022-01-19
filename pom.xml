@@ -111,7 +111,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <protobuf-java.version>3.19.3</protobuf-java.version>
         <postgresql.version>42.3.1</postgresql.version>
         <mariadb-java-client.version>2.7.4</mariadb-java-client.version>
@@ -133,7 +133,7 @@
         <mongo.version>4.4.1</mongo.version>
         <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
-        <h2-mvstore.version>2.0.206</h2-mvstore.version>
+        <h2-mvstore.version>2.1.210</h2-mvstore.version>
         <hibernate-validator.version>6.2.1.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
         <spotbugs.version>4.5.3</spotbugs.version>
