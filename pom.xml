@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>15</version>
+    <version>16</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The parent pom for AdeptJ Runtime and Modules projects</description>
@@ -357,7 +357,7 @@
             <dependency>
                 <groupId>com.adeptj</groupId>
                 <artifactId>adeptj-osgi-bom</artifactId>
-                <version>1</version>
+                <version>2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
