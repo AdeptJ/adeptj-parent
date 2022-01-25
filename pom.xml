@@ -146,11 +146,13 @@
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.7</jetty-client.version>
         <uuid-creator.version>4.3.1</uuid-creator.version>
+        <adeptj-osgi-bom.version>2</adeptj-osgi-bom.version>
+        <adeptj-modules-bom.version>1</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.8.2</junit-jupiter.version>
-        <mockito.version>4.2.0</mockito.version>
+        <mockito.version>4.3.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
@@ -358,7 +360,7 @@
             <dependency>
                 <groupId>com.adeptj</groupId>
                 <artifactId>adeptj-osgi-bom</artifactId>
-                <version>2</version>
+                <version>${adeptj-osgi-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -366,7 +368,7 @@
             <dependency>
                 <groupId>com.adeptj</groupId>
                 <artifactId>adeptj-modules-bom</artifactId>
-                <version>1</version>
+                <version>${adeptj-modules-bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
