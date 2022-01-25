@@ -145,6 +145,7 @@
         <mybatis.version>3.5.9</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.7</jetty-client.version>
+        <uuid-creator.version>4.3.1</uuid-creator.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
@@ -797,6 +798,13 @@
                 <artifactId>jcommander</artifactId>
                 <version>${jcommander.version}</version>
                 <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.f4b6a3</groupId>
+                <artifactId>uuid-creator</artifactId>
+                <version>${uuid-creator.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <!-- Misc Dependencies End -->
