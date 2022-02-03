@@ -129,7 +129,7 @@
         <jjwt.version>0.11.2</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
-        <typesafe.config.version>1.4.1</typesafe.config.version>
+        <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.4.1</mongo.version>
         <mongojack.version>4.3.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
