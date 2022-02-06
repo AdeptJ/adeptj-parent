@@ -145,7 +145,7 @@
         <mybatis.version>3.5.9</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.7</jetty-client.version>
-        <uuid-creator.version>4.4.0</uuid-creator.version>
+        <uuid-creator.version>4.4.1</uuid-creator.version>
         <adeptj-osgi-bom.version>2</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>1</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
