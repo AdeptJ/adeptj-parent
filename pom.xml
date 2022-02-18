@@ -146,8 +146,8 @@
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.8</jetty-client.version>
         <uuid-creator.version>4.5.0</uuid-creator.version>
-        <adeptj-osgi-bom.version>2</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>1</adeptj-modules-bom.version>
+        <adeptj-osgi-bom.version>3</adeptj-osgi-bom.version>
+        <adeptj-modules-bom.version>2</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
