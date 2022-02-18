@@ -55,7 +55,7 @@
         <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
         <versions-maven-plugin.version>2.9.0</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.5.3.0</spotbugs-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.4.3</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.4.4</adeptj-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
@@ -146,8 +146,8 @@
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.8</jetty-client.version>
         <uuid-creator.version>4.5.0</uuid-creator.version>
-        <adeptj-osgi-bom.version>3</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>2</adeptj-modules-bom.version>
+        <adeptj-osgi-bom.version>4</adeptj-osgi-bom.version>
+        <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
