@@ -48,7 +48,7 @@
         <bnd-maven-plugin.version>6.1.0</bnd-maven-plugin.version>
         <bnd-baseline-maven-plugin.version>6.1.0</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
-        <nexus-staging-maven-plugin.version>1.6.10</nexus-staging-maven-plugin.version>
+        <nexus-staging-maven-plugin.version>1.6.11</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>6.5.3</dependency-check-maven.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
