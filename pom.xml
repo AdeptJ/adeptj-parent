@@ -49,12 +49,12 @@
         <bnd-baseline-maven-plugin.version>6.2.0</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.12</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>7.0.0</dependency-check-maven.version>
-        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
+        <dependency-check-maven.version>7.0.4</dependency-check-maven.version>
+        <maven-surefire-plugin.version>3.0.0-M6</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.0.0-M6</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
-        <versions-maven-plugin.version>2.9.0</versions-maven-plugin.version>
-        <spotbugs-maven-plugin.version>4.5.3.0</spotbugs-maven-plugin.version>
+        <versions-maven-plugin.version>2.10.0</versions-maven-plugin.version>
+        <spotbugs-maven-plugin.version>4.6.0.0</spotbugs-maven-plugin.version>
         <adeptj-maven-plugin.version>1.4.4</adeptj-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
