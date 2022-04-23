@@ -129,12 +129,12 @@
         <xnio.version>3.8.6.Final</xnio.version>
         <undertow.version>2.2.17.Final</undertow.version>
         <trimou-core.version>2.5.1.Final</trimou-core.version>
-        <jjwt.version>0.11.2</jjwt.version>
+        <jjwt.version>0.11.3</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.6.0</mongo.version>
-        <mongojack.version>4.3.0</mongojack.version>
+        <mongojack.version>4.5.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>2.1.212</h2-mvstore.version>
         <hibernate-validator.version>6.2.3.Final</hibernate-validator.version>
@@ -155,7 +155,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.8.2</junit-jupiter.version>
-        <mockito.version>4.5.0</mockito.version>
+        <mockito.version>4.5.1</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
@@ -810,6 +810,13 @@
                 <version>${mongo.version}</version>
                 <scope>provided</scope>
             </dependency>
+            
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson-record-codec</artifactId>
+                <version>${mongo.version}</version>
+                <scope>provided</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.mongodb</groupId>
@@ -837,7 +844,7 @@
                     </exclusion>
                     <exclusion>
                         <groupId>com.fasterxml.jackson.datatype</groupId>
-                        <artifactId>com.fasterxml.jackson.core</artifactId>
+                        <artifactId>jackson-datatype-jsr310</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>javax.persistence</groupId>
