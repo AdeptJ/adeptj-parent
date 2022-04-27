@@ -111,7 +111,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
         <protobuf-java.version>3.20.0</protobuf-java.version>
         <postgresql.version>42.3.4</postgresql.version>
         <mariadb-java-client.version>3.0.4</mariadb-java-client.version>
@@ -126,10 +126,10 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <xnio.version>3.8.6.Final</xnio.version>
+        <xnio.version>3.8.7.Final</xnio.version>
         <undertow.version>2.2.17.Final</undertow.version>
         <trimou-core.version>2.5.1.Final</trimou-core.version>
-        <jjwt.version>0.11.3</jjwt.version>
+        <jjwt.version>0.11.4</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
