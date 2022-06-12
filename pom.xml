@@ -113,7 +113,7 @@
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
         <protobuf-java.version>3.21.1</protobuf-java.version>
-        <postgresql.version>42.3.6</postgresql.version>
+        <postgresql.version>42.4.0</postgresql.version>
         <mariadb-java-client.version>3.0.5</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
