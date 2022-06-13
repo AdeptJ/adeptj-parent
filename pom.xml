@@ -45,8 +45,8 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
-        <bnd-maven-plugin.version>6.3.0</bnd-maven-plugin.version>
-        <bnd-baseline-maven-plugin.version>6.3.0</bnd-baseline-maven-plugin.version>
+        <bnd-maven-plugin.version>6.3.1</bnd-maven-plugin.version>
+        <bnd-baseline-maven-plugin.version>6.3.1</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>7.0.4</dependency-check-maven.version>
