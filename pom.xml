@@ -114,7 +114,7 @@
         <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
         <protobuf-java.version>3.21.1</protobuf-java.version>
         <postgresql.version>42.4.0</postgresql.version>
-        <mariadb-java-client.version>3.0.5</mariadb-java-client.version>
+        <mariadb-java-client.version>3.0.6</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
@@ -147,7 +147,7 @@
         <cayenne.version>4.1</cayenne.version>
         <mybatis.version>3.5.10</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
-        <jetty-client.version>11.0.9</jetty-client.version>
+        <jetty-client.version>11.0.11</jetty-client.version>
         <uuid-creator.version>4.6.1</uuid-creator.version>
         <adeptj-osgi-bom.version>5</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
