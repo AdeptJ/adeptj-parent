@@ -148,13 +148,13 @@
         <mybatis.version>3.5.10</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <jetty-client.version>11.0.11</jetty-client.version>
-        <uuid-creator.version>4.6.1</uuid-creator.version>
+        <uuid-creator.version>5.0.0</uuid-creator.version>
         <adeptj-osgi-bom.version>5</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.9.0-M1</junit-jupiter.version>
+        <junit-jupiter.version>5.9.0-RC1</junit-jupiter.version>
         <mockito.version>4.6.1</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
