@@ -91,17 +91,11 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson-core.version>2.13.3</jackson-core.version>
-        <jackson-databind.version>2.13.3</jackson-databind.version>
-        <jackson-annotations.version>2.13.3</jackson-annotations.version>
-        <!-- Needed for JDK8 Optional etc.-->
-        <jackson-datatype-jdk8.version>2.13.3</jackson-datatype-jdk8.version>
-        <!-- Needed for Java 8 Date & Time API data types.-->
-        <jackson-datatype-jsr310.version>2.13.3</jackson-datatype-jsr310.version>
+        <jackson.version>2.13.3</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>5.0.3.Final</resteasy.version>
+        <resteasy.version>5.0.4.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -134,7 +128,7 @@
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.7.0</mongo.version>
-        <mongojack.version>4.5.0</mongojack.version>
+        <mongojack.version>4.7.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
         <hibernate-validator.version>6.2.3.Final</hibernate-validator.version>
@@ -461,40 +455,13 @@
             <!-- Apache Commons Dependencies End -->
 
             <!-- Jackson Dependencies Start -->
-
+            
             <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson-core.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson-databind.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>${jackson-annotations.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jdk8</artifactId>
-                <version>${jackson-datatype-jdk8.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jsr310</artifactId>
-                <version>${jackson-datatype-jsr310.version}</version>
-                <scope>provided</scope>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
             </dependency>
 
             <dependency>
