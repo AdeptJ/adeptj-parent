@@ -38,13 +38,13 @@
 
         <!-- Maven Plugin Dependencies Start -->
         <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
-        <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
+        <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
-        <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
+        <maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
         <bnd-maven-plugin.version>6.3.1</bnd-maven-plugin.version>
         <bnd-baseline-maven-plugin.version>6.3.1</bnd-baseline-maven-plugin.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
