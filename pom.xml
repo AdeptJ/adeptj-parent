@@ -106,7 +106,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-java.version>8.0.30</mysql-connector-java.version>
-        <protobuf-java.version>3.21.3</protobuf-java.version>
+        <protobuf-java.version>3.21.4</protobuf-java.version>
         <postgresql.version>42.4.0</postgresql.version>
         <mariadb-java-client.version>3.0.6</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -455,13 +455,40 @@
             <!-- Apache Commons Dependencies End -->
 
             <!-- Jackson Dependencies Start -->
-            
+
             <dependency>
-                <groupId>com.fasterxml.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
                 <version>${jackson.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jdk8</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
