@@ -133,7 +133,7 @@
         <mongojack.version>4.7.0</mongojack.version>
         <scribejava.version>8.3.1</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
-        <hibernate-validator.version>6.2.3.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.2.4.Final</hibernate-validator.version>
         <microprofile-config-api.version>2.0</microprofile-config-api.version>
         <spotbugs.version>4.7.1</spotbugs.version>
         <jetbrains.annotations.version>23.0.0</jetbrains.annotations.version>
