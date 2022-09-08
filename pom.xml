@@ -150,7 +150,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.9.0</junit-jupiter.version>
-        <mockito.version>4.7.0</mockito.version>
+        <mockito.version>4.8.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
