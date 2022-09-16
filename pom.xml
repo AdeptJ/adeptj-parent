@@ -126,9 +126,6 @@
         <!-- Jetty Server and Client Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <xnio.version>3.8.7.Final</xnio.version>
-        <undertow.version>2.2.19.Final</undertow.version>
-        <trimou-core.version>2.5.1.Final</trimou-core.version>
         <jjwt.version>0.11.5</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
@@ -503,54 +500,6 @@
             </dependency>
 
             <!-- Jackson Dependencies End -->
-
-            <!-- Undertow Dependencies Start -->
-
-            <dependency>
-                <groupId>org.jboss.xnio</groupId>
-                <artifactId>xnio-api</artifactId>
-                <version>${xnio.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.threads</groupId>
-                        <artifactId>jboss-threads</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>io.undertow</groupId>
-                <artifactId>undertow-core</artifactId>
-                <version>${undertow.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.logging</groupId>
-                        <artifactId>jboss-logging</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.threads</groupId>
-                        <artifactId>jboss-threads</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>io.undertow</groupId>
-                <artifactId>undertow-servlet</artifactId>
-                <version>${undertow.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.spec.javax.annotation</groupId>
-                        <artifactId>jboss-annotations-api_1.3_spec</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <!-- Undertow Dependencies End -->
 
             <!-- Jakarta APIs Dependencies Start -->
 
