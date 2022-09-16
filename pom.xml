@@ -120,6 +120,11 @@
         <reactive-streams.version>1.0.4</reactive-streams.version>
         <!-- Reactive Streams Dependencies End -->
 
+        <!-- Jetty Server and Client Dependencies Start -->
+        <jetty-server.version>10.0.12</jetty-server.version>
+        <jetty-client.version>11.0.12</jetty-client.version>
+        <!-- Jetty Server and Client Dependencies End -->
+
         <!-- Misc Dependencies Start -->
         <xnio.version>3.8.7.Final</xnio.version>
         <undertow.version>2.2.19.Final</undertow.version>
@@ -141,7 +146,6 @@
         <cayenne.version>4.2.RC1</cayenne.version>
         <mybatis.version>3.5.10</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
-        <jetty-client.version>11.0.12</jetty-client.version>
         <uuid-creator.version>5.1.2</uuid-creator.version>
         <adeptj-osgi-bom.version>6</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
