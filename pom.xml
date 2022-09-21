@@ -109,7 +109,7 @@
         <mysql-connector-java.version>8.0.30</mysql-connector-java.version>
         <protobuf-java.version>3.21.6</protobuf-java.version>
         <postgresql.version>42.5.0</postgresql.version>
-        <mariadb-java-client.version>3.0.7</mariadb-java-client.version>
+        <mariadb-java-client.version>3.0.8</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
@@ -149,7 +149,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.9.0</junit-jupiter.version>
+        <junit-jupiter.version>5.9.1</junit-jupiter.version>
         <mockito.version>4.8.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
