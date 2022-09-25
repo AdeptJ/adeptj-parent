@@ -126,6 +126,11 @@
         <jetty-client.version>11.0.12</jetty-client.version>
         <!-- Jetty Server and Client Dependencies End -->
 
+        <!-- Apache HttpClient Dependencies Start -->
+        <httpcore.version>4.4.15</httpcore.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <!-- Apache HttpClient Dependencies End -->
+
         <!-- Misc Dependencies Start -->
         <jjwt.version>0.11.5</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
