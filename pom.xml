@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>21</version>
+    <version>22</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The parent pom for AdeptJ Runtime and Modules projects</description>
@@ -150,7 +150,7 @@
         <mybatis.version>3.5.11</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.1.2</uuid-creator.version>
-        <adeptj-osgi-bom.version>6</adeptj-osgi-bom.version>
+        <adeptj-osgi-bom.version>7</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
