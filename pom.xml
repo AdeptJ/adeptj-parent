@@ -138,7 +138,7 @@
         <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.7.2</mongo.version>
         <mongojack.version>4.7.0</mongojack.version>
-        <scribejava.version>8.3.1</scribejava.version>
+        <scribejava.version>8.3.2</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
         <hibernate-validator.version>6.2.5.Final</hibernate-validator.version>
         <spotbugs.version>4.7.2</spotbugs.version>
