@@ -136,7 +136,7 @@
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
-        <mongo.version>4.7.2</mongo.version>
+        <mongo.version>4.8.0</mongo.version>
         <mongojack.version>4.7.0</mongojack.version>
         <scribejava.version>8.3.2</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
@@ -156,7 +156,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.9.1</junit-jupiter.version>
-        <mockito.version>4.8.1</mockito.version>
+        <mockito.version>4.9.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
