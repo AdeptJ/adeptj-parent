@@ -64,7 +64,7 @@
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
-        <jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
+        <jakarta.servlet-api.version>5.0.0</jakarta.servlet-api.version>
         <jakarta.ws.rs-api.version>3.1.0</jakarta.ws.rs-api.version>
         <jakarta.persistence-api.version>3.1.0</jakarta.persistence-api.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
