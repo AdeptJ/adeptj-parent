@@ -55,7 +55,7 @@
         <versions-maven-plugin.version>2.13.0</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.7.3.0</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.4.6</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.5.0</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
