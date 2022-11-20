@@ -106,8 +106,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.31</mysql-connector-java.version>
-        <protobuf-java.version>3.21.9</protobuf-java.version>
+        <mysql-connector-j.version>8.0.31</mysql-connector-j.version>
         <postgresql.version>42.5.0</postgresql.version>
         <mariadb-java-client.version>3.1.0</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -358,7 +357,7 @@
 
         <dependencies>
 
-            <!-- OSGi and AdeptJ Modules Bill of materials (BOM) -->
+            <!-- OSGi and AdeptJ Modules Bill Of Materials (BOM) -->
 
             <dependency>
                 <groupId>com.adeptj</groupId>
@@ -624,7 +623,7 @@
             <dependency>
                 <groupId>com.mysql</groupId>
                 <artifactId>mysql-connector-j</artifactId>
-                <version>${mysql-connector-java.version}</version>
+                <version>${mysql-connector-j.version}</version>
                 <scope>provided</scope>
                 <exclusions>
                     <exclusion>
@@ -632,13 +631,6 @@
                         <artifactId>protobuf-java</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>com.google.protobuf</groupId>
-                <artifactId>protobuf-java</artifactId>
-                <version>${protobuf-java.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <dependency>
