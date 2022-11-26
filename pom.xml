@@ -242,7 +242,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
-                        <release>11</release>
+                        <release>${maven.compiler.release}</release>
                         <compilerArgs>
                             <arg>-parameters</arg>
                         </compilerArgs>
