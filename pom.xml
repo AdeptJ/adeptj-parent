@@ -38,7 +38,7 @@
 
         <!-- Maven Plugin Dependencies Start -->
         <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
-        <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
+        <maven-install-plugin.version>3.1.0</maven-install-plugin.version>
         <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
@@ -49,36 +49,35 @@
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.0.0-M7</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.1.0</maven-enforcer-plugin.version>
-        <bnd.version>6.3.1</bnd.version>
+        <bnd.version>6.4.0</bnd.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>7.3.0</dependency-check-maven.version>
+        <dependency-check-maven.version>7.3.2</dependency-check-maven.version>
         <versions-maven-plugin.version>2.13.0</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.7.3.0</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.4.6</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.5.0</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
-        <slf4j.version>1.7.36</slf4j.version>
-        <logback.version>1.2.11</logback.version>
+        <slf4j.version>2.0.5</slf4j.version>
+        <logback.version>1.4.5</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
-        <jakarta.servlet-api.version>4.0.4</jakarta.servlet-api.version>
-        <jakarta.ws.rs-api.version>2.1.6</jakarta.ws.rs-api.version>
-        <jakarta.persistence-api.version>2.2.3</jakarta.persistence-api.version>
-        <jakarta.validation-api.version>2.0.2</jakarta.validation-api.version>
-        <jakarta.annotation-api.version>1.3.5</jakarta.annotation-api.version>
-        <jakarta.el-api.version>3.0.3</jakarta.el-api.version>
+        <jakarta.servlet-api.version>5.0.0</jakarta.servlet-api.version>
+        <jakarta.ws.rs-api.version>3.1.0</jakarta.ws.rs-api.version>
+        <jakarta.persistence-api.version>3.1.0</jakarta.persistence-api.version>
+        <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
+        <jakarta.annotation-api.version>2.1.1</jakarta.annotation-api.version>
+        <jakarta.el-api.version>5.0.1</jakarta.el-api.version>
         <jakarta.json-api.version>2.1.1</jakarta.json-api.version>
-        <geronimo-json_1.1_spec.version>1.5</geronimo-json_1.1_spec.version>
         <jakarta.json.bind-api.version>3.0.0</jakarta.json.bind-api.version>
-        <geronimo-jsonb_1.0_spec.version>1.4</geronimo-jsonb_1.0_spec.version>
-        <jakarta.activation-api.version>1.2.2</jakarta.activation-api.version>
-        <jakarta.interceptor-api.version>1.2.5</jakarta.interceptor-api.version>
-        <jakarta.mail-api.version>1.6.7</jakarta.mail-api.version>
-        <jakarta.inject-api.version>1.0.5</jakarta.inject-api.version>
-        <jakarta.enterprise.cdi-api.version>2.0.2</jakarta.enterprise.cdi-api.version>
+        <jakarta.activation-api.version>2.1.0</jakarta.activation-api.version>
+        <jakarta.interceptor-api.version>2.1.0</jakarta.interceptor-api.version>
+        <jakarta.mail-api.version>2.1.0</jakarta.mail-api.version>
+        <jakarta.inject-api.version>2.0.1</jakarta.inject-api.version>
+        <jakarta.enterprise.cdi-api.version>4.0.1</jakarta.enterprise.cdi-api.version>
+        <jakarta.xml.bind-api.version>4.0.0</jakarta.xml.bind-api.version>
         <!-- Jakarta Dependencies End -->
 
         <!-- Apache Commons Dependencies Start -->
@@ -93,28 +92,26 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.14.0</jackson.version>
+        <jackson.version>2.14.1</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>5.0.4.Final</resteasy.version>
+        <resteasy.version>6.2.1.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
-        <eclipselink.version>2.7.11</eclipselink.version>
-        <eclipselink.asm.version>9.3.0</eclipselink.asm.version>
+        <eclipselink.version>4.0.0</eclipselink.version>
         <hikaricp.version>5.0.1</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-java.version>8.0.31</mysql-connector-java.version>
-        <protobuf-java.version>3.21.9</protobuf-java.version>
-        <postgresql.version>42.5.0</postgresql.version>
+        <mysql-connector-j.version>8.0.31</mysql-connector-j.version>
+        <postgresql.version>42.5.1</postgresql.version>
         <mariadb-java-client.version>3.1.0</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Caching Dependencies Start -->
-        <caffeine.version>3.1.1</caffeine.version>
+        <caffeine.version>3.1.2</caffeine.version>
         <!-- Caching Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
@@ -122,7 +119,7 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Jetty Server and Client Dependencies Start -->
-        <jetty-server.version>10.0.12</jetty-server.version>
+        <jetty-server.version>11.0.12</jetty-server.version>
         <jetty-client.version>11.0.12</jetty-client.version>
         <!-- Jetty Server and Client Dependencies End -->
 
@@ -138,9 +135,9 @@
         <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.8.0</mongo.version>
         <mongojack.version>4.7.0</mongojack.version>
-        <scribejava.version>8.3.2</scribejava.version>
+        <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
-        <hibernate-validator.version>6.2.5.Final</hibernate-validator.version>
+        <hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
         <spotbugs.version>4.7.3</spotbugs.version>
         <jetbrains.annotations.version>23.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
@@ -245,7 +242,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
-                        <release>11</release>
+                        <release>${maven.compiler.release}</release>
                         <compilerArgs>
                             <arg>-parameters</arg>
                         </compilerArgs>
@@ -359,7 +356,7 @@
 
         <dependencies>
 
-            <!-- OSGi and AdeptJ Modules Bill of materials (BOM) -->
+            <!-- OSGi and AdeptJ Modules Bill Of Materials (BOM) -->
 
             <dependency>
                 <groupId>com.adeptj</groupId>
@@ -561,13 +558,6 @@
             <!-- JSR 374 [JSON-P] Specification API -->
 
             <dependency>
-                <groupId>org.apache.geronimo.specs</groupId>
-                <artifactId>geronimo-json_1.1_spec</artifactId>
-                <version>${geronimo-json_1.1_spec.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>jakarta.json</groupId>
                 <artifactId>jakarta.json-api</artifactId>
                 <version>${jakarta.json-api.version}</version>
@@ -575,13 +565,6 @@
             </dependency>
 
             <!-- JSR 367 [JSON-B] Specification API-->
-
-            <dependency>
-                <groupId>org.apache.geronimo.specs</groupId>
-                <artifactId>geronimo-jsonb_1.0_spec</artifactId>
-                <version>${geronimo-jsonb_1.0_spec.version}</version>
-                <scope>provided</scope>
-            </dependency>
 
             <dependency>
                 <groupId>jakarta.json.bind</groupId>
@@ -625,6 +608,13 @@
                 <scope>provided</scope>
             </dependency>
 
+            <dependency>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>${jakarta.xml.bind-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
             <!-- Jakarta APIs Dependencies End -->
 
             <!-- JDBC Drivers Dependencies Start -->
@@ -632,7 +622,7 @@
             <dependency>
                 <groupId>com.mysql</groupId>
                 <artifactId>mysql-connector-j</artifactId>
-                <version>${mysql-connector-java.version}</version>
+                <version>${mysql-connector-j.version}</version>
                 <scope>provided</scope>
                 <exclusions>
                     <exclusion>
@@ -640,13 +630,6 @@
                         <artifactId>protobuf-java</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>com.google.protobuf</groupId>
-                <artifactId>protobuf-java</artifactId>
-                <version>${protobuf-java.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <dependency>
