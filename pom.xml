@@ -118,10 +118,9 @@
         <reactive-streams.version>1.0.4</reactive-streams.version>
         <!-- Reactive Streams Dependencies End -->
 
-        <!-- Jetty Server and Client Dependencies Start -->
-        <jetty-server.version>11.0.12</jetty-server.version>
-        <jetty-client.version>11.0.12</jetty-client.version>
-        <!-- Jetty Server and Client Dependencies End -->
+        <!-- Jetty Dependencies Start -->
+        <jetty.version>11.0.12</jetty.version>
+        <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
         <httpcore.version>4.4.15</httpcore.version>
