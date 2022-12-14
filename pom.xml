@@ -96,7 +96,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>6.2.1.Final</resteasy.version>
+        <resteasy.version>6.2.2.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
@@ -119,7 +119,7 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Jetty Dependencies Start -->
-        <jetty.version>11.0.12</jetty.version>
+        <jetty.version>11.0.13</jetty.version>
         <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
