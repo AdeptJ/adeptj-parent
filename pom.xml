@@ -123,8 +123,8 @@
         <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
-        <httpcore.version>4.4.15</httpcore.version>
-        <httpclient.version>4.5.13</httpclient.version>
+        <httpcore.version>4.4.16</httpcore.version>
+        <httpclient.version>4.5.14</httpclient.version>
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
