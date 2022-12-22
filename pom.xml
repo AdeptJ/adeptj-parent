@@ -18,12 +18,13 @@
 #                                                                             #
 ###############################################################################
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>22</version>
+    <version>23</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The parent pom for AdeptJ Runtime and Modules projects</description>
@@ -146,8 +147,8 @@
         <mybatis.version>3.5.11</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.2.0</uuid-creator.version>
-        <adeptj-osgi-bom.version>7</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>3</adeptj-modules-bom.version>
+        <adeptj-osgi-bom.version>8</adeptj-osgi-bom.version>
+        <adeptj-modules-bom.version>4</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
