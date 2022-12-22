@@ -3,3 +3,4 @@
 *.prefs
 .idea/*
 .DS_Store
+target
