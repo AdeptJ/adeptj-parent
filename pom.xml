@@ -147,11 +147,7 @@
         <mybatis.version>3.5.11</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.2.0</uuid-creator.version>
-        <!-- JBoss Logging -->
         <jboss-logging.version>3.5.0.Final</jboss-logging.version>
-        <jboss-logging-annotations.version>2.2.1.Final</jboss-logging-annotations.version>
-        <jboss-logging-processor.version>2.2.1.Final</jboss-logging-processor.version>
-        <jdeparser.version>2.0.3.Final</jdeparser.version>
         <adeptj-osgi-bom.version>8</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>4</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
@@ -656,7 +652,7 @@
             <!-- Misc Dependencies Start -->
 
             <!-- JBoss Logging dependencies Start -->
-            <!-- These are needed by Resteasy and Hibernate validator -->
+            <!-- This is needed by Undertow, Resteasy and Hibernate validator -->
             <dependency>
                 <groupId>org.jboss.logging</groupId>
                 <artifactId>jboss-logging</artifactId>
@@ -680,27 +676,6 @@
                         <artifactId>slf4j-api</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.jdeparser</groupId>
-                <artifactId>jdeparser</artifactId>
-                <version>${jdeparser.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.logging</groupId>
-                <artifactId>jboss-logging-annotations</artifactId>
-                <version>${jboss-logging-annotations.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.jboss.logging</groupId>
-                <artifactId>jboss-logging-processor</artifactId>
-                <version>${jboss-logging-processor.version}</version>
-                <scope>provided</scope>
             </dependency>
             <!-- JBoss Logging dependencies End -->
 
