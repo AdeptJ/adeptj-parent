@@ -142,7 +142,7 @@
         <jetbrains.annotations.version>23.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.5.0</favre.bytes.version>
         <favre.bcrypt.version>0.9.0</favre.bcrypt.version>
-        <java-uuid-generator.version>4.0.1</java-uuid-generator.version>
+        <java-uuid-generator.version>4.1.0</java-uuid-generator.version>
         <cayenne.version>4.2.RC2</cayenne.version>
         <mybatis.version>3.5.11</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
