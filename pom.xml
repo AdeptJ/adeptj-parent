@@ -90,7 +90,7 @@
         <commons-codec.version>1.15</commons-codec.version>
         <commons-email.version>1.5</commons-email.version>
         <commons-dbutils.version>1.7</commons-dbutils.version>
-        <commons-csv.version>1.9.0</commons-csv.version>
+        <commons-csv.version>1.10.0</commons-csv.version>
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
@@ -108,7 +108,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>8.0.32</mysql-connector-j.version>
-        <postgresql.version>42.5.1</postgresql.version>
+        <postgresql.version>42.5.2</postgresql.version>
         <mariadb-java-client.version>3.1.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
