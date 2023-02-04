@@ -108,7 +108,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>8.0.32</mysql-connector-j.version>
-        <postgresql.version>42.5.2</postgresql.version>
+        <postgresql.version>42.5.3</postgresql.version>
         <mariadb-java-client.version>3.1.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
