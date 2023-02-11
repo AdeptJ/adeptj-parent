@@ -112,10 +112,6 @@
         <mariadb-java-client.version>3.1.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
-        <!-- Caching Dependencies Start -->
-        <caffeine.version>3.1.2</caffeine.version>
-        <!-- Caching Dependencies End -->
-
         <!-- Reactive Streams Dependencies Start -->
         <reactive-streams.version>1.0.4</reactive-streams.version>
         <!-- Reactive Streams Dependencies End -->
@@ -130,11 +126,12 @@
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
+        <caffeine.version>3.1.3</caffeine.version>
         <jjwt.version>0.11.5</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
-        <mongo.version>4.8.2</mongo.version>
+        <mongo.version>4.9.0</mongo.version>
         <mongojack.version>4.8.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
