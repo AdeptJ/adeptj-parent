@@ -60,7 +60,7 @@
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
-        <slf4j.version>2.0.6</slf4j.version>
+        <slf4j.version>2.0.7</slf4j.version>
         <logback.version>1.4.6</logback.version>
         <!-- Logging Dependencies End -->
 
@@ -108,7 +108,7 @@
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>8.0.32</mysql-connector-j.version>
-        <postgresql.version>42.5.4</postgresql.version>
+        <postgresql.version>42.6.0</postgresql.version>
         <mariadb-java-client.version>3.1.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
@@ -137,7 +137,7 @@
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
         <hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
         <spotbugs.version>4.7.3</spotbugs.version>
-        <jetbrains.annotations.version>24.0.0</jetbrains.annotations.version>
+        <jetbrains.annotations.version>24.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <favre.bcrypt.version>0.10.2</favre.bcrypt.version>
         <java-uuid-generator.version>4.1.0</java-uuid-generator.version>
