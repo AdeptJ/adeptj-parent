@@ -84,7 +84,7 @@
 
         <!-- Apache Commons Dependencies Start -->
         <commons-fileupload.version>1.5</commons-fileupload.version>
-        <commons-io.version>2.11.0</commons-io.version>
+        <commons-io.version>2.12.0</commons-io.version>
         <commons-lang.version>3.12.0</commons-lang.version>
         <commons-text.version>1.10.0</commons-text.version>
         <commons-codec.version>1.15</commons-codec.version>
@@ -94,7 +94,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.15.0</jackson.version>
+        <jackson.version>2.15.1</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
@@ -140,7 +140,7 @@
         <jetbrains.annotations.version>24.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <favre.bcrypt.version>0.10.2</favre.bcrypt.version>
-        <java-uuid-generator.version>4.1.1</java-uuid-generator.version>
+        <java-uuid-generator.version>4.2.0</java-uuid-generator.version>
         <cayenne.version>4.2.RC2</cayenne.version>
         <mybatis.version>3.5.13</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
@@ -151,7 +151,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.9.3</junit-jupiter.version>
+        <junit-jupiter.version>5.10.0-M1</junit-jupiter.version>
         <mockito.version>5.3.1</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
