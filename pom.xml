@@ -94,7 +94,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.15.1</jackson.version>
+        <jackson.version>2.15.2</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
