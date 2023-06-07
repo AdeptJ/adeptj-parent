@@ -47,13 +47,13 @@
         <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
-        <maven-surefire-plugin.version>3.1.0</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.1.0</maven-failsafe-plugin.version>
+        <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.1.2</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
         <bnd.version>6.4.0</bnd.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>8.2.1</dependency-check-maven.version>
-        <versions-maven-plugin.version>2.15.0</versions-maven-plugin.version>
+        <versions-maven-plugin.version>2.16.0</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.7.3.4</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
         <adeptj-maven-plugin.version>1.5.4</adeptj-maven-plugin.version>
@@ -141,11 +141,11 @@
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <favre.bcrypt.version>0.10.2</favre.bcrypt.version>
         <java-uuid-generator.version>4.2.0</java-uuid-generator.version>
-        <cayenne.version>4.2.RC2</cayenne.version>
+        <cayenne.version>4.2</cayenne.version>
         <mybatis.version>3.5.13</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.3.2</uuid-creator.version>
-        <jboss-logging.version>3.5.0.Final</jboss-logging.version>
+        <jboss-logging.version>3.5.1.Final</jboss-logging.version>
         <adeptj-osgi-bom.version>10</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>5</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
