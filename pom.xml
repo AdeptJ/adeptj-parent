@@ -135,7 +135,7 @@
         <mongojack.version>4.8.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.1.214</h2-mvstore.version>
-        <hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
+        <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
         <spotbugs.version>4.7.3</spotbugs.version>
         <jetbrains.annotations.version>24.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
