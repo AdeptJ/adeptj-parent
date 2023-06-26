@@ -102,7 +102,7 @@
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
-        <eclipselink.version>4.0.1</eclipselink.version>
+        <eclipselink.version>4.0.2</eclipselink.version>
         <hikaricp.version>5.0.1</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
