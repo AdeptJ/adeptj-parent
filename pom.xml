@@ -145,7 +145,7 @@
         <mybatis.version>3.5.13</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.3.2</uuid-creator.version>
-        <jboss-logging.version>3.5.1.Final</jboss-logging.version>
+        <jboss-logging.version>3.5.2.Final</jboss-logging.version>
         <adeptj-osgi-bom.version>10</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>5</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
