@@ -107,7 +107,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-j.version>8.0.33</mysql-connector-j.version>
+        <mysql-connector-j.version>8.1.0</mysql-connector-j.version>
         <postgresql.version>42.6.0</postgresql.version>
         <mariadb-java-client.version>3.1.4</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -151,7 +151,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.10.0-RC1</junit-jupiter.version>
+        <junit-jupiter.version>5.10.0-RC2</junit-jupiter.version>
         <mockito.version>5.4.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
