@@ -126,7 +126,7 @@
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <caffeine.version>3.1.6</caffeine.version>
+        <caffeine.version>3.1.7</caffeine.version>
         <jjwt.version>0.11.5</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
