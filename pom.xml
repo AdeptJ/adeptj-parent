@@ -139,7 +139,6 @@
         <spotbugs.version>4.7.3</spotbugs.version>
         <jetbrains.annotations.version>24.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
-        <favre.bcrypt.version>0.10.2</favre.bcrypt.version>
         <java-uuid-generator.version>4.2.0</java-uuid-generator.version>
         <cayenne.version>4.2</cayenne.version>
         <mybatis.version>3.5.13</mybatis.version>
@@ -775,13 +774,6 @@
                 <groupId>at.favre.lib</groupId>
                 <artifactId>bytes</artifactId>
                 <version>${favre.bytes.version}</version>
-                <scope>provided</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>at.favre.lib</groupId>
-                <artifactId>bcrypt</artifactId>
-                <version>${favre.bcrypt.version}</version>
                 <scope>provided</scope>
             </dependency>
 
