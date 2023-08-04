@@ -288,11 +288,14 @@
                             </goals>
                             <configuration>
                                 <rules>
+                                    <!-- https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html -->
                                     <requireMavenVersion>
-                                        <version>[3.6.0,4.0.0]</version>
+                                        <!-- Maven 3.9.0 or newer-->
+                                        <version>[3.9.0,)</version>
                                     </requireMavenVersion>
                                     <requireJavaVersion>
-                                        <version>[17,25)</version>
+                                        <!-- Java 17 or newer-->
+                                        <version>[17,)</version>
                                     </requireJavaVersion>
                                 </rules>
                             </configuration>
