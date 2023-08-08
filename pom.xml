@@ -65,8 +65,7 @@
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
-        <jakarta.servlet-api.version>5.0.0</jakarta.servlet-api.version>
-        <jakarta.servlet6-api.version>6.0.0</jakarta.servlet6-api.version>
+        <jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
         <jakarta.ws.rs-api.version>3.1.0</jakarta.ws.rs-api.version>
         <jakarta.persistence-api.version>3.1.0</jakarta.persistence-api.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
@@ -117,7 +116,7 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Jetty Dependencies Start -->
-        <jetty.version>11.0.15</jetty.version>
+        <jetty.version>12.0.0</jetty.version>
         <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
