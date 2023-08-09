@@ -61,7 +61,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.7</slf4j.version>
-        <logback.version>1.4.9</logback.version>
+        <logback.version>1.4.10</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -125,7 +125,7 @@
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <caffeine.version>3.1.7</caffeine.version>
+        <caffeine.version>3.1.8</caffeine.version>
         <jjwt.version>0.11.5</jjwt.version>
         <failsafe.version>2.4.4</failsafe.version>
         <expiringmap.version>0.5.10</expiringmap.version>
