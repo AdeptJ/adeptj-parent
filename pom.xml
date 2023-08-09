@@ -88,7 +88,7 @@
         <commons-text.version>1.10.0</commons-text.version>
         <commons-codec.version>1.16.0</commons-codec.version>
         <commons-email.version>1.5</commons-email.version>
-        <commons-dbutils.version>1.7</commons-dbutils.version>
+        <commons-dbutils.version>1.8.0</commons-dbutils.version>
         <commons-csv.version>1.10.0</commons-csv.version>
         <!-- Apache Commons Dependencies End -->
 
