@@ -146,7 +146,7 @@
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
         <spring-security-crypto.version>6.1.3</spring-security-crypto.version>
         <adeptj-osgi-bom.version>12</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>6</adeptj-modules-bom.version>
+        <adeptj-modules-bom.version>7</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
