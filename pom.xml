@@ -143,7 +143,7 @@
         <uuid-creator.version>5.3.5</uuid-creator.version>
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
         <spring-security-crypto.version>6.1.4</spring-security-crypto.version>
-        <adeptj-osgi-bom.version>15</adeptj-osgi-bom.version>
+        <adeptj-osgi-bom.version>16</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>8</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
