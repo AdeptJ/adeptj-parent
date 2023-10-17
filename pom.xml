@@ -126,7 +126,7 @@
 
         <!-- Misc Dependencies Start -->
         <caffeine.version>3.1.8</caffeine.version>
-        <jjwt.version>0.12.2</jjwt.version>
+        <jjwt.version>0.12.3</jjwt.version>
         <typesafe.config.version>1.4.2</typesafe.config.version>
         <mongo.version>4.11.0</mongo.version>
         <mongojack.version>4.8.1</mongojack.version>
@@ -142,7 +142,7 @@
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.3.5</uuid-creator.version>
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
-        <spring-security-crypto.version>6.1.4</spring-security-crypto.version>
+        <spring-security-crypto.version>6.1.5</spring-security-crypto.version>
         <adeptj-osgi-bom.version>16</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>8</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
