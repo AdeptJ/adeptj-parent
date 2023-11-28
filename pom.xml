@@ -61,7 +61,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.9</slf4j.version>
-        <logback.version>1.4.11</logback.version>
+        <logback.version>1.4.12</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -84,7 +84,7 @@
         <!-- Apache Commons Dependencies Start -->
         <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-io.version>2.15.0</commons-io.version>
-        <commons-lang.version>3.13.0</commons-lang.version>
+        <commons-lang.version>3.14.0</commons-lang.version>
         <commons-text.version>1.11.0</commons-text.version>
         <commons-codec.version>1.16.0</commons-codec.version>
         <commons-email.version>1.5</commons-email.version>
@@ -102,12 +102,12 @@
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>4.0.2</eclipselink.version>
-        <hikaricp.version>5.0.1</hikaricp.version>
+        <hikaricp.version>5.1.0</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>8.2.0</mysql-connector-j.version>
-        <postgresql.version>42.6.0</postgresql.version>
+        <postgresql.version>42.7.0</postgresql.version>
         <mariadb-java-client.version>3.3.0</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
@@ -142,7 +142,7 @@
         <jcommander.version>1.82</jcommander.version>
         <uuid-creator.version>5.3.5</uuid-creator.version>
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
-        <spring-security-crypto.version>6.1.5</spring-security-crypto.version>
+        <spring-security-crypto.version>6.2.0</spring-security-crypto.version>
         <adeptj-osgi-bom.version>16</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>8</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
