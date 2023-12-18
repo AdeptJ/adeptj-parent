@@ -44,17 +44,17 @@
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
-        <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.2.2</maven-failsafe-plugin.version>
+        <maven-surefire-plugin.version>3.2.3</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.2.3</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
         <bnd.version>7.0.0</bnd.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-        <dependency-check-maven.version>9.0.1</dependency-check-maven.version>
+        <dependency-check-maven.version>9.0.6</dependency-check-maven.version>
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
-        <spotbugs-maven-plugin.version>4.8.1.0</spotbugs-maven-plugin.version>
+        <spotbugs-maven-plugin.version>4.8.2.0</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.10.0.2594</sonar-maven-plugin.version>
         <adeptj-maven-plugin.version>1.5.10</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
@@ -144,7 +144,7 @@
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
         <spring-security-crypto.version>6.2.0</spring-security-crypto.version>
         <adeptj-osgi-bom.version>17</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>8</adeptj-modules-bom.version>
+        <adeptj-modules-bom.version>9</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
