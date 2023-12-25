@@ -87,7 +87,7 @@
         <commons-lang.version>3.14.0</commons-lang.version>
         <commons-text.version>1.11.0</commons-text.version>
         <commons-codec.version>1.16.0</commons-codec.version>
-        <commons-email.version>1.5</commons-email.version>
+        <commons-email.version>1.6.0</commons-email.version>
         <commons-dbutils.version>1.8.1</commons-dbutils.version>
         <commons-csv.version>1.10.0</commons-csv.version>
         <!-- Apache Commons Dependencies End -->
@@ -140,7 +140,7 @@
         <cayenne.version>4.2</cayenne.version>
         <mybatis.version>3.5.15</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
-        <uuid-creator.version>5.3.5</uuid-creator.version>
+        <uuid-creator.version>5.3.7</uuid-creator.version>
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
         <spring-security-crypto.version>6.2.1</spring-security-crypto.version>
         <adeptj-osgi-bom.version>17</adeptj-osgi-bom.version>
