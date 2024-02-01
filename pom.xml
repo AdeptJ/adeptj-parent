@@ -116,7 +116,7 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Jetty Dependencies Start -->
-        <jetty.version>12.0.5</jetty.version>
+        <jetty.version>12.0.6</jetty.version>
         <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
@@ -126,7 +126,7 @@
 
         <!-- Misc Dependencies Start -->
         <caffeine.version>3.1.8</caffeine.version>
-        <jjwt.version>0.12.4</jjwt.version>
+        <jjwt.version>0.12.5</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
         <mongo.version>4.11.1</mongo.version>
         <mongojack.version>4.8.1</mongojack.version>
