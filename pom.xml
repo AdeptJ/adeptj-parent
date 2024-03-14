@@ -54,7 +54,7 @@
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <dependency-check-maven.version>9.0.9</dependency-check-maven.version>
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
-        <spotbugs-maven-plugin.version>4.8.3.0</spotbugs-maven-plugin.version>
+        <spotbugs-maven-plugin.version>4.8.3.1</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.10.0.2594</sonar-maven-plugin.version>
         <adeptj-maven-plugin.version>1.5.11</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
