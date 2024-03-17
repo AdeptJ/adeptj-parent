@@ -24,7 +24,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.adeptj</groupId>
     <artifactId>adeptj-parent</artifactId>
-    <version>34</version>
+    <version>35</version>
     <packaging>pom</packaging>
     <name>AdeptJ Parent</name>
     <description>The parent pom for AdeptJ Runtime and Modules projects</description>
@@ -56,7 +56,7 @@
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.8.3.1</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>3.10.0.2594</sonar-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.5.11</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.5.12</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
@@ -144,7 +144,7 @@
         <jboss-logging.version>3.5.3.Final</jboss-logging.version>
         <spring-security-crypto.version>6.2.2</spring-security-crypto.version>
         <adeptj-osgi-bom.version>18</adeptj-osgi-bom.version>
-        <adeptj-modules-bom.version>9</adeptj-modules-bom.version>
+        <adeptj-modules-bom.version>10</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
