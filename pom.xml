@@ -60,7 +60,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.12</slf4j.version>
-        <logback.version>1.5.4</logback.version>
+        <logback.version>1.5.5</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -127,8 +127,8 @@
         <caffeine.version>3.1.8</caffeine.version>
         <jjwt.version>0.12.5</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
-        <mongo.version>4.11.2</mongo.version>
-        <mongojack.version>4.11.0</mongojack.version>
+        <mongo.version>5.0.1</mongo.version>
+        <mongojack.version>5.0.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.2.224</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
