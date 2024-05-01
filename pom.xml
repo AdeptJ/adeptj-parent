@@ -85,7 +85,7 @@
         <commons-io.version>2.16.1</commons-io.version>
         <commons-lang.version>3.14.0</commons-lang.version>
         <commons-text.version>1.12.0</commons-text.version>
-        <commons-codec.version>1.16.1</commons-codec.version>
+        <commons-codec.version>1.17.0</commons-codec.version>
         <commons-email.version>1.6.0</commons-email.version>
         <commons-dbutils.version>1.8.1</commons-dbutils.version>
         <commons-csv.version>1.10.0</commons-csv.version>
@@ -105,7 +105,7 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-j.version>8.3.0</mysql-connector-j.version>
+        <mysql-connector-j.version>8.4.0</mysql-connector-j.version>
         <postgresql.version>42.7.3</postgresql.version>
         <mariadb-java-client.version>3.3.3</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
@@ -127,7 +127,7 @@
         <caffeine.version>3.1.8</caffeine.version>
         <jjwt.version>0.12.5</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
-        <mongo.version>5.0.1</mongo.version>
+        <mongo.version>5.1.0</mongo.version>
         <mongojack.version>5.0.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.2.224</h2-mvstore.version>
