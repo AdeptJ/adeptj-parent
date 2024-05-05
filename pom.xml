@@ -92,7 +92,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.17.0</jackson.version>
+        <jackson.version>2.17.1</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
@@ -132,7 +132,7 @@
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.2.224</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
-        <spotbugs.version>4.8.4</spotbugs.version>
+        <spotbugs.version>4.8.5</spotbugs.version>
         <jetbrains.annotations.version>24.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.0.0</java-uuid-generator.version>
@@ -147,7 +147,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.10.2</junit-jupiter.version>
+        <junit-jupiter.version>5.11.0-M1</junit-jupiter.version>
         <mockito.version>5.11.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
