@@ -127,7 +127,7 @@
         <caffeine.version>3.1.8</caffeine.version>
         <jjwt.version>0.12.5</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
-        <mongo.version>5.1.0</mongo.version>
+        <mongo.version>5.1.1</mongo.version>
         <mongojack.version>5.0.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.2.224</h2-mvstore.version>
