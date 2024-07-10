@@ -38,7 +38,7 @@
         <skipTests>true</skipTests>
 
         <!-- Maven Plugin Dependencies Start -->
-        <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
+        <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
         <maven-install-plugin.version>3.1.2</maven-install-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
@@ -46,14 +46,14 @@
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.1.2</maven-deploy-plugin.version>
-        <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
-        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.2.5</maven-failsafe-plugin.version>
+        <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+        <maven-surefire-plugin.version>3.3.0</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.3.0</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
         <bnd.version>7.0.0</bnd.version>
         <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
-        <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
-        <spotbugs-maven-plugin.version>4.8.5.0</spotbugs-maven-plugin.version>
+        <versions-maven-plugin.version>2.17.0</versions-maven-plugin.version>
+        <spotbugs-maven-plugin.version>4.8.6.2</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
         <adeptj-maven-plugin.version>1.5.14</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
@@ -127,7 +127,7 @@
         <caffeine.version>3.1.8</caffeine.version>
         <jjwt.version>0.12.6</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
-        <mongo.version>5.1.1</mongo.version>
+        <mongo.version>5.1.2</mongo.version>
         <mongojack.version>5.0.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.2.224</h2-mvstore.version>
@@ -139,7 +139,7 @@
         <cayenne.version>4.2</cayenne.version>
         <mybatis.version>3.5.16</mybatis.version>
         <jcommander.version>1.82</jcommander.version>
-        <uuid-creator.version>5.3.7</uuid-creator.version>
+        <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.0.Final</jboss-logging.version>
         <spring-security-crypto.version>6.3.1</spring-security-crypto.version>
         <adeptj-osgi-bom.version>19</adeptj-osgi-bom.version>
