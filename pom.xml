@@ -83,7 +83,7 @@
         <!-- Apache Commons Dependencies Start -->
         <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-io.version>2.16.1</commons-io.version>
-        <commons-lang.version>3.14.0</commons-lang.version>
+        <commons-lang.version>3.15.0</commons-lang.version>
         <commons-text.version>1.12.0</commons-text.version>
         <commons-codec.version>1.17.1</commons-codec.version>
         <commons-email.version>1.6.0</commons-email.version>
@@ -100,14 +100,14 @@
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
-        <eclipselink.version>4.0.3</eclipselink.version>
+        <eclipselink.version>4.0.4</eclipselink.version>
         <hikaricp.version>5.1.0</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>9.0.0</mysql-connector-j.version>
         <postgresql.version>42.7.3</postgresql.version>
-        <mariadb-java-client.version>3.4.0</mariadb-java-client.version>
+        <mariadb-java-client.version>3.4.1</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
