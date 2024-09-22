@@ -55,7 +55,7 @@
         <versions-maven-plugin.version>2.17.1</versions-maven-plugin.version>
         <spotbugs-maven-plugin.version>4.8.6.2</spotbugs-maven-plugin.version>
         <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
-        <adeptj-maven-plugin.version>1.6.2</adeptj-maven-plugin.version>
+        <adeptj-maven-plugin.version>1.7.0</adeptj-maven-plugin.version>
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
@@ -142,7 +142,7 @@
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
         <spring-security-crypto.version>6.3.3</spring-security-crypto.version>
-        <adeptj-osgi-bom.version>21</adeptj-osgi-bom.version>
+        <adeptj-osgi-bom.version>22</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>11</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
