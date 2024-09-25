@@ -88,7 +88,7 @@
         <commons-codec.version>1.17.1</commons-codec.version>
         <commons-email.version>1.6.0</commons-email.version>
         <commons-dbutils.version>1.8.1</commons-dbutils.version>
-        <commons-csv.version>1.11.0</commons-csv.version>
+        <commons-csv.version>1.12.0</commons-csv.version>
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
@@ -133,7 +133,7 @@
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
         <spotbugs.version>4.8.6</spotbugs.version>
-        <jetbrains.annotations.version>24.1.0</jetbrains.annotations.version>
+        <jetbrains.annotations.version>25.0.0</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
         <cayenne.version>4.2.1</cayenne.version>
@@ -147,7 +147,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.11.0</junit-jupiter.version>
+        <junit-jupiter.version>5.11.1</junit-jupiter.version>
         <mockito.version>5.13.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
