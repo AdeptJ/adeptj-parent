@@ -92,7 +92,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.18.0-rc1</jackson.version>
+        <jackson.version>2.18.0</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
