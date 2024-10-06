@@ -128,7 +128,7 @@
         <jjwt.version>0.12.6</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
         <mongo.version>5.1.4</mongo.version>
-        <mongojack.version>5.0.1</mongojack.version>
+        <mongojack.version>5.0.2</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
