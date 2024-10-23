@@ -133,7 +133,7 @@
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
         <spotbugs.version>4.8.6</spotbugs.version>
-        <jetbrains.annotations.version>26.0.0</jetbrains.annotations.version>
+        <jetbrains.annotations.version>26.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
         <cayenne.version>4.2.1</cayenne.version>
@@ -141,13 +141,13 @@
         <jcommander.version>2.0</jcommander.version>
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
-        <spring-security-crypto.version>6.3.3</spring-security-crypto.version>
+        <spring-security-crypto.version>6.3.4</spring-security-crypto.version>
         <adeptj-osgi-bom.version>22</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>11</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.11.2</junit-jupiter.version>
+        <junit-jupiter.version>5.11.3</junit-jupiter.version>
         <mockito.version>5.14.2</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
