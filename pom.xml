@@ -82,7 +82,7 @@
 
         <!-- Apache Commons Dependencies Start -->
         <commons-fileupload.version>1.5</commons-fileupload.version>
-        <commons-io.version>2.17.0</commons-io.version>
+        <commons-io.version>2.18.0</commons-io.version>
         <commons-lang.version>3.17.0</commons-lang.version>
         <commons-text.version>1.12.0</commons-text.version>
         <commons-codec.version>1.17.1</commons-codec.version>
