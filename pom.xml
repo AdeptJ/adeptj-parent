@@ -82,7 +82,7 @@
         <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-io.version>2.18.0</commons-io.version>
         <commons-lang.version>3.17.0</commons-lang.version>
-        <commons-text.version>1.12.0</commons-text.version>
+        <commons-text.version>1.13.0</commons-text.version>
         <commons-codec.version>1.17.1</commons-codec.version>
         <commons-email.version>1.6.0</commons-email.version>
         <commons-dbutils.version>1.8.1</commons-dbutils.version>
@@ -139,13 +139,13 @@
         <jcommander.version>2.0</jcommander.version>
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
-        <spring-security-crypto.version>6.4.1</spring-security-crypto.version>
+        <spring-security-crypto.version>6.4.2</spring-security-crypto.version>
         <adeptj-osgi-bom.version>23</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>12</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.11.3</junit-jupiter.version>
+        <junit-jupiter.version>5.11.4</junit-jupiter.version>
         <mockito.version>5.14.2</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
