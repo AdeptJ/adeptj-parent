@@ -135,7 +135,7 @@
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
         <cayenne.version>4.2.1</cayenne.version>
-        <mybatis.version>3.5.17</mybatis.version>
+        <mybatis.version>3.5.18</mybatis.version>
         <jcommander.version>2.0</jcommander.version>
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
