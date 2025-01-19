@@ -122,7 +122,7 @@
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <caffeine.version>3.1.8</caffeine.version>
+        <caffeine.version>3.2.0</caffeine.version>
         <jjwt.version>0.12.6</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
         <mongo.version>5.3.0</mongo.version>
@@ -130,7 +130,7 @@
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
-        <spotbugs.version>4.8.6</spotbugs.version>
+        <spotbugs.version>4.9.0</spotbugs.version>
         <jetbrains.annotations.version>26.0.1</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
