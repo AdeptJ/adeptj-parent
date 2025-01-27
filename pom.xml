@@ -44,7 +44,7 @@
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.11.1</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.1.3</maven-deploy-plugin.version>
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
         <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
@@ -140,7 +140,7 @@
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
         <spring-security-crypto.version>6.4.2</spring-security-crypto.version>
-        <adeptj-osgi-bom.version>23</adeptj-osgi-bom.version>
+        <adeptj-osgi-bom.version>24</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>12</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
