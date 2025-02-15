@@ -105,7 +105,7 @@
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>9.2.0</mysql-connector-j.version>
         <postgresql.version>42.7.5</postgresql.version>
-        <mariadb-java-client.version>3.5.1</mariadb-java-client.version>
+        <mariadb-java-client.version>3.5.2</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
@@ -130,7 +130,7 @@
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.1.Final</hibernate-validator.version>
-        <spotbugs.version>4.9.0</spotbugs.version>
+        <spotbugs.version>4.9.1</spotbugs.version>
         <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
@@ -145,7 +145,7 @@
         <!-- Misc Dependencies End -->
 
         <!-- Testing libraries Dependencies Start -->
-        <junit-jupiter.version>5.11.4</junit-jupiter.version>
+        <junit-jupiter.version>5.12.0-RC2</junit-jupiter.version>
         <mockito.version>5.15.2</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
