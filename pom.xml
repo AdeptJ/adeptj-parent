@@ -146,7 +146,7 @@
 
         <!-- Testing libraries Dependencies Start -->
         <junit-jupiter.version>5.12.0</junit-jupiter.version>
-        <mockito.version>5.15.2</mockito.version>
+        <mockito.version>5.16.0</mockito.version>
         <!-- Testing libraries Dependencies End -->
 
     </properties>
