@@ -58,7 +58,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.17</slf4j.version>
-        <logback.version>1.5.17</logback.version>
+        <logback.version>1.5.18</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -130,7 +130,7 @@
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
         <hibernate-validator.version>8.0.2.Final</hibernate-validator.version>
-        <spotbugs.version>4.9.2</spotbugs.version>
+        <spotbugs.version>4.9.3</spotbugs.version>
         <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
@@ -139,7 +139,7 @@
         <jcommander.version>2.0</jcommander.version>
         <uuid-creator.version>6.0.0</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
-        <spring-security-crypto.version>6.4.3</spring-security-crypto.version>
+        <spring-security-crypto.version>6.4.4</spring-security-crypto.version>
         <adeptj-osgi-bom.version>26</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>13</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
