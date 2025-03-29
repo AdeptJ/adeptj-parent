@@ -99,7 +99,7 @@
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
         <eclipselink.version>4.0.5</eclipselink.version>
-        <hikaricp.version>6.2.1</hikaricp.version>
+        <hikaricp.version>6.3.0</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
@@ -134,7 +134,7 @@
         <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.0</java-uuid-generator.version>
-        <cayenne.version>4.2.1</cayenne.version>
+        <cayenne.version>4.2.2</cayenne.version>
         <mybatis.version>3.5.19</mybatis.version>
         <jcommander.version>2.0</jcommander.version>
         <uuid-creator.version>6.0.0</uuid-creator.version>
