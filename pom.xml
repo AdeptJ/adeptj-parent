@@ -137,7 +137,7 @@
         <cayenne.version>4.2.2</cayenne.version>
         <mybatis.version>3.5.19</mybatis.version>
         <jcommander.version>2.0</jcommander.version>
-        <uuid-creator.version>6.1.0</uuid-creator.version>
+        <uuid-creator.version>6.1.1</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
         <spring-security-crypto.version>6.4.4</spring-security-crypto.version>
         <adeptj-osgi-bom.version>26</adeptj-osgi-bom.version>
