@@ -79,7 +79,7 @@
         <!-- Jakarta Dependencies End -->
 
         <!-- Apache Commons Dependencies Start -->
-        <commons-fileupload.version>1.5</commons-fileupload.version>
+        <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-io.version>2.19.0</commons-io.version>
         <commons-lang.version>3.17.0</commons-lang.version>
         <commons-text.version>1.13.1</commons-text.version>
@@ -125,7 +125,7 @@
         <caffeine.version>3.2.0</caffeine.version>
         <jjwt.version>0.12.6</jjwt.version>
         <typesafe.config.version>1.4.3</typesafe.config.version>
-        <mongo.version>5.5.0</mongo.version>
+        <mongo.version>5.5.1</mongo.version>
         <mongojack.version>5.0.2</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
