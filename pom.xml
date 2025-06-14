@@ -90,7 +90,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.19.0</jackson.version>
+        <jackson.version>2.19.1</jackson.version>
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
@@ -129,7 +129,7 @@
         <mongojack.version>5.0.2</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.3.232</h2-mvstore.version>
-        <hibernate-validator.version>9.0.0.Final</hibernate-validator.version>
+        <hibernate-validator.version>9.0.1.Final</hibernate-validator.version>
         <spotbugs.version>4.9.3</spotbugs.version>
         <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
