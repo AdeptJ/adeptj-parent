@@ -105,7 +105,7 @@
         <!-- JDBC Driver Dependencies Start -->
         <mysql-connector-j.version>9.3.0</mysql-connector-j.version>
         <postgresql.version>42.7.7</postgresql.version>
-        <mariadb-java-client.version>3.5.3</mariadb-java-client.version>
+        <mariadb-java-client.version>3.5.4</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
