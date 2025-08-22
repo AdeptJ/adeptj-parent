@@ -123,7 +123,7 @@
 
         <!-- Misc Dependencies Start -->
         <caffeine.version>3.2.2</caffeine.version>
-        <jjwt.version>0.12.7</jjwt.version>
+        <jjwt.version>0.13.0</jjwt.version>
         <typesafe.config.version>1.4.4</typesafe.config.version>
         <mongo.version>5.5.1</mongo.version>
         <mongojack.version>5.0.3</mongojack.version>
