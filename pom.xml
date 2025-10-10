@@ -114,7 +114,7 @@
         <!-- Reactive Streams Dependencies End -->
 
         <!-- Jetty Dependencies Start -->
-        <jetty.version>12.1.1</jetty.version>
+        <jetty.version>12.1.2</jetty.version>
         <!-- Jetty Dependencies End -->
 
         <!-- Apache HttpClient Dependencies Start -->
