@@ -126,7 +126,7 @@
         <caffeine.version>3.2.2</caffeine.version>
         <jjwt.version>0.13.0</jjwt.version>
         <typesafe.config.version>1.4.5</typesafe.config.version>
-        <mongo.version>5.6.0</mongo.version>
+        <mongo.version>5.6.1</mongo.version>
         <mongojack.version>5.0.3</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.4.240</h2-mvstore.version>
@@ -137,7 +137,7 @@
         <java-uuid-generator.version>5.1.1</java-uuid-generator.version>
         <cayenne.version>4.2.2</cayenne.version>
         <mybatis.version>3.5.19</mybatis.version>
-        <jcommander.version>2.0</jcommander.version>
+        <jcommander.version>3.0</jcommander.version>
         <uuid-creator.version>6.1.1</uuid-creator.version>
         <jboss-logging.version>3.6.1.Final</jboss-logging.version>
         <spring-security-crypto.version>6.5.5</spring-security-crypto.version>
