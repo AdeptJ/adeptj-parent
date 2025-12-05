@@ -135,7 +135,7 @@
         <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.1.1</java-uuid-generator.version>
-        <cayenne.version>4.2.2</cayenne.version>
+        <cayenne.version>4.2.3</cayenne.version>
         <mybatis.version>3.5.19</mybatis.version>
         <jcommander.version>3.0</jcommander.version>
         <uuid-creator.version>6.1.1</uuid-creator.version>
