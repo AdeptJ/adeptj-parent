@@ -40,7 +40,7 @@
         <!-- Maven Plugin Dependencies Start -->
         <maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
         <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
-        <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+        <maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
@@ -126,7 +126,7 @@
         <caffeine.version>3.2.3</caffeine.version>
         <jjwt.version>0.13.0</jjwt.version>
         <typesafe.config.version>1.4.5</typesafe.config.version>
-        <mongo.version>5.6.1</mongo.version>
+        <mongo.version>5.6.2</mongo.version>
         <mongojack.version>5.0.3</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.4.240</h2-mvstore.version>
