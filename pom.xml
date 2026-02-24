@@ -90,7 +90,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.21.0</jackson.version>
+        <jackson.version>2.21.1</jackson.version>
         <jackson.annotations.version>2.21</jackson.annotations.version>
         <!-- Jackson Dependencies End -->
 
@@ -126,13 +126,13 @@
         <caffeine.version>3.2.3</caffeine.version>
         <jjwt.version>0.13.0</jjwt.version>
         <typesafe.config.version>1.4.5</typesafe.config.version>
-        <mongo.version>5.6.3</mongo.version>
+        <mongo.version>5.6.4</mongo.version>
         <mongojack.version>5.1.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.4.240</h2-mvstore.version>
         <hibernate-validator.version>9.1.0.Final</hibernate-validator.version>
         <spotbugs.version>4.9.8</spotbugs.version>
-        <jetbrains.annotations.version>26.0.2</jetbrains.annotations.version>
+        <jetbrains.annotations.version>26.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.2.0</java-uuid-generator.version>
         <cayenne.version>4.2.3</cayenne.version>
