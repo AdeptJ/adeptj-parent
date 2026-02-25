@@ -125,7 +125,7 @@
         <!-- Misc Dependencies Start -->
         <caffeine.version>3.2.3</caffeine.version>
         <jjwt.version>0.13.0</jjwt.version>
-        <typesafe.config.version>1.4.5</typesafe.config.version>
+        <typesafe.config.version>1.4.6</typesafe.config.version>
         <mongo.version>5.6.4</mongo.version>
         <mongojack.version>5.1.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
