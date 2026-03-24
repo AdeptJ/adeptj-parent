@@ -90,7 +90,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.21.2</jackson.version>
+        <jackson.version>2.21.2	</jackson.version>
         <jackson.annotations.version>2.21</jackson.annotations.version>
         <!-- Jackson Dependencies End -->
 
@@ -99,7 +99,7 @@
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
-        <eclipselink.version>5.0.0-RC2</eclipselink.version>
+        <eclipselink.version>5.0.0</eclipselink.version>
         <hikaricp.version>7.0.2</hikaricp.version>
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
