@@ -33,8 +33,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
-        <sonar.java.source>17</sonar.java.source>
+        <maven.compiler.release>21</maven.compiler.release>
+        <sonar.java.source>21</sonar.java.source>
         <skipTests>true</skipTests>
 
         <!-- Maven Plugin Dependencies Start -->
@@ -225,7 +225,6 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin.version}</version>
                     <configuration>
-                        <release>${maven.compiler.release}</release>
                         <compilerArgs>
                             <arg>-parameters</arg>
                         </compilerArgs>
@@ -279,7 +278,7 @@
                                     </requireMavenVersion>
                                     <requireJavaVersion>
                                         <!-- Java 17 or newer-->
-                                        <version>[17,)</version>
+                                        <version>[21,)</version>
                                     </requireJavaVersion>
                                 </rules>
                             </configuration>
