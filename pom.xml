@@ -123,7 +123,7 @@
         <!-- Apache HttpClient Dependencies End -->
 
         <!-- Misc Dependencies Start -->
-        <caffeine.version>3.2.3</caffeine.version>
+        <caffeine.version>3.2.4</caffeine.version>
         <jjwt.version>0.13.0</jjwt.version>
         <typesafe.config.version>1.4.7</typesafe.config.version>
         <mongo.version>5.7.0</mongo.version>
