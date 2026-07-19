@@ -141,7 +141,7 @@
         <uuid-creator.version>6.1.1</uuid-creator.version>
         <jboss-logging.version>3.6.3.Final</jboss-logging.version>
         <spring-security-crypto.version>7.1.0</spring-security-crypto.version>
-        <adeptj-osgi-bom.version>29</adeptj-osgi-bom.version>
+        <adeptj-osgi-bom.version>30</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>16</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
 
