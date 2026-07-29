@@ -58,7 +58,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.18</slf4j.version>
-        <logback.version>1.6.0</logback.version>
+        <logback.version>1.6.1</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -130,8 +130,8 @@
         <mongojack.version>5.1.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
         <h2-mvstore.version>2.4.240</h2-mvstore.version>
-        <hibernate-validator.version>9.1.2.Final</hibernate-validator.version>
-        <spotbugs.version>4.10.2</spotbugs.version>
+        <hibernate-validator.version>9.1.3.Final</hibernate-validator.version>
+        <spotbugs.version>4.10.3</spotbugs.version>
         <jetbrains.annotations.version>26.1.0</jetbrains.annotations.version>
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.2.0</java-uuid-generator.version>
