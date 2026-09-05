@@ -57,7 +57,7 @@
         <!-- Maven Plugin Dependencies End -->
 
         <!-- Logging Dependencies Start -->
-        <slf4j.version>2.0.18</slf4j.version>
+        <slf4j.version>2.0.19</slf4j.version>
         <logback.version>1.6.3</logback.version>
         <!-- Logging Dependencies End -->
 
@@ -129,7 +129,7 @@
         <mongo.version>5.11.0</mongo.version>
         <mongojack.version>5.1.0</mongojack.version>
         <scribejava.version>8.3.3</scribejava.version>
-        <h2-mvstore.version>2.4.240</h2-mvstore.version>
+        <h2-mvstore.version>2.5.250</h2-mvstore.version>
         <hibernate-validator.version>9.1.3.Final</hibernate-validator.version>
         <spotbugs.version>4.10.4</spotbugs.version>
         <jetbrains.annotations.version>26.1.0</jetbrains.annotations.version>
