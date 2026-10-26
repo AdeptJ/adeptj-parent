@@ -47,8 +47,8 @@
         <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>3.2.0</maven-deploy-plugin.version>
         <maven-jar-plugin.version>3.5.1</maven-jar-plugin.version>
-        <maven-surefire-plugin.version>3.6.0</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.6.0</maven-failsafe-plugin.version>
+        <maven-surefire-plugin.version>3.6.1</maven-surefire-plugin.version>
+        <maven-failsafe-plugin.version>3.6.1</maven-failsafe-plugin.version>
         <maven-enforcer-plugin.version>3.6.3</maven-enforcer-plugin.version>
         <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
         <versions-maven-plugin.version>2.22.0</versions-maven-plugin.version>
@@ -58,7 +58,7 @@
 
         <!-- Logging Dependencies Start -->
         <slf4j.version>2.0.20</slf4j.version>
-        <logback.version>1.6.5</logback.version>
+        <logback.version>1.6.6</logback.version>
         <!-- Logging Dependencies End -->
 
         <!-- Jakarta Dependencies Start -->
@@ -90,7 +90,7 @@
         <!-- Apache Commons Dependencies End -->
 
         <!-- Jackson Dependencies Start -->
-        <jackson.version>2.22.3</jackson.version>
+        <jackson.version>2.22.4</jackson.version>
         <jackson.annotations.version>2.22</jackson.annotations.version>
         <!-- Jackson Dependencies End -->
 
@@ -104,9 +104,9 @@
         <!-- EclipseLink and JDBC datasource Dependencies End -->
 
         <!-- JDBC Driver Dependencies Start -->
-        <mysql-connector-j.version>26.7.0</mysql-connector-j.version>
+        <mysql-connector-j.version>26.10.0</mysql-connector-j.version>
         <postgresql.version>42.7.14</postgresql.version>
-        <mariadb-java-client.version>3.5.10</mariadb-java-client.version>
+        <mariadb-java-client.version>4.0.0</mariadb-java-client.version>
         <!-- JDBC Driver Dependencies End -->
 
         <!-- Reactive Streams Dependencies Start -->
@@ -136,11 +136,11 @@
         <favre.bytes.version>1.6.1</favre.bytes.version>
         <java-uuid-generator.version>5.2.0</java-uuid-generator.version>
         <cayenne.version>4.2.3</cayenne.version>
-        <mybatis.version>3.5.19</mybatis.version>
+        <mybatis.version>3.6.0</mybatis.version>
         <jcommander.version>3.0</jcommander.version>
         <uuid-creator.version>6.1.1</uuid-creator.version>
         <jboss-logging.version>3.6.3.Final</jboss-logging.version>
-        <spring-security-crypto.version>7.1.1</spring-security-crypto.version>
+        <spring-security-crypto.version>7.2.0-RC1</spring-security-crypto.version>
         <adeptj-osgi-bom.version>30</adeptj-osgi-bom.version>
         <adeptj-modules-bom.version>16</adeptj-modules-bom.version>
         <!-- Misc Dependencies End -->
