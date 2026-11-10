@@ -95,7 +95,7 @@
         <!-- Jackson Dependencies End -->
 
         <!-- JAX-RS/RestEasy Dependencies Start -->
-        <resteasy.version>7.0.5.Final</resteasy.version>
+        <resteasy.version>7.0.6.Final</resteasy.version>
         <!-- JAX-RS/RestEasy Dependencies End -->
 
         <!-- EclipseLink and JDBC datasource Dependencies Start -->
